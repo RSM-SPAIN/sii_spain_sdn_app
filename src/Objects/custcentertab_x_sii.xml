@@ -1,0 +1,10 @@
+<centertab scriptid="custcentertab_x_sii">
+  <allcustomers>F</allcustomers>
+  <allemployees>F</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <allvendors>F</allvendors>
+  <audslctrole></audslctrole>
+  <center>ALL</center>
+  <label>SII</label>
+</centertab>
