@@ -1,0 +1,28 @@
+PAIS VASCO
+
+VIZCAYA
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:siiLR="http://www.bizkaia.eus/ogasuna/sii/documentos/SuministroLR.xsd"
+xmlns:sii="http://www.bizkaia.eus/ogasuna/sii/documentos/SuministroInformacion.xsd">
+
+GIPUZCUA
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+xmlns:siiLR="https://egoitza.gipuzkoa.eus/ogasuna/sii/ficheros/SuministroLR.xsd" 
+xmlns:sii="https://egoitza.gipuzkoa.eus/ogasuna/sii/ficheros/SuministroInformacion.xsd">
+
+
+ALAVA
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:siiLR="https://sii.araba.eus/documentos/SuministroLR.xsd" 
+xmlns:sii="https://sii.araba.eus/documentos/SuministroInformacion.xsd">
+
+
+###############################################################################################################################################
+
+ESPAÑA, CANARIAS Y NAVARRA
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:siiLR="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd"
+xmlns:sii="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd">
