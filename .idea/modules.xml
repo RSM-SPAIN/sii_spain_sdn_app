@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../siispn/.idea/siispn.iml" filepath="$PROJECT_DIR$/../siispn/.idea/siispn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/siispn.iml" filepath="$PROJECT_DIR$/.idea/siispn.iml" />
     </modules>
   </component>
 </project>
