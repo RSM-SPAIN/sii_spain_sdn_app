@@ -1,0 +1,23 @@
+<sublist scriptid="custsublist_25_1569182_669">
+  <assemblybuild>F</assemblybuild>
+  <customtransactions></customtransactions>
+  <deposit>F</deposit>
+  <depositapplication>F</depositapplication>
+  <expensereport>F</expensereport>
+  <field></field>
+  <fulfillmentrequest>F</fulfillmentrequest>
+  <inventoryadjustment>F</inventoryadjustment>
+  <itemfulfillment>F</itemfulfillment>
+  <itemreceipt>F</itemreceipt>
+  <journal>F</journal>
+  <label>Exports</label>
+  <opportunity>F</opportunity>
+  <payment>F</payment>
+  <purchase>T</purchase>
+  <sale>T</sale>
+  <savedsearch>[scriptid=customsearch_x_sii_vistalinfac]</savedsearch>
+  <storepickup>F</storepickup>
+  <sublisttype>TRANSACTION</sublisttype>
+  <tab>[scriptid=custtab_x_sii]</tab>
+  <vendorpayment>F</vendorpayment>
+</sublist>
