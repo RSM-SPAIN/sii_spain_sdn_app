@@ -1,8 +1,5 @@
 <role scriptid="customrole_x_webservices">
   <centertype>BASIC</centertype>
-  <custrecord_permission_certification>F</custrecord_permission_certification>
-  <custrecord_permission_generation>F</custrecord_permission_generation>
-  <custrecord_permission_sending>F</custrecord_permission_sending>
   <employeerestriction>NONE</employeerestriction>
   <employeeselectionunrestricted>F</employeeselectionunrestricted>
   <isinactive>F</isinactive>
@@ -1034,11 +1031,6 @@
     <permission>
       <permkey>ADMI_WORKFLOW</permkey>
       <permlevel>FULL</permlevel>
-    </permission>
-    <permission>
-      <permkey>[scriptid=customrecord_x_tb_aertickets]</permkey>
-      <permlevel>NONE</permlevel>
-      <restriction></restriction>
     </permission>
     <permission>
       <permkey>[scriptid=customrecord_x_sii_settings]</permkey>
