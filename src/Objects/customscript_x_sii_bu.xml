@@ -10,7 +10,7 @@
   <notifyadmins>F</notifyadmins>
   <notifyemails></notifyemails>
   <notifyowner>T</notifyowner>
-  <scriptfile>[/SuiteScripts/SII/sii_BU.js]</scriptfile>
+  <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_BU.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_x_sii_bu">
       <isdeployed>T</isdeployed>

@@ -85,7 +85,7 @@
   </scriptdeployments>
   <libraries>
     <library>
-      <scriptfile>[/SuiteScripts/SII/sii_utils.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_utils.js]</scriptfile>
     </library>
   </libraries>
 </workflowactionscript>

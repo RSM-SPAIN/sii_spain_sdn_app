@@ -6,7 +6,7 @@
   <notifyemails></notifyemails>
   <notifyowner>T</notifyowner>
   <notifyuser>F</notifyuser>
-  <scriptfile>[/SuiteScripts/SII/sii_RL.js]</scriptfile>
+  <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_RL.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_x_sii_rl">
       <allemployees>F</allemployees>

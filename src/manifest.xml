@@ -4,4 +4,39 @@
   <projectname>SII SPAIN</projectname>
   <projectversion>1.0.0</projectversion>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="true">WORKFLOW</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="true">SUBSIDIARIES</feature>
+      <feature required="true">CRM</feature>
+      <feature required="true">CUSTOMSEGMENTS</feature>
+      <feature required="true">EXTREMELIST</feature>
+      <feature required="true">MAILMERGE</feature>
+      <feature required="true">MULTILANGUAGE</feature>
+      <feature required="true">MATRIXITEMS</feature>
+      <feature required="true">ADVANCEDJOBS</feature>
+      <feature required="true">JOBS</feature>
+      <feature required="true">ACCOUNTING</feature>
+      <feature required="true">WEBSITE</feature>
+      <feature required="true">SUITESIGNON</feature>
+      <feature required="true">ASSEMBLIES</feature>
+      <feature required="true">WORKORDERS</feature>
+      <feature required="true">RECEIVABLES</feature>
+      <feature required="true">CUSTOMTRANSACTIONS</feature>
+      <feature required="true">EXPREPORTS</feature>
+      <feature required="true">ADVRECEIVING</feature>
+      <feature required="true">OPPORTUNITIES</feature>
+      <feature required="true">WEBSTORE</feature>
+      <feature required="true">MULTILOCINVT</feature>
+      <feature required="true">PAYABLES</feature>
+      <feature required="true">INVENTORY</feature>
+      <feature required="true">ISSUEDB</feature>
+      <feature required="true">WEBSERVICES</feature>
+      <feature required="true">CLASSES</feature>
+      <feature required="true">DEPARTMENTS</feature>
+      <feature required="true">LOCATIONS</feature>
+    </features>
+  </dependencies>
 </manifest>

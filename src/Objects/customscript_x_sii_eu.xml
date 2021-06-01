@@ -9,7 +9,7 @@
   <notifyemails></notifyemails>
   <notifyowner>F</notifyowner>
   <notifyuser>F</notifyuser>
-  <scriptfile>[/SuiteScripts/SII/sii_EU.js]</scriptfile>
+  <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_EU.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_x_sii_eu_vb">
       <allemployees>F</allemployees>
@@ -154,13 +154,13 @@
   </scriptdeployments>
   <libraries>
     <library>
-      <scriptfile>[/SuiteScripts/SII/sii_genfile.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_genfile.js]</scriptfile>
     </library>
     <library>
-      <scriptfile>[/SuiteScripts/SII/sii_facturasLib_XML.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_facturasLib_XML.js]</scriptfile>
     </library>
     <library>
-      <scriptfile>[/SuiteScripts/SII/sii_utils.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_utils.js]</scriptfile>
     </library>
   </libraries>
 </usereventscript>
