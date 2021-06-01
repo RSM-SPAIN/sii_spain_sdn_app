@@ -10,7 +10,7 @@ Se encarga de establecer en las transacciones los valores por defecto de los cam
   <notifyuser>F</notifyuser>
   <returnrecordtype></returnrecordtype>
   <returntype></returntype>
-  <scriptfile>[/SuiteScripts/sii_wf.js]</scriptfile>
+  <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_wf.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_x_sii_wf_ccr">
       <allemployees>F</allemployees>
@@ -81,7 +81,7 @@ Se encarga de establecer en las transacciones los valores por defecto de los cam
   </scriptdeployments>
   <libraries>
     <library>
-      <scriptfile>[/SuiteScripts/SII/sii_utils.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_utils.js]</scriptfile>
     </library>
   </libraries>
 </workflowactionscript>

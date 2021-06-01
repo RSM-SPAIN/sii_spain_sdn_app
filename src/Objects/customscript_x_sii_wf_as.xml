@@ -14,7 +14,7 @@
   <notifyuser>F</notifyuser>
   <returnrecordtype></returnrecordtype>
   <returntype></returntype>
-  <scriptfile>[/SuiteScripts/sii_wf.js]</scriptfile>
+  <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_wf.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_x_sii_wf_as_ccr">
       <allemployees>F</allemployees>

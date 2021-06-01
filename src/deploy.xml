@@ -1,6 +1,6 @@
 <deploy>
     <files>
-        <path>~/FileCabinet/SuiteApps/com.rsm.sii/*</path>
+        <path>~/FileCabinet/SuiteApps/com.rsmspain.siispn/*</path>
     </files>
     <objects>
         <path>~/Objects/*</path>
