@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc8c8699-0b7b-4b7f-ac6f-63b079dcacca" name="Default Changelist" comment="Eliminados archivos">
-      <change afterPath="$PROJECT_DIR$/src/Objects/custcentertab_x_sii.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dc8c8699-0b7b-4b7f-ac6f-63b079dcacca" name="Default Changelist" comment="Eliminados archivos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.netsuite.ide.webstorm.configurable.accountmanagement.AccountManagementConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,6 +40,7 @@
       <workItem from="1622476413855" duration="209000" />
       <workItem from="1622476675017" duration="163000" />
       <workItem from="1622476853827" duration="764000" />
+      <workItem from="1622530926436" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Primera subida">
       <created>1622476912194</created>
@@ -74,9 +72,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/sii_spain_sdn_app" />
+    </ignored-roots>
     <MESSAGE value="Primera subida" />
     <MESSAGE value="Eliminados archivos" />
     <option name="LAST_COMMIT_MESSAGE" value="Eliminados archivos" />
