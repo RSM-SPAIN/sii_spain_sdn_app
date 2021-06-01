@@ -39,7 +39,7 @@
       <feature required="true">LOCATIONS</feature>
     </features>
     <applications>
-      <!-- Campo de Supplementary Tax Calculation-->
+      <!-- Supplementary Tax Calculation bundle field-->
       <bundles>
         <bundle id="123426">
           <object>custrecord_post_notional_tax_amount</object>
