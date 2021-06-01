@@ -38,13 +38,15 @@
       <feature required="true">DEPARTMENTS</feature>
       <feature required="true">LOCATIONS</feature>
     </features>
-    <applications>
       <!-- Supplementary Tax Calculation bundle field-->
-      <bundles>
-        <bundle id="123426">
-          <object>custrecord_post_notional_tax_amount</object>
-        </bundle>
-      </bundles>
-    </applications>
+    <bundles>
+      <bundle id="123426">
+        <object>custrecord_post_notional_tax_amount</object>
+      </bundle>
+    </bundles>
+    <objects>
+      <object>custrecord_post_notional_tax_amount</object>
+    </objects>
+
   </dependencies>
 </manifest>
