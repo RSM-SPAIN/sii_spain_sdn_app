@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc8c8699-0b7b-4b7f-ac6f-63b079dcacca" name="Default Changelist" comment="Eliminados archivos" />
+    <list default="true" id="dc8c8699-0b7b-4b7f-ac6f-63b079dcacca" name="Default Changelist" comment="Eliminados archivos">
+      <change afterPath="$PROJECT_DIR$/src/FileCabinet/SuiteApps/com.rsmspain.siispn/Utils/lib_Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_canarias.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_causaexencion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_claveregimen_ad1_exp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_claveregimen_ad1_recibi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_claveregimen_ad2_exp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_claveregimen_ad2_recibi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_claveregimenexpedidas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_claveregimenrecibidas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_codigoerrorregistro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_deduc_periodo_posterior.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_descripcionerrorregistr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_dua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_ejer_periodo_deduccion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_emitidaporterceros.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_excludefromexport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_fecha_alt_liquidacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_fecha_operacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_fechacontab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_fechadua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_fechaemision.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_tipofacturaemitida.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_tipofacturarecibida.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_tipooperacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_tipoopintrao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custbody_x_sii_tiporectificativa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customlist_x_sii_companynametype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customlist_x_siiup_tipoenvio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_exportaciones_log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l2_emi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l2_reci.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_l9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_lineasexportaciones.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_tablaexportaciones.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_tiponosujeta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_sii_tipopresentacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_siiset_transactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customrecord_x_siiws_endpoints.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_bu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_ec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_eu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_rl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_sl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_slmanualexport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_wf_as.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customscript_x_sii_wf_bs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_exportaciones_log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_exportfacemi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_exportfacemi_job.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_exportfacreci.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_exppdte.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_exppdte_autosync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_linexp_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_transtoexport_emi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_transtoexport_emi_job.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_transtoexport_rec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_vistalinexp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customsearch_x_sii_vistalinfac.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customworkflow_x_sii_fliquidacion_a_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customworkflow_x_sii_fliquidacion_aut_wf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/customworkflow_x_sii_wf_events.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_certificate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_claveregimenexpedidas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_claveregimenrecibidas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_iva_aduanas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_iva_bienes_inversion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_nodeducible.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_tasaderivada.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_tax_porc_deducible.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_tax_tipopresentacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_tiponosujeta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custrecord_x_sii_tipooperacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Objects/custtab_x_sii_ent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +112,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FileCabinet/SuiteApps/com.rsmspain.siispn/Utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.netsuite.ide.webstorm.configurable.projectsettings.ProjectSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RSM\WebstormProjects\siispn\src\FileCabinet\SuiteApps\com.rsmspain.siispn\Utils" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +138,7 @@
       <workItem from="1622476413855" duration="209000" />
       <workItem from="1622476675017" duration="163000" />
       <workItem from="1622476853827" duration="764000" />
-      <workItem from="1622530926436" duration="16000" />
+      <workItem from="1622530926436" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="Primera subida">
       <created>1622476912194</created>
@@ -56,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622476961497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Eliminados archivos">
+      <created>1622530994054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622530994055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

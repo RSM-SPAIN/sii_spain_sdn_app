@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_x_sii_slmanualexport">
+  <description>Suitelet de importación manual de transacciones en una exportación de SII</description>
+  <isinactive>F</isinactive>
+  <name>sii_SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/sii_SL.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_x_sii_slmanualexport">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>sii_SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

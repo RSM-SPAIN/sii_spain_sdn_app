@@ -1,0 +1,37 @@
+<othercustomfield scriptid="custrecord_x_sii_tax_porc_deducible">
+  <accesslevel>2</accesslevel>
+  <applyformatting>T</applyformatting>
+  <checkspelling>F</checkspelling>
+  <defaultchecked>F</defaultchecked>
+  <defaultselection></defaultselection>
+  <defaultvalue></defaultvalue>
+  <description>Indica el porcentaje a deducir si el tipo de impuesto es no deducible. Si el porcentaje no deducible del impuesto es del 100%, dejar vacío o indicar 0.</description>
+  <displayheight></displayheight>
+  <displaytype>NORMAL</displaytype>
+  <displaywidth></displaywidth>
+  <dynamicdefault></dynamicdefault>
+  <encryptatrest>F</encryptatrest>
+  <fieldtype>FLOAT</fieldtype>
+  <help>Indica el porcentaje a deducir si el tipo de impuesto es no deducible. &#xd;
+Si el porcentaje no deducible del impuesto es del 100%, dejar vacío o indicar 0.&#xd;
+</help>
+  <isformula>F</isformula>
+  <ismandatory>F</ismandatory>
+  <label>Porcentaje de Deducción (SII)</label>
+  <linktext></linktext>
+  <maxlength></maxlength>
+  <maxvalue></maxvalue>
+  <minvalue></minvalue>
+  <onparentdelete></onparentdelete>
+  <rectype>-128</rectype>
+  <searchcomparefield></searchcomparefield>
+  <searchdefault></searchdefault>
+  <searchlevel>2</searchlevel>
+  <selectrecordtype></selectrecordtype>
+  <showhierarchy>F</showhierarchy>
+  <showinlist>F</showinlist>
+  <sourcefilterby></sourcefilterby>
+  <sourcefrom></sourcefrom>
+  <sourcelist></sourcelist>
+  <storevalue>T</storevalue>
+</othercustomfield>

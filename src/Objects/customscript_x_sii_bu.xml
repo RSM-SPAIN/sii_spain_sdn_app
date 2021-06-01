@@ -1,0 +1,23 @@
+<bundleinstallationscript scriptid="customscript_x_sii_bu">
+  <afterinstallfunction>siiOnAfterInstall</afterinstallfunction>
+  <afterupdatefunction>siiOnAfterUpdate</afterupdatefunction>
+  <beforeinstallfunction>siiOnBeforeInstall</beforeinstallfunction>
+  <beforeuninstallfunction></beforeuninstallfunction>
+  <beforeupdatefunction>siiOnBeforeUpdate</beforeupdatefunction>
+  <description>Control script de instalación del bundler.</description>
+  <isinactive>F</isinactive>
+  <name>sii_BU</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/SII/sii_BU.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_x_sii_bu">
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>sii_BU</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</bundleinstallationscript>

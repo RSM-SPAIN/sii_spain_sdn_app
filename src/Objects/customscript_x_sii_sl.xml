@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_x_sii_sl">
+  <defaultfunction>siiExportReport</defaultfunction>
+  <description>Report de exportación.</description>
+  <isinactive>F</isinactive>
+  <name>sii_SL_Report</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/SII/sii_RE.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_x_sii_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>siiExportReport</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

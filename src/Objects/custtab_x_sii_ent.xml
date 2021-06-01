@@ -1,0 +1,5 @@
+<subtab scriptid="custtab_x_sii_ent">
+  <parent>[scriptid=custtab_x_impuestos_espana_ent]</parent>
+  <tabtype>ENTITY</tabtype>
+  <title>SII</title>
+</subtab>

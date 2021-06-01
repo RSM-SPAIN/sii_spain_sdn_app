@@ -1,0 +1,77 @@
+<transactionbodycustomfield scriptid="custbody_x_sii_fecha_operacion">
+  <accesslevel>2</accesslevel>
+  <applyformatting>F</applyformatting>
+  <bodyassemblybuild>F</bodyassemblybuild>
+  <bodybom>F</bodybom>
+  <bodycustomerpayment>F</bodycustomerpayment>
+  <bodycustomtransactions></bodycustomtransactions>
+  <bodydeposit>F</bodydeposit>
+  <bodydepositapplication>F</bodydepositapplication>
+  <bodyexpensereport>F</bodyexpensereport>
+  <bodyinventoryadjustment>F</bodyinventoryadjustment>
+  <bodyitemfulfillment>F</bodyitemfulfillment>
+  <bodyitemfulfillmentorder>F</bodyitemfulfillmentorder>
+  <bodyitemreceipt>F</bodyitemreceipt>
+  <bodyitemreceiptorder>F</bodyitemreceiptorder>
+  <bodyjournal>F</bodyjournal>
+  <bodyopportunity>F</bodyopportunity>
+  <bodyothertransaction>F</bodyothertransaction>
+  <bodypickingticket>F</bodypickingticket>
+  <bodyprintflag>F</bodyprintflag>
+  <bodyprintpackingslip>F</bodyprintpackingslip>
+  <bodyprintstatement>F</bodyprintstatement>
+  <bodypurchase>T</bodypurchase>
+  <bodysale>T</bodysale>
+  <bodystore>F</bodystore>
+  <bodytransferorder>F</bodytransferorder>
+  <bodyvendorpayment>F</bodyvendorpayment>
+  <checkspelling>F</checkspelling>
+  <defaultchecked>F</defaultchecked>
+  <defaultselection></defaultselection>
+  <defaultvalue></defaultvalue>
+  <description>En el Libro registro de F. Expedidas debe informarse cuando la fecha de realización de la operación sea distinta a la fecha de expedición de la factura y en el Libro registro de F. Recibidas cuando la fecha de realización de la operación sea distinta a la fecha de expedición de la factura y así conste en la misma.&#xd;
+Ej: la empresa A vende mercancías a otra empresa el 3 de julio de 2018, documentando la operación en factura de fecha 1 de agosto de 2018. ¿Cuándo debo suministrar los datos a través del SII? ¿Debo consignar algún campo específico?&#xd;
+Los datos deberán suministrarse en el plazo de los 4 días siguientes a la expedición de la factura (hasta el 7 de agosto). Se consignará la “F. de expedición de la factura” (1 de agosto de 2018) y el campo “F. Operación” (3 de julio de 2018).&#xd;
+&#xd;
+FE : El periodo y el ejercicio de liquidación se tomara de aquí.&#xd;
+Si la f. de expedición = f. de operación se ignorará.&#xd;
+&#xd;
+FR: Solo informa el campo T. de Operación.</description>
+  <displayheight></displayheight>
+  <displaytype>NORMAL</displaytype>
+  <displaywidth></displaywidth>
+  <dynamicdefault></dynamicdefault>
+  <encryptatrest>F</encryptatrest>
+  <fieldtype>DATE</fieldtype>
+  <fldsizelabel></fldsizelabel>
+  <globalsearch>F</globalsearch>
+  <help>En el Libro registro de F. Expedidas debe informarse cuando la fecha de realización de la operación sea distinta a la fecha de expedición de la factura y en el Libro registro de F. Recibidas cuando la fecha de realización de la operación sea distinta a la fecha de expedición de la factura y así conste en la misma.&#xd;
+Ej: la empresa A vende mercancías a otra empresa el 3 de julio de 2018, documentando la operación en factura de fecha 1 de agosto de 2018. ¿Cuándo debo suministrar los datos a través del SII? ¿Debo consignar algún campo específico?&#xd;
+Los datos deberán suministrarse en el plazo de los 4 días siguientes a la expedición de la factura (hasta el 7 de agosto). Se consignará la “F. de expedición de la factura” (1 de agosto de 2018) y el campo “F. Operación” (3 de julio de 2018).&#xd;
+&#xd;
+FE : El periodo y el ejercicio de liquidación se tomara de aquí.&#xd;
+Si la f. de expedición = f. de operación se ignorará.&#xd;
+&#xd;
+FR: Solo informa el campo T. de Operación.</help>
+  <isformula>F</isformula>
+  <ismandatory>F</ismandatory>
+  <isparent>F</isparent>
+  <label>Fecha Operación</label>
+  <linktext></linktext>
+  <maxlength></maxlength>
+  <maxvalue></maxvalue>
+  <minvalue></minvalue>
+  <onparentdelete></onparentdelete>
+  <parentsubtab></parentsubtab>
+  <searchcomparefield></searchcomparefield>
+  <searchdefault></searchdefault>
+  <searchlevel>2</searchlevel>
+  <selectrecordtype></selectrecordtype>
+  <showhierarchy>F</showhierarchy>
+  <showinlist>F</showinlist>
+  <sourcefilterby></sourcefilterby>
+  <sourcefrom></sourcefrom>
+  <sourcelist></sourcelist>
+  <storevalue>T</storevalue>
+  <subtab>[scriptid=custtab_x_sii]</subtab>
+</transactionbodycustomfield>

@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_x_sii_companynametype">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>SII Companyname Type</name>
+  <customvalues>
+    <customvalue scriptid="val_86200_1569182_206">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Company name</value>
+    </customvalue>
+    <customvalue scriptid="val_86201_1569182_420">
+      <abbreviation>L</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Legal name</value>
+    </customvalue>
+  </customvalues>
+</customlist>

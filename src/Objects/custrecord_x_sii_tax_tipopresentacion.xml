@@ -1,0 +1,35 @@
+<othercustomfield scriptid="custrecord_x_sii_tax_tipopresentacion">
+  <accesslevel>2</accesslevel>
+  <applyformatting>F</applyformatting>
+  <checkspelling>F</checkspelling>
+  <defaultchecked>F</defaultchecked>
+  <defaultselection></defaultselection>
+  <defaultvalue></defaultvalue>
+  <description>Indica el tipo de presentación al SII asociada a este impuesto. En caso de no cumplimentarse, se establecerá como &quot;Nacional&quot; por defecto.</description>
+  <displayheight></displayheight>
+  <displaytype>NORMAL</displaytype>
+  <displaywidth></displaywidth>
+  <dynamicdefault></dynamicdefault>
+  <encryptatrest>F</encryptatrest>
+  <fieldtype>SELECT</fieldtype>
+  <help>Indica el tipo de presentación al SII asociada a este impuesto. En caso de no cumplimentarse, se establecerá como &quot;Nacional&quot; por defecto.</help>
+  <isformula>F</isformula>
+  <ismandatory>F</ismandatory>
+  <label>Tipo Presentación (SII)</label>
+  <linktext></linktext>
+  <maxlength></maxlength>
+  <maxvalue></maxvalue>
+  <minvalue></minvalue>
+  <onparentdelete>NO_ACTION</onparentdelete>
+  <rectype>-128</rectype>
+  <searchcomparefield></searchcomparefield>
+  <searchdefault></searchdefault>
+  <searchlevel>2</searchlevel>
+  <selectrecordtype>[scriptid=customrecord_x_sii_tipopresentacion]</selectrecordtype>
+  <showhierarchy>F</showhierarchy>
+  <showinlist>T</showinlist>
+  <sourcefilterby></sourcefilterby>
+  <sourcefrom></sourcefrom>
+  <sourcelist></sourcelist>
+  <storevalue>T</storevalue>
+</othercustomfield>

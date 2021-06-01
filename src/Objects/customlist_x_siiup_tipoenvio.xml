@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_x_siiup_tipoenvio">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Tipo envio SII</name>
+  <customvalues>
+    <customvalue scriptid="val_84461_1569182_624">
+      <abbreviation>A</abbreviation>
+      <isinactive>F</isinactive>
+      <value>A</value>
+    </customvalue>
+    <customvalue scriptid="val_84462_1569182_724">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>B</value>
+    </customvalue>
+    <customvalue scriptid="val_84463_1569182_714">
+      <abbreviation>M</abbreviation>
+      <isinactive>F</isinactive>
+      <value>M</value>
+    </customvalue>
+  </customvalues>
+</customlist>
