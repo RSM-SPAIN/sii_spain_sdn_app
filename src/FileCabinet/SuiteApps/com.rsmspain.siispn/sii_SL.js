@@ -2,7 +2,7 @@
  * sii_SL.js
  * @NApiVersion 2.x
  * @NScriptType Suitelet
- * @NModuleScope Public 
+Se  * @NModuleScope Public
  */
 
 // this creates a Suitelet form that lets you write and send an email
@@ -73,9 +73,9 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
                     status_f.addSelectOption({value: billStatus.correcto, text: 'Correcto'});
                 } else {
                     status_f.addSelectOption({value: billStatus.pendiente, text: 'Pendiente de Exportar'});
-                }   
+                }
             }
- 
+
             trantype_f.addSelectOption({value: '', text: ''});
             trantype_f.addSelectOption({value: 'T', text: 'Emitidas'});
             trantype_f.addSelectOption({value: 'F', text: 'Recibidas'});
@@ -176,7 +176,11 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
                 } else if (!!status_p && status_p == 0) {//Pendiente de Exportación
                     if (!!status_p) search.filters.push(n_search.createFilter({name: 'custrecord_x_le_estadofactura', join: 'CUSTRECORD_X_LE_TRANSACCION', operator: n_search.Operator.ANYOF, values: '@NONE@'}));
                 }
-                if (!!subsidiary_p) search.filters.push(n_search.createFilter({name: 'subsidiary', operator: n_search.Operator.ANYOF, values: subsidiary_p}));
+                if (!!subsidiary_p){
+                    if(n_runtime.isFeatureInEffect({feature: "SUBSIDIARIES"})){
+                        search.filters.push(n_search.createFilter({name: 'subsidiary', operator: n_search.Operator.ANYOF, values: subsidiary_p}));
+                    }
+                }
                 if (!!type_p) n_search.createFilter({name: 'custbody_x_sii_tipopresentacion', operator: n_search.Operator.ANYOF, values: type_p});
                 if (!!entity_p) search.filters.push(n_search.createFilter({name: 'entity', operator: n_search.Operator.ANYOF, values: entity_p}));
                 if (!!tranid_p) search.filters.push(n_search.createFilter({name: 'tranid', operator: n_search.Operator.CONTAINS, values: tranid_p}));
@@ -220,7 +224,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
             var request = context.request;
             var billStatus = {correcto: '1', aceptado: '2', incorrecto: '3', exportado: '4'};
             var record = n_record.load({type: 'customrecord_x_sii_tablaexportaciones', id: request.parameters.custpage_x_export, isDynamic: true});
-            
+
             for (var line = 0; line < request.getLineCount('custpage_x_sl_exp'); line++) {
                 if (request.getSublistValue('custpage_x_sl_exp', 'select', line) != 'T') continue;
                 record.selectNewLine('recmachcustrecord_x_le_exportacion');
@@ -241,7 +245,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
 
             var exp_status = n_search.lookupFields({type: 'customrecord_x_sii_tablaexportaciones', id: request.parameters.custpage_x_export, columns: ['custrecord_x_sii_respuestaglobal']}).custrecord_x_sii_respuestaglobal;
             if (!!exp_status && exp_status.length > 0) throw n_error.create({name: 'LOCKDOWN', message: 'La exportación ya ha sido procesada anteriormente. Respuesta establecida.', notifyOff: false}).message;
-            
+
             record.setValue('custrecord_x_sii_ficheroexpgenerado', false);
             record.setValue('custrecord_x_sii_generarfichero', true);
             n_redirect.toRecord({type: 'customrecord_x_sii_tablaexportaciones', id: record.save()});
@@ -256,18 +260,18 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
         }
         function getSettings(subsidiary) {
             var map = {};
-            n_search.create({type: 'customrecord_x_sii_settings', 
+            n_search.create({type: 'customrecord_x_sii_settings',
                 filters: ['custrecord_x_siiset_subsidiaries', 'anyof', [subsidiary || '1']],
                 columns: ['custrecord_x_siiset_includependapproval']}).run().each(
-                    function(result) {
-                        map.include_pending_approval = result.getValue('custrecord_x_siiset_includependapproval')
-                        return false;
-                    }
-                );
+                function(result) {
+                    map.include_pending_approval = result.getValue('custrecord_x_siiset_includependapproval')
+                    return false;
+                }
+            );
             return map;
         }
         //#endregion
         return {
             onRequest: onRequest
         };
-    }); 
+    });
