@@ -41,7 +41,9 @@
       <!-- Supplementary Tax Calculation bundle field-->
     <bundles>
       <bundle id="123426">
+        <objects>
         <object>custrecord_post_notional_tax_amount</object>
+        </objects>
       </bundle>
     </bundles>
   </dependencies>
