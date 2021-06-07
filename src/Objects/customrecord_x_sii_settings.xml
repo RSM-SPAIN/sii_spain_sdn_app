@@ -366,6 +366,19 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_30320_1569182_441">
+      <custrecord_x_siiset_companynametype>[scriptid=customlist_x_sii_companynametype.val_86200_1569182_206]</custrecord_x_siiset_companynametype>
+      <custrecord_x_siiset_consumerid>298d0786a6575a468874a6420463537d9effee28b2476af441b08b56dbddc1c0</custrecord_x_siiset_consumerid>
+      <custrecord_x_siiset_consumerkey>157bf16c441a921696fffcd2279287401efcf78e594bbdc365735739dec7b473</custrecord_x_siiset_consumerkey>
+      <custrecord_x_siiset_includependapproval>F</custrecord_x_siiset_includependapproval>
+      <custrecord_x_siiset_subsidiaries>1</custrecord_x_siiset_subsidiaries>
+      <custrecord_x_siiset_tokenid>36b4ea9e00a483ddd0b62d530eb73964329469ca96d422c91f265f70ae418cec</custrecord_x_siiset_tokenid>
+      <custrecord_x_siiset_tokenkey>62cf8737ace018363c57d735793b5aa66168305f31050c75844e30e6d3967567</custrecord_x_siiset_tokenkey>
+      <custrecord_x_siiset_tosandbox>T</custrecord_x_siiset_tosandbox>
+      <isinactive>F</isinactive>
+    </instance>
+  </instances>
   <permissions>
     <permission>
       <permittedlevel>FULL</permittedlevel>

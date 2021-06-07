@@ -106,7 +106,9 @@ xmlns:sii=&quot;https://www2.agenciatributaria.gob.es/static_files/common/intern
       <name>Navarra</name>
     </instance>
     <instance scriptid="val_84494_1569182_847">
-      <custrecord_x_sii_tp_envelope></custrecord_x_sii_tp_envelope>
+        <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#xd;
+            xmlns:siiLR=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd&quot;&#xd;
+            xmlns:sii=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
       <isinactive>T</isinactive>
       <name>Ceuta y Melilla</name>
     </instance>

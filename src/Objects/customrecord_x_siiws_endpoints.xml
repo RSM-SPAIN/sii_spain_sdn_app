@@ -286,14 +286,6 @@
       <custrecord_x_siiws_transtype>CREDITCARDREFUND</custrecord_x_siiws_transtype>
       <isinactive>F</isinactive>
     </instance>
-    <instance scriptid="val_90266_1569182_353">
-      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_90264_1569182_152]</custrecord_x_siiws_parent>
-      <custrecord_x_siiws_prdurl>https://siihacienda.navarra.es/SII_PRUEBAS.proxy/SiiMensajesXsdHandlet.ashx</custrecord_x_siiws_prdurl>
-      <custrecord_x_siiws_sbxurl>https://siihacienda.navarra.es/SII_PRUEBAS.proxy/SiiMensajesXsdHandlet.ashx</custrecord_x_siiws_sbxurl>
-      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84493_1569182_578]</custrecord_x_siiws_synctype>
-      <custrecord_x_siiws_transtype>INVOICE</custrecord_x_siiws_transtype>
-      <isinactive>F</isinactive>
-    </instance>
     <instance scriptid="val_96566_1569182_891">
       <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
       <custrecord_x_siiws_prdurl>https://sii.araba.eus/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_prdurl>
