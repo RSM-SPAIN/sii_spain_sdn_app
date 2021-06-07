@@ -40,4 +40,14 @@
   <showowner>F</showowner>
   <showownerallowchange>F</showownerallowchange>
   <showowneronlist>F</showowneronlist>
+  <instances>
+    <instance scriptid="val_20420_4552998_sb1_566">
+      <isinactive>F</isinactive>
+      <name>No sujeta por el art. 7,14, otros </name>
+    </instance>
+    <instance scriptid="val_20421_4552998_sb1_866">
+      <isinactive>F</isinactive>
+      <name>No sujeta en el TAI por reglas de localización</name>
+    </instance>
+  </instances>
 </customrecordtype>

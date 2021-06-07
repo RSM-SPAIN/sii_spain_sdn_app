@@ -120,4 +120,18 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20318_4552998_sb1_289">
+      <custrecord_x_l5_codigo>S</custrecord_x_l5_codigo>
+      <custrecord_x_l5_descripcion>Sustitución</custrecord_x_l5_descripcion>
+      <isinactive>F</isinactive>
+      <name>Sustitución</name>
+    </instance>
+    <instance scriptid="val_20319_4552998_sb1_539">
+      <custrecord_x_l5_codigo>I</custrecord_x_l5_codigo>
+      <custrecord_x_l5_descripcion>Diferencias</custrecord_x_l5_descripcion>
+      <isinactive>F</isinactive>
+      <name>Diferencias</name>
+    </instance>
+  </instances>
 </customrecordtype>

@@ -40,4 +40,22 @@
   <showowner>F</showowner>
   <showownerallowchange>F</showownerallowchange>
   <showowneronlist>F</showowneronlist>
+  <instances>
+    <instance scriptid="val_20351_4552998_sb1_442">
+      <isinactive>F</isinactive>
+      <name>Correcto</name>
+    </instance>
+    <instance scriptid="val_20352_4552998_sb1_368">
+      <isinactive>F</isinactive>
+      <name>Aceptado Con Errores</name>
+    </instance>
+    <instance scriptid="val_20353_4552998_sb1_664">
+      <isinactive>F</isinactive>
+      <name>Incorrecto</name>
+    </instance>
+    <instance scriptid="val_20501_4552998_sb1_326">
+      <isinactive>F</isinactive>
+      <name>Exportado</name>
+    </instance>
+  </instances>
 </customrecordtype>

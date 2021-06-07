@@ -40,4 +40,26 @@
   <showowner>F</showowner>
   <showownerallowchange>F</showownerallowchange>
   <showowneronlist>F</showowneronlist>
+  <instances>
+    <instance scriptid="val_20354_4552998_sb1_619">
+      <isinactive>F</isinactive>
+      <name>No contrastable</name>
+    </instance>
+    <instance scriptid="val_20355_4552998_sb1_343">
+      <isinactive>F</isinactive>
+      <name>En proceso de contraste</name>
+    </instance>
+    <instance scriptid="val_20356_4552998_sb1_832">
+      <isinactive>F</isinactive>
+      <name>No contrastada</name>
+    </instance>
+    <instance scriptid="val_20357_4552998_sb1_356">
+      <isinactive>F</isinactive>
+      <name>Parcialmente contrastada</name>
+    </instance>
+    <instance scriptid="val_20358_4552998_sb1_113">
+      <isinactive>F</isinactive>
+      <name>Contrastada</name>
+    </instance>
+  </instances>
 </customrecordtype>

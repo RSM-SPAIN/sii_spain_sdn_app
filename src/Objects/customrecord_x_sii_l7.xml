@@ -120,4 +120,24 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20324_4552998_sb1_581">
+      <custrecord_x_l7_codigo>S1</custrecord_x_l7_codigo>
+      <custrecord_x_l7_dexcripcion>No exenta- Sin inversion sujeto pasivo</custrecord_x_l7_dexcripcion>
+      <isinactive>F</isinactive>
+      <name>No exenta - no ISP</name>
+    </instance>
+    <instance scriptid="val_20325_4552998_sb1_815">
+      <custrecord_x_l7_codigo>S2</custrecord_x_l7_codigo>
+      <custrecord_x_l7_dexcripcion>No exenta - Con Inversion sujeto pasivo</custrecord_x_l7_dexcripcion>
+      <isinactive>F</isinactive>
+      <name>No exenta - ISP</name>
+    </instance>
+    <instance scriptid="val_20326_4552998_sb1_514">
+      <custrecord_x_l7_codigo>S3</custrecord_x_l7_codigo>
+      <custrecord_x_l7_dexcripcion>No exenta - Sin inversion sujeto pasivo y con Inversion sujeto pasivo</custrecord_x_l7_dexcripcion>
+      <isinactive>F</isinactive>
+      <name>No exenta - con y sin ISP</name>
+    </instance>
+  </instances>
 </customrecordtype>

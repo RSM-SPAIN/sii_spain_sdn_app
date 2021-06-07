@@ -120,4 +120,30 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20320_4552998_sb1_545">
+      <custrecord_x_l6_codigo>1</custrecord_x_l6_codigo>
+      <custrecord_x_l6_descripcion>Inmueble con referencia catastral situado en cualquier punto del territorio español, excepto País Vasco y Navarra</custrecord_x_l6_descripcion>
+      <isinactive>F</isinactive>
+      <name>Con referencia catastral, excepto País Vasco y Navarra</name>
+    </instance>
+    <instance scriptid="val_20321_4552998_sb1_825">
+      <custrecord_x_l6_codigo>2</custrecord_x_l6_codigo>
+      <custrecord_x_l6_descripcion>Inmueble situado en la Comunidad Autónoma del País Vasco o en la Comunidad Foral de Navarra</custrecord_x_l6_descripcion>
+      <isinactive>F</isinactive>
+      <name>Inmueble situado el País Vasco o Navarra</name>
+    </instance>
+    <instance scriptid="val_20322_4552998_sb1_630">
+      <custrecord_x_l6_codigo>3</custrecord_x_l6_codigo>
+      <custrecord_x_l6_descripcion>Inmueble en cualquiera de las situaciones anteriores pero sin referencia catastral</custrecord_x_l6_descripcion>
+      <isinactive>F</isinactive>
+      <name>Inmueble sin referencia catastral</name>
+    </instance>
+    <instance scriptid="val_20323_4552998_sb1_607">
+      <custrecord_x_l6_codigo>4</custrecord_x_l6_codigo>
+      <custrecord_x_l6_descripcion>Inmueble situado en el extranjero</custrecord_x_l6_descripcion>
+      <isinactive>F</isinactive>
+      <name>Inmueble situado en el extranjero</name>
+    </instance>
+  </instances>
 </customrecordtype>

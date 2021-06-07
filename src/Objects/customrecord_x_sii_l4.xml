@@ -120,4 +120,48 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_22089_4552998_sb1_473">
+      <custrecord_x_l4_codigo>01</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>Nacional</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(01) Nacional</name>
+    </instance>
+    <instance scriptid="val_22090_4552998_sb1_936">
+      <custrecord_x_l4_codigo>02</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>NIF-IVA</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(02) NIF-IVA</name>
+    </instance>
+    <instance scriptid="val_22091_4552998_sb1_213">
+      <custrecord_x_l4_codigo>03</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>Pasaporte</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(03) Pasaporte</name>
+    </instance>
+    <instance scriptid="val_22092_4552998_sb1_887">
+      <custrecord_x_l4_codigo>04</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>Documento nacional pa­s</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(04) Documento nacional pa­s</name>
+    </instance>
+    <instance scriptid="val_22093_4552998_sb1_250">
+      <custrecord_x_l4_codigo>05</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>Certificado</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(05) Certificado</name>
+    </instance>
+    <instance scriptid="val_22094_4552998_sb1_173">
+      <custrecord_x_l4_codigo>06</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>Otro</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(06) Otro</name>
+    </instance>
+    <instance scriptid="val_22435_4552998_sb1_903">
+      <custrecord_x_l4_codigo>07</custrecord_x_l4_codigo>
+      <custrecord_x_l4_descripcion>No Censado</custrecord_x_l4_descripcion>
+      <isinactive>F</isinactive>
+      <name>(07) No Censado</name>
+    </instance>
+  </instances>
 </customrecordtype>

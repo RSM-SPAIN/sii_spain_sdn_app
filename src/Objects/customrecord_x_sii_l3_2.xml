@@ -120,4 +120,78 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20305_4552998_sb1_383">
+      <custrecord_x_l3_2_codigo>01</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Operación de régimen general</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Regimen General</name>
+    </instance>
+    <instance scriptid="val_20306_4552998_sb1_699">
+      <custrecord_x_l3_2_codigo>02</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Operaciones por las que los empresarios satisfacen compensaciones en las adquisiciones a personas acogidas al Régimen especial de la agricultura, ganaderia y pesca</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Compensaciones REAGYP</name>
+    </instance>
+    <instance scriptid="val_20307_4552998_sb1_944">
+      <custrecord_x_l3_2_codigo>03</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Operaciones a las que se aplique el régimen especial de bienes usados, objetos de arte, antigüedades y objetos de colección.</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Bienes Usados</name>
+    </instance>
+    <instance scriptid="val_20308_4552998_sb1_373">
+      <custrecord_x_l3_2_codigo>04</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Régimen especial del oro de inversión.</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Oro de inversión</name>
+    </instance>
+    <instance scriptid="val_20309_4552998_sb1_223">
+      <custrecord_x_l3_2_codigo>05</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Régimen especial de las agencias de viajes.</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Agencias de Viajes</name>
+    </instance>
+    <instance scriptid="val_20310_4552998_sb1_410">
+      <custrecord_x_l3_2_codigo>06</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Régimen especial grupo de entidades en IVA (Nivel Avanzado).</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE grupo de entidades en IVA</name>
+    </instance>
+    <instance scriptid="val_20311_4552998_sb1_873">
+      <custrecord_x_l3_2_codigo>07</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Régimen especial del criterio de caja</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Criterio de Caja</name>
+    </instance>
+    <instance scriptid="val_20312_4552998_sb1_800">
+      <custrecord_x_l3_2_codigo>08</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Operaciones sujetas al IPSI / IGIC (Impuesto sobre la Producción, los Servicios y la Importación / Impuesto General Indirecto Canario)</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Operaciones sujetas IGIC/IPSI</name>
+    </instance>
+    <instance scriptid="val_20313_4552998_sb1_495">
+      <custrecord_x_l3_2_codigo>09</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Adquisiciones intracomunitarias de bienes y prestaciones de servicios</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Adquisiciones intracomunitarias</name>
+    </instance>
+    <instance scriptid="val_20314_4552998_sb1_256">
+      <custrecord_x_l3_2_codigo>12</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Operaciones de arrendamiento de local de negocio</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Arrendamiento de local de negocio</name>
+    </instance>
+    <instance scriptid="val_20315_4552998_sb1_151">
+      <custrecord_x_l3_2_codigo>13</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Factura correspondiente a una importación (informada sin asociar a un DUA)</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Importación (sin DUA)</name>
+    </instance>
+    <instance scriptid="val_20316_4552998_sb1_197">
+      <custrecord_x_l3_2_codigo>14</custrecord_x_l3_2_codigo>
+      <custrecord_x_sii_l3_2_descripcion>Primer semestre 2017</custrecord_x_sii_l3_2_descripcion>
+      <isinactive>F</isinactive>
+      <name>Primer semestre 2017</name>
+    </instance>
+  </instances>
 </customrecordtype>

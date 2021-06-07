@@ -120,4 +120,42 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20327_4552998_sb1_911">
+      <custrecord_x_l9_codigo>E1</custrecord_x_l9_codigo>
+      <custrecord_x_l9_descripcion>Exenta por el artículo 20</custrecord_x_l9_descripcion>
+      <isinactive>F</isinactive>
+      <name>Artículo 20 -&amp;gt; Exenciones en operaciones interiores</name>
+    </instance>
+    <instance scriptid="val_20328_4552998_sb1_982">
+      <custrecord_x_l9_codigo>E2</custrecord_x_l9_codigo>
+      <custrecord_x_l9_descripcion>Exenta por el artículo 21</custrecord_x_l9_descripcion>
+      <isinactive>F</isinactive>
+      <name>Artículo 21 -&amp;gt; Exenciones exportación bienes</name>
+    </instance>
+    <instance scriptid="val_20329_4552998_sb1_784">
+      <custrecord_x_l9_codigo>E3</custrecord_x_l9_codigo>
+      <custrecord_x_l9_descripcion>Exenta por el artículo 22</custrecord_x_l9_descripcion>
+      <isinactive>F</isinactive>
+      <name>Artículo 22 -&amp;gt; Exenciones en operaciones asimiladas a exportaciones</name>
+    </instance>
+    <instance scriptid="val_20330_4552998_sb1_222">
+      <custrecord_x_l9_codigo>E4</custrecord_x_l9_codigo>
+      <custrecord_x_l9_descripcion>Exenta por el artículo 23 Y 34</custrecord_x_l9_descripcion>
+      <isinactive>F</isinactive>
+      <name>Artículos 23 y 24 -&amp;gt; Exenciones relativas a las zonas francas depósitos francos y otros depósitos / Exenciones relativas a regímenes aduaneros y fiscales</name>
+    </instance>
+    <instance scriptid="val_20331_4552998_sb1_590">
+      <custrecord_x_l9_codigo>E5</custrecord_x_l9_codigo>
+      <custrecord_x_l9_descripcion>Exenta por el artículo 25</custrecord_x_l9_descripcion>
+      <isinactive>F</isinactive>
+      <name>Artículo 25 -&amp;gt; Exenciones en las entregas de bienes destinados a otro Estado miembro</name>
+    </instance>
+    <instance scriptid="val_20332_4552998_sb1_697">
+      <custrecord_x_l9_codigo>E6</custrecord_x_l9_codigo>
+      <custrecord_x_l9_descripcion>Exenta por Otros</custrecord_x_l9_descripcion>
+      <isinactive>F</isinactive>
+      <name>Otros</name>
+    </instance>
+  </instances>
 </customrecordtype>

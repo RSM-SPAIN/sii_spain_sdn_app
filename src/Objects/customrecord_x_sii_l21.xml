@@ -120,4 +120,18 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_45960_3926283_sb1_642">
+      <custrecord_x_l21_codigo>A</custrecord_x_l21_codigo>
+      <custrecord_x_l21_descripcion>El envío o recepción de bienes para la realización de los informes parciales o trabajos mencionados en el artículo 70, apartado uno, número 7º, de la Ley del Impuesto (Ley 37/1992).</custrecord_x_l21_descripcion>
+      <isinactive>F</isinactive>
+      <name>A</name>
+    </instance>
+    <instance scriptid="val_45962_3926283_sb1_600">
+      <custrecord_x_l21_codigo>B</custrecord_x_l21_codigo>
+      <custrecord_x_l21_descripcion>Las transferencias de bienes y las adquisiciones intracomunitarias de bienes comprendidas en los artículos 9, apartado 3º, y 16, apartado 2º, de la Ley del Impuesto (Ley 37/1992).</custrecord_x_l21_descripcion>
+      <isinactive>F</isinactive>
+      <name>B</name>
+    </instance>
+  </instances>
 </customrecordtype>

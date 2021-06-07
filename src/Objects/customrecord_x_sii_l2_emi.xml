@@ -120,4 +120,60 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20222_4552998_sb1_172">
+      <custrecord_x_l2_emi_codigo>F1</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Factura</name>
+    </instance>
+    <instance scriptid="val_20270_4552998_sb1_292">
+      <custrecord_x_l2_emi_codigo>F2</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura Simplificada (ticket)</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Factura Simplificada</name>
+    </instance>
+    <instance scriptid="val_20271_4552998_sb1_882">
+      <custrecord_x_l2_emi_codigo>F3</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura emitida en sustitución de facturas simplificadas facturadas y declaradas</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Factura sust. Simplificadas</name>
+    </instance>
+    <instance scriptid="val_20272_4552998_sb1_897">
+      <custrecord_x_l2_emi_codigo>F4</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Asiento resumen de facturas</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Asiento Resumen</name>
+    </instance>
+    <instance scriptid="val_20273_4552998_sb1_394">
+      <custrecord_x_l2_emi_codigo>R1</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura rectificativa  (Error fundado en derecho y Art. 80 Uno Dos y Seis LIVA)</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Rectificativa (80.1, 80.2, 80.6)</name>
+    </instance>
+    <instance scriptid="val_20274_4552998_sb1_537">
+      <custrecord_x_l2_emi_codigo>R2</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura rectificativa  (Art. 80 Tres LIVA)</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Rectificativa (80.3)</name>
+    </instance>
+    <instance scriptid="val_20275_4552998_sb1_421">
+      <custrecord_x_l2_emi_codigo>R3</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura rectificativa  (Art. 80 Cuatro LIVA)</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Rectificativa (80.4)</name>
+    </instance>
+    <instance scriptid="val_20276_4552998_sb1_646">
+      <custrecord_x_l2_emi_codigo>R4</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura rectificativa  (Resto)</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Rectificativa (Resto)</name>
+    </instance>
+    <instance scriptid="val_20277_4552998_sb1_667">
+      <custrecord_x_l2_emi_codigo>R5</custrecord_x_l2_emi_codigo>
+      <custrecord_x_l2_emi_descripcion>Factura Rectificativa en facturas simplificadas</custrecord_x_l2_emi_descripcion>
+      <isinactive>F</isinactive>
+      <name>Rectificativa (Simplificadas)</name>
+    </instance>
+  </instances>
 </customrecordtype>

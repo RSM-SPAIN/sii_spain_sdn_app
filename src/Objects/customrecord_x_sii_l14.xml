@@ -40,4 +40,18 @@
   <showowner>F</showowner>
   <showownerallowchange>F</showownerallowchange>
   <showowneronlist>F</showowneronlist>
+  <instances>
+    <instance scriptid="val_20348_4552998_sb1_309">
+      <isinactive>F</isinactive>
+      <name>Correcto</name>
+    </instance>
+    <instance scriptid="val_20349_4552998_sb1_677">
+      <isinactive>F</isinactive>
+      <name>Parcialmente Correcto</name>
+    </instance>
+    <instance scriptid="val_20350_4552998_sb1_891">
+      <isinactive>F</isinactive>
+      <name>Incorrecto</name>
+    </instance>
+  </instances>
 </customrecordtype>

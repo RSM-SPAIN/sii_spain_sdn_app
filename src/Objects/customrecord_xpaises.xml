@@ -366,6 +366,2984 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_18378_4552998_sb1_374">
+      <custrecord_xpaisesdominio>.af</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AFG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>3</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>93</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Afghanistan</name>
+    </instance>
+    <instance scriptid="val_18379_4552998_sb1_110">
+      <custrecord_xpaisesdominio>.al</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ALB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>6</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>355</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Albania</name>
+    </instance>
+    <instance scriptid="val_18380_4552998_sb1_203">
+      <custrecord_xpaisesdominio>.ad</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AND</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>1</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>376</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Andorra</name>
+    </instance>
+    <instance scriptid="val_18381_4552998_sb1_268">
+      <custrecord_xpaisesdominio>.ao</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AGO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>9</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>244</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Angola</name>
+    </instance>
+    <instance scriptid="val_18382_4552998_sb1_924">
+      <custrecord_xpaisesdominio>.ai</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AIA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>5</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 264</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Anguila</name>
+    </instance>
+    <instance scriptid="val_18383_4552998_sb1_330">
+      <custrecord_xpaisesdominio>.ag</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ATG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>4</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 268</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Antigua y Barbuda</name>
+    </instance>
+    <instance scriptid="val_18384_4552998_sb1_760">
+      <custrecord_xpaisesdominio>.sa</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SAU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>192</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>966</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Arabia Saudita</name>
+    </instance>
+    <instance scriptid="val_18385_4552998_sb1_352">
+      <custrecord_xpaisesdominio>.dz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>DZA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>62</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>213</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>DZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Argelia</name>
+    </instance>
+    <instance scriptid="val_18386_4552998_sb1_696">
+      <custrecord_xpaisesdominio>.ar</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ARG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>11</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>54</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Argentina</name>
+    </instance>
+    <instance scriptid="val_18387_4552998_sb1_665">
+      <custrecord_xpaisesdominio>.am</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ARM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>7</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>374</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Armenia</name>
+    </instance>
+    <instance scriptid="val_18388_4552998_sb1_475">
+      <custrecord_xpaisesdominio>.aw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ABW</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>15</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>297</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Aruba</name>
+    </instance>
+    <instance scriptid="val_18389_4552998_sb1_208">
+      <custrecord_xpaisesdominio>.au</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AUS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>14</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>61</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Australia</name>
+    </instance>
+    <instance scriptid="val_18390_4552998_sb1_806">
+      <custrecord_xpaisesdominio>.az</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AZE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>16</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>994</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Azerbaiyán</name>
+    </instance>
+    <instance scriptid="val_18391_4552998_sb1_517">
+      <custrecord_xpaisesdominio>.bs</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BHS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>31</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 242</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bahamas</name>
+    </instance>
+    <instance scriptid="val_18392_4552998_sb1_594">
+      <custrecord_xpaisesdominio>.bd</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BGD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>19</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>880</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bangladesh</name>
+    </instance>
+    <instance scriptid="val_18393_4552998_sb1_420">
+      <custrecord_xpaisesdominio>.bb</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BRB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>18</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 246</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BB</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Barbados</name>
+    </instance>
+    <instance scriptid="val_18394_4552998_sb1_732">
+      <custrecord_xpaisesdominio>.bh</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BHR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>23</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>973</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bahrein</name>
+    </instance>
+    <instance scriptid="val_18395_4552998_sb1_493">
+      <custrecord_xpaisesdominio>.bz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BLZ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>36</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>501</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Belice</name>
+    </instance>
+    <instance scriptid="val_18396_4552998_sb1_158">
+      <custrecord_xpaisesdominio>.bj</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BEN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>25</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>229</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BJ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Benin</name>
+    </instance>
+    <instance scriptid="val_18397_4552998_sb1_990">
+      <custrecord_xpaisesdominio>.bm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BMU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>27</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 441</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bermudas</name>
+    </instance>
+    <instance scriptid="val_18398_4552998_sb1_257">
+      <custrecord_xpaisesdominio>.by</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BLR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>35</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>375</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bielorrusia</name>
+    </instance>
+    <instance scriptid="val_18399_4552998_sb1_714">
+      <custrecord_xpaisesdominio>.bo</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BOL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>29</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>591</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bolivia, Estado Plurinacional de</name>
+    </instance>
+    <instance scriptid="val_18400_4552998_sb1_574">
+      <custrecord_xpaisesdominio>.bq</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BES</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>250</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>5997</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BQ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bonaire, San Eustaquio y Saba</name>
+    </instance>
+    <instance scriptid="val_18401_4552998_sb1_308">
+      <custrecord_xpaisesdominio>.ba</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BIH</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>17</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>387</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bosnia y Herzegovina</name>
+    </instance>
+    <instance scriptid="val_18402_4552998_sb1_811">
+      <custrecord_xpaisesdominio>.bw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BWA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>34</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>267</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Botsuana</name>
+    </instance>
+    <instance scriptid="val_18403_4552998_sb1_987">
+      <custrecord_xpaisesdominio>.br</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BRA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>30</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>55</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Brasil</name>
+    </instance>
+    <instance scriptid="val_18404_4552998_sb1_946">
+      <custrecord_xpaisesdominio>.bn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BRN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>28</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>673</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Brunéi Darussalam</name>
+    </instance>
+    <instance scriptid="val_18405_4552998_sb1_523">
+      <custrecord_xpaisesdominio>.bg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BGR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>22</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>359</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bulgaria</name>
+    </instance>
+    <instance scriptid="val_18406_4552998_sb1_430">
+      <custrecord_xpaisesdominio>.bf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BFA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>21</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>226</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Burkina Faso</name>
+    </instance>
+    <instance scriptid="val_18407_4552998_sb1_725">
+      <custrecord_xpaisesdominio>.bi</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BDI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>24</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>257</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Burundi</name>
+    </instance>
+    <instance scriptid="val_18408_4552998_sb1_918">
+      <custrecord_xpaisesdominio>.bt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BTN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>32</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>975</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bután</name>
+    </instance>
+    <instance scriptid="val_18409_4552998_sb1_894">
+      <custrecord_xpaisesdominio>.cv</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CPV</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>53</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>238</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CV</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Cabo Verde</name>
+    </instance>
+    <instance scriptid="val_18410_4552998_sb1_301">
+      <custrecord_xpaisesdominio>.kh</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KHM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>117</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>855</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Camboya</name>
+    </instance>
+    <instance scriptid="val_18411_4552998_sb1_143">
+      <custrecord_xpaisesdominio>.cm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CMR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>46</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>237</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Camerún</name>
+    </instance>
+    <instance scriptid="val_18412_4552998_sb1_642">
+      <custrecord_xpaisesdominio>.ca</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CAN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>37</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Canadá</name>
+    </instance>
+    <instance scriptid="val_18413_4552998_sb1_835">
+      <custrecord_xpaisesdominio>.td</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TCD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>212</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>235</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Chad</name>
+    </instance>
+    <instance scriptid="val_18414_4552998_sb1_644">
+      <custrecord_xpaisesdominio>.cl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CHL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>45</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>56</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Chile</name>
+    </instance>
+    <instance scriptid="val_18415_4552998_sb1_255">
+      <custrecord_xpaisesdominio>.cn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CHN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>47</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>86</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>China, República Popular</name>
+    </instance>
+    <instance scriptid="val_18416_4552998_sb1_711">
+      <custrecord_xpaisesdominio>.co</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>COL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>48</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>57</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Colombia</name>
+    </instance>
+    <instance scriptid="val_18417_4552998_sb1_959">
+      <custrecord_xpaisesdominio>.km</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>COM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>119</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>269</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Comoras</name>
+    </instance>
+    <instance scriptid="val_18418_4552998_sb1_542">
+      <custrecord_xpaisesdominio>.cg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>COG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>41</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>243</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Congo</name>
+    </instance>
+    <instance scriptid="val_18419_4552998_sb1_864">
+      <custrecord_xpaisesdominio>.cd</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>COD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>39</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>242</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Congo, La República Democrática del</name>
+    </instance>
+    <instance scriptid="val_18420_4552998_sb1_685">
+      <custrecord_xpaisesdominio>.kr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KOR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>122</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>82</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Corea, República de</name>
+    </instance>
+    <instance scriptid="val_18421_4552998_sb1_938">
+      <custrecord_xpaisesdominio>.kp</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PRK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>121</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>850</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KP</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Corea, República Democrática Popular de</name>
+    </instance>
+    <instance scriptid="val_18422_4552998_sb1_170">
+      <custrecord_xpaisesdominio>.ci</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CIV</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>43</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>225</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Costa de Marfil</name>
+    </instance>
+    <instance scriptid="val_18423_4552998_sb1_179">
+      <custrecord_xpaisesdominio>.cr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CRI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>49</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>506</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Costa Rica</name>
+    </instance>
+    <instance scriptid="val_18424_4552998_sb1_365">
+      <custrecord_xpaisesdominio>.cu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CUB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>52</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>53</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Cuba</name>
+    </instance>
+    <instance scriptid="val_18425_4552998_sb1_240">
+      <custrecord_xpaisesdominio>.cw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CUW</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>251</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>599</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Curazao</name>
+    </instance>
+    <instance scriptid="val_18426_4552998_sb1_870">
+      <custrecord_xpaisesdominio>.dm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>DMA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>60</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 767</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>DM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Dominica</name>
+    </instance>
+    <instance scriptid="val_18427_4552998_sb1_577">
+      <custrecord_xpaisesdominio>.ec</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ECU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>63</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>593</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>EC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Ecuador</name>
+    </instance>
+    <instance scriptid="val_18428_4552998_sb1_994">
+      <custrecord_xpaisesdominio>.eg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>EGY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>65</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>20</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>EG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Egipto</name>
+    </instance>
+    <instance scriptid="val_18429_4552998_sb1_925">
+      <custrecord_xpaisesdominio>.sv</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SLV</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>208</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>503</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SV</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>El Salvador</name>
+    </instance>
+    <instance scriptid="val_18430_4552998_sb1_156">
+      <custrecord_xpaisesdominio>.ae</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ARE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>2</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>971</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Emiratos Árabes Unidos</name>
+    </instance>
+    <instance scriptid="val_18431_4552998_sb1_220">
+      <custrecord_xpaisesdominio>.er</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ERI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>67</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>291</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ER</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Eritrea</name>
+    </instance>
+    <instance scriptid="val_18432_4552998_sb1_120">
+      <custrecord_xpaisesdominio>.us</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>USA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>230</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>US</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Estados Unidos</name>
+    </instance>
+    <instance scriptid="val_18433_4552998_sb1_180">
+      <custrecord_xpaisesdominio>.et</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ETH</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>69</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>251</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ET</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Etiopía</name>
+    </instance>
+    <instance scriptid="val_18434_4552998_sb1_987">
+      <custrecord_xpaisesdominio>.ru</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>RUS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>190</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>7</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>RU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Federación Rusa</name>
+    </instance>
+    <instance scriptid="val_18435_4552998_sb1_708">
+      <custrecord_xpaisesdominio>.ph</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PHL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>177</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>63</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Filipinas</name>
+    </instance>
+    <instance scriptid="val_18436_4552998_sb1_382">
+      <custrecord_xpaisesdominio>.fj</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>FJI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>71</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>679</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>FJ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Fiyi</name>
+    </instance>
+    <instance scriptid="val_18437_4552998_sb1_617">
+      <custrecord_xpaisesdominio>.ga</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GAB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>76</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>241</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Gabón</name>
+    </instance>
+    <instance scriptid="val_18438_4552998_sb1_347">
+      <custrecord_xpaisesdominio>.gm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GMB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>85</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>220</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Gambia</name>
+    </instance>
+    <instance scriptid="val_18439_4552998_sb1_694">
+      <custrecord_xpaisesdominio>.ge</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GEO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>79</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>995</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Georgia</name>
+    </instance>
+    <instance scriptid="val_18440_4552998_sb1_423">
+      <custrecord_xpaisesdominio>.gh</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GHA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>82</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>233</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Ghana</name>
+    </instance>
+    <instance scriptid="val_18441_4552998_sb1_411">
+      <custrecord_xpaisesdominio>.gi</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GIB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>83</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>350</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Gibraltar</name>
+    </instance>
+    <instance scriptid="val_18442_4552998_sb1_437">
+      <custrecord_xpaisesdominio>.gd</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GRD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>78</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 473</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Granada</name>
+    </instance>
+    <instance scriptid="val_18443_4552998_sb1_379">
+      <custrecord_xpaisesdominio>.gl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GRL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>84</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>299</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Groenlandia</name>
+    </instance>
+    <instance scriptid="val_18444_4552998_sb1_701">
+      <custrecord_xpaisesdominio>.gp</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GLP</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>87</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>590</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GP</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guadalupe</name>
+    </instance>
+    <instance scriptid="val_18445_4552998_sb1_394">
+      <custrecord_xpaisesdominio>.gu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GUM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>92</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 671</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guam</name>
+    </instance>
+    <instance scriptid="val_18446_4552998_sb1_858">
+      <custrecord_xpaisesdominio>.gt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GTM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>91</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>502</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guatemala</name>
+    </instance>
+    <instance scriptid="val_18447_4552998_sb1_226">
+      <custrecord_xpaisesdominio>.gf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GUF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>80</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>594</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guayana Francesa</name>
+    </instance>
+    <instance scriptid="val_18448_4552998_sb1_272">
+      <custrecord_xpaisesdominio>.gg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GGY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>81</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>44</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guernsey</name>
+    </instance>
+    <instance scriptid="val_18449_4552998_sb1_965">
+      <custrecord_xpaisesdominio>.gn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GIN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>86</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>224</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guinea</name>
+    </instance>
+    <instance scriptid="val_18450_4552998_sb1_973">
+      <custrecord_xpaisesdominio>.gq</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GNQ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>88</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>240</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GQ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guinea Ecuatorial</name>
+    </instance>
+    <instance scriptid="val_18451_4552998_sb1_161">
+      <custrecord_xpaisesdominio>.gw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GNB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>93</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>245</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guinea-Bissau</name>
+    </instance>
+    <instance scriptid="val_18452_4552998_sb1_312">
+      <custrecord_xpaisesdominio>.gy</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GUY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>94</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>592</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Guyana</name>
+    </instance>
+    <instance scriptid="val_18453_4552998_sb1_286">
+      <custrecord_xpaisesdominio>.ht</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>HTI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>99</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>509</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>HT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Haití</name>
+    </instance>
+    <instance scriptid="val_18454_4552998_sb1_377">
+      <custrecord_xpaisesdominio>.hn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>HND</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>97</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>504</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>HN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Honduras</name>
+    </instance>
+    <instance scriptid="val_18455_4552998_sb1_763">
+      <custrecord_xpaisesdominio>.hk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>HKG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>95</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>852</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>HK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Hong Kong</name>
+    </instance>
+    <instance scriptid="val_18456_4552998_sb1_351">
+      <custrecord_xpaisesdominio>.in</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IND</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>105</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>91</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>India</name>
+    </instance>
+    <instance scriptid="val_18457_4552998_sb1_573">
+      <custrecord_xpaisesdominio>.id</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IDN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>101</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>62</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ID</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Indonesia</name>
+    </instance>
+    <instance scriptid="val_18458_4552998_sb1_785">
+      <custrecord_xpaisesdominio>.iq</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IRQ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>107</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>964</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IQ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Irak</name>
+    </instance>
+    <instance scriptid="val_18459_4552998_sb1_872">
+      <custrecord_xpaisesdominio>.ir</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IRN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>108</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>98</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Irán, República Islámica de</name>
+    </instance>
+    <instance scriptid="val_18460_4552998_sb1_528">
+      <custrecord_xpaisesdominio>.bv</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BVT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>33</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>47</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BV</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Isla Bouvet</name>
+    </instance>
+    <instance scriptid="val_18461_4552998_sb1_418">
+      <custrecord_xpaisesdominio>.im</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IMN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>104</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>44</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Isla de Man</name>
+    </instance>
+    <instance scriptid="val_18462_4552998_sb1_105">
+      <custrecord_xpaisesdominio>.cx</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CXR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>54</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>61</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CX</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Isla de Navidad</name>
+    </instance>
+    <instance scriptid="val_18463_4552998_sb1_981">
+      <custrecord_xpaisesdominio>.nf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NFK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>163</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>6723</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Norfolk</name>
+    </instance>
+    <instance scriptid="val_18464_4552998_sb1_960">
+      <custrecord_xpaisesdominio>.is</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ISL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>109</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>354</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islandia</name>
+    </instance>
+    <instance scriptid="val_18465_4552998_sb1_568">
+      <custrecord_xpaisesdominio>.ax</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ALA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>247</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>358 18</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AX</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Aland</name>
+    </instance>
+    <instance scriptid="val_18466_4552998_sb1_210">
+      <custrecord_xpaisesdominio>.ky</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CYM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>124</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 345</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Caimán</name>
+    </instance>
+    <instance scriptid="val_18467_4552998_sb1_831">
+      <custrecord_xpaisesdominio>.cc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CCK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>38</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>61</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Cocos (Keeling)</name>
+    </instance>
+    <instance scriptid="val_18468_4552998_sb1_775">
+      <custrecord_xpaisesdominio>.ck</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>COK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>44</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>682</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Cook</name>
+    </instance>
+    <instance scriptid="val_18469_4552998_sb1_243">
+      <custrecord_xpaisesdominio>.fk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>FLK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>72</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>500</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>FK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Falkland (Malvinas)</name>
+    </instance>
+    <instance scriptid="val_18470_4552998_sb1_660">
+      <custrecord_xpaisesdominio>.fo</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>FRO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>74</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>298</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>FO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Feroe</name>
+    </instance>
+    <instance scriptid="val_18471_4552998_sb1_790">
+      <custrecord_xpaisesdominio>.gs</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SGS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>90</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>500</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Georgias del Sur y Sandwich del Sur</name>
+    </instance>
+    <instance scriptid="val_18472_4552998_sb1_829">
+      <custrecord_xpaisesdominio>.hm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>HMD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>96</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 672</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>HM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Heard y Mcdonald</name>
+    </instance>
+    <instance scriptid="val_18473_4552998_sb1_295">
+      <custrecord_xpaisesdominio>.mp</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MNP</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>149</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 670</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MP</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Marianas del Norte</name>
+    </instance>
+    <instance scriptid="val_18474_4552998_sb1_581">
+      <custrecord_xpaisesdominio>.mh</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MHL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>143</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>692</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Marshall</name>
+    </instance>
+    <instance scriptid="val_18475_4552998_sb1_942">
+      <custrecord_xpaisesdominio>.sb</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SLB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>193</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>677</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SB</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Salomón</name>
+    </instance>
+    <instance scriptid="val_18476_4552998_sb1_571">
+      <custrecord_xpaisesdominio>.tc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TCA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>211</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 649</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Turcos y Caicos</name>
+    </instance>
+    <instance scriptid="val_18477_4552998_sb1_762">
+      <custrecord_xpaisesdominio>.um</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>UMI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>229</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 808</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>UM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Ultramarinas Menores de Estados Unidos</name>
+    </instance>
+    <instance scriptid="val_18478_4552998_sb1_740">
+      <custrecord_xpaisesdominio>.vg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VGB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>236</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 284</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Vírgenes Británicas</name>
+    </instance>
+    <instance scriptid="val_18479_4552998_sb1_900">
+      <custrecord_xpaisesdominio>.vi</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VIR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>237</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 340</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Vírgenes de Los Estados Unidos</name>
+    </instance>
+    <instance scriptid="val_18480_4552998_sb1_486">
+      <custrecord_xpaisesdominio>.il</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ISR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>103</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>972</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Israel</name>
+    </instance>
+    <instance scriptid="val_18481_4552998_sb1_332">
+      <custrecord_xpaisesdominio>.jm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>JAM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>112</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 876</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>JM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Jamaica</name>
+    </instance>
+    <instance scriptid="val_18482_4552998_sb1_634">
+      <custrecord_xpaisesdominio>.jp</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>JPN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>114</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>81</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>JP</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Japón</name>
+    </instance>
+    <instance scriptid="val_18483_4552998_sb1_515">
+      <custrecord_xpaisesdominio>.je</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>JEY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>111</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>44</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>JE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Jersey</name>
+    </instance>
+    <instance scriptid="val_18484_4552998_sb1_452">
+      <custrecord_xpaisesdominio>.jo</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>JOR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>113</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>962</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>JO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Jordania</name>
+    </instance>
+    <instance scriptid="val_18485_4552998_sb1_139">
+      <custrecord_xpaisesdominio>.kz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KAZ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>125</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>7</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Kazajistán</name>
+    </instance>
+    <instance scriptid="val_18486_4552998_sb1_754">
+      <custrecord_xpaisesdominio>.ke</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KEN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>115</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>254</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Kenia</name>
+    </instance>
+    <instance scriptid="val_18487_4552998_sb1_325">
+      <custrecord_xpaisesdominio>.kg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KGZ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>116</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>996</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Kirguistán</name>
+    </instance>
+    <instance scriptid="val_18488_4552998_sb1_210">
+      <custrecord_xpaisesdominio>.ki</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KIR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>118</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>686</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Kiribati</name>
+    </instance>
+    <instance scriptid="val_18489_4552998_sb1_408">
+      <custrecord_xpaisesdominio>.kw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KWT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>123</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>965</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Kuwait</name>
+    </instance>
+    <instance scriptid="val_18490_4552998_sb1_718">
+      <custrecord_xpaisesdominio>.ls</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LSO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>132</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>266</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Lesoto</name>
+    </instance>
+    <instance scriptid="val_18491_4552998_sb1_609">
+      <custrecord_xpaisesdominio>.lb</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LBN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>127</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>961</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LB</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Líbano</name>
+    </instance>
+    <instance scriptid="val_18492_4552998_sb1_686">
+      <custrecord_xpaisesdominio>.lr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LBR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>131</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>231</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Liberia</name>
+    </instance>
+    <instance scriptid="val_18493_4552998_sb1_936">
+      <custrecord_xpaisesdominio>.ly</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LBY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>136</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>218</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Libia</name>
+    </instance>
+    <instance scriptid="val_18494_4552998_sb1_288">
+      <custrecord_xpaisesdominio>.li</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LIE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>129</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>423</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Liechtenstein</name>
+    </instance>
+    <instance scriptid="val_18495_4552998_sb1_323">
+      <custrecord_xpaisesdominio>.mo</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MAC</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>148</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>853</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Macao</name>
+    </instance>
+    <instance scriptid="val_18496_4552998_sb1_514">
+      <custrecord_xpaisesdominio>.mk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MKD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>144</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>389</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Macedonia, La Antigua República Yugoslava de</name>
+    </instance>
+    <instance scriptid="val_18497_4552998_sb1_912">
+      <custrecord_xpaisesdominio>.mg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MDG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>142</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>261</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Madagascar</name>
+    </instance>
+    <instance scriptid="val_18498_4552998_sb1_876">
+      <custrecord_xpaisesdominio>.my</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MYS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>158</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>60</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Malasia</name>
+    </instance>
+    <instance scriptid="val_18499_4552998_sb1_107">
+      <custrecord_xpaisesdominio>.mw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MWI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>156</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>265</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Malawi</name>
+    </instance>
+    <instance scriptid="val_18500_4552998_sb1_350">
+      <custrecord_xpaisesdominio>.mv</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MDV</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>155</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>960</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MV</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Maldivas</name>
+    </instance>
+    <instance scriptid="val_18501_4552998_sb1_119">
+      <custrecord_xpaisesdominio>.ml</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MLI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>145</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>223</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ML</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Malí</name>
+    </instance>
+    <instance scriptid="val_18502_4552998_sb1_812">
+      <custrecord_xpaisesdominio>.ma</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MAR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>137</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>212</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Marruecos</name>
+    </instance>
+    <instance scriptid="val_18503_4552998_sb1_187">
+      <custrecord_xpaisesdominio>.mq</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MTQ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>150</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>596</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MQ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Martinica</name>
+    </instance>
+    <instance scriptid="val_18504_4552998_sb1_797">
+      <custrecord_xpaisesdominio>.mu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MUS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>154</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>230</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Mauricio</name>
+    </instance>
+    <instance scriptid="val_18505_4552998_sb1_402">
+      <custrecord_xpaisesdominio>.mr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MRT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>151</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>222</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Mauritania</name>
+    </instance>
+    <instance scriptid="val_18506_4552998_sb1_715">
+      <custrecord_xpaisesdominio>.yt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MYT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>243</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>262</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>YT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Mayotte</name>
+    </instance>
+    <instance scriptid="val_18507_4552998_sb1_415">
+      <custrecord_xpaisesdominio>.mx</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MEX</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>157</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>52</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MX</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>México</name>
+    </instance>
+    <instance scriptid="val_18508_4552998_sb1_284">
+      <custrecord_xpaisesdominio>.fm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>FSM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>73</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>691</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>FM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Micronesia, Estados Federados de</name>
+    </instance>
+    <instance scriptid="val_18509_4552998_sb1_166">
+      <custrecord_xpaisesdominio>.md</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MDA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>139</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>373</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Moldavia, República de</name>
+    </instance>
+    <instance scriptid="val_18510_4552998_sb1_223">
+      <custrecord_xpaisesdominio>.mc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MCO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>138</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>377</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Mónaco</name>
+    </instance>
+    <instance scriptid="val_18511_4552998_sb1_259">
+      <custrecord_xpaisesdominio>.mn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MNG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>147</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>976</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Mongolia</name>
+    </instance>
+    <instance scriptid="val_18512_4552998_sb1_636">
+      <custrecord_xpaisesdominio>.me</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MNE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>140</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>382</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ME</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Montenegro</name>
+    </instance>
+    <instance scriptid="val_18513_4552998_sb1_497">
+      <custrecord_xpaisesdominio>.ms</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MSR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>152</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 664</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Montserrat</name>
+    </instance>
+    <instance scriptid="val_18514_4552998_sb1_998">
+      <custrecord_xpaisesdominio>.mz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MOZ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>159</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>258</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Mozambique</name>
+    </instance>
+    <instance scriptid="val_18515_4552998_sb1_937">
+      <custrecord_xpaisesdominio>.mm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MMR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>146</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>95</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Myanmar</name>
+    </instance>
+    <instance scriptid="val_18516_4552998_sb1_709">
+      <custrecord_xpaisesdominio>.na</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NAM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>160</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>264</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Namibia</name>
+    </instance>
+    <instance scriptid="val_18517_4552998_sb1_271">
+      <custrecord_xpaisesdominio>.nr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NRU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>169</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>674</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Nauru</name>
+    </instance>
+    <instance scriptid="val_18518_4552998_sb1_681">
+      <custrecord_xpaisesdominio>.np</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NPL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>168</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>977</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NP</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Nepal</name>
+    </instance>
+    <instance scriptid="val_18519_4552998_sb1_617">
+      <custrecord_xpaisesdominio>.ni</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NIC</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>165</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>505</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Nicaragua</name>
+    </instance>
+    <instance scriptid="val_18520_4552998_sb1_703">
+      <custrecord_xpaisesdominio>.ne</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NER</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>162</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>227</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Níger</name>
+    </instance>
+    <instance scriptid="val_18521_4552998_sb1_707">
+      <custrecord_xpaisesdominio>.ng</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NGA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>164</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>234</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Nigeria</name>
+    </instance>
+    <instance scriptid="val_18522_4552998_sb1_620">
+      <custrecord_xpaisesdominio>.nu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NIU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>170</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>683</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Niue</name>
+    </instance>
+    <instance scriptid="val_18523_4552998_sb1_684">
+      <custrecord_xpaisesdominio>.no</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NOR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>167</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>47</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Noruega</name>
+    </instance>
+    <instance scriptid="val_18524_4552998_sb1_623">
+      <custrecord_xpaisesdominio>.nc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NCL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>161</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>687</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Nueva Caledonia</name>
+    </instance>
+    <instance scriptid="val_18525_4552998_sb1_717">
+      <custrecord_xpaisesdominio>.nz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NZL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>171</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>64</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Nueva Zelanda</name>
+    </instance>
+    <instance scriptid="val_18526_4552998_sb1_212">
+      <custrecord_xpaisesdominio>.om</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>OMN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>172</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>968</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>OM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Omán</name>
+    </instance>
+    <instance scriptid="val_18527_4552998_sb1_791">
+      <custrecord_xpaisesdominio>.pk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PAK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>178</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>92</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Pakistán</name>
+    </instance>
+    <instance scriptid="val_18528_4552998_sb1_503">
+      <custrecord_xpaisesdominio>.pw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PLW</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>185</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>680</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Palaos</name>
+    </instance>
+    <instance scriptid="val_18529_4552998_sb1_107">
+      <custrecord_xpaisesdominio>.ps</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PSE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>183</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>970</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Palestina, Estado de</name>
+    </instance>
+    <instance scriptid="val_18530_4552998_sb1_795">
+      <custrecord_xpaisesdominio>.pa</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PAN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>173</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>507</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Panamá</name>
+    </instance>
+    <instance scriptid="val_18531_4552998_sb1_728">
+      <custrecord_xpaisesdominio>.pg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PNG</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>176</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>675</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Papúa Nueva Guinea</name>
+    </instance>
+    <instance scriptid="val_18532_4552998_sb1_846">
+      <custrecord_xpaisesdominio>.py</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PRY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>186</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>595</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Paraguay</name>
+    </instance>
+    <instance scriptid="val_18533_4552998_sb1_375">
+      <custrecord_xpaisesdominio>.pe</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PER</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>174</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>51</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Perú</name>
+    </instance>
+    <instance scriptid="val_18534_4552998_sb1_800">
+      <custrecord_xpaisesdominio>.pn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PCN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>181</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>64</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Islas Pitcairn</name>
+    </instance>
+    <instance scriptid="val_18535_4552998_sb1_307">
+      <custrecord_xpaisesdominio>.pf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PYF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>175</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>689</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Polinesia Francesa</name>
+    </instance>
+    <instance scriptid="val_18536_4552998_sb1_700">
+      <custrecord_xpaisesdominio>.pr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PRI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>182</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 57/68</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Puerto Rico</name>
+    </instance>
+    <instance scriptid="val_18537_4552998_sb1_339">
+      <custrecord_xpaisesdominio>.qa</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>QAT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>187</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>974</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>QA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Qatar</name>
+    </instance>
+    <instance scriptid="val_18538_4552998_sb1_575">
+      <custrecord_xpaisesdominio>.uk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GBR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>77</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>44</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GB</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Reino Unido</name>
+    </instance>
+    <instance scriptid="val_18539_4552998_sb1_825">
+      <custrecord_xpaisesdominio>.cf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CAF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>40</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>236</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>República Centroafricana</name>
+    </instance>
+    <instance scriptid="val_18540_4552998_sb1_627">
+      <custrecord_xpaisesdominio>.cz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CZE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>56</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>420</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>República Checa</name>
+    </instance>
+    <instance scriptid="val_18541_4552998_sb1_755">
+      <custrecord_xpaisesdominio>.la</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LAO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>126</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>856</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>República Democrática Popular Lao</name>
+    </instance>
+    <instance scriptid="val_18542_4552998_sb1_761">
+      <custrecord_xpaisesdominio>.do</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>DOM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>61</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 809/829/ 849</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>DO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>República Dominicana</name>
+    </instance>
+    <instance scriptid="val_18543_4552998_sb1_439">
+      <custrecord_xpaisesdominio>.sk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SVK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>201</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>421</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>República Eslovaca</name>
+    </instance>
+    <instance scriptid="val_18544_4552998_sb1_567">
+      <custrecord_xpaisesdominio>.re</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>REU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>188</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>262</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>RE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Isla Reunión</name>
+    </instance>
+    <instance scriptid="val_18545_4552998_sb1_101">
+      <custrecord_xpaisesdominio>.rw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>RWA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>191</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>250</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>RW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Ruanda</name>
+    </instance>
+    <instance scriptid="val_18546_4552998_sb1_940">
+      <custrecord_xpaisesdominio>.ro</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ROU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>189</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>40</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>RO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Rumanía</name>
+    </instance>
+    <instance scriptid="val_18547_4552998_sb1_534">
+      <custrecord_xpaisesdominio>.eh</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ESH</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>66</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>212 28</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>EH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sahara Occidental</name>
+    </instance>
+    <instance scriptid="val_18548_4552998_sb1_797">
+      <custrecord_xpaisesdominio>.ws</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>WSM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>241</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>685</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>WS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Samoa</name>
+    </instance>
+    <instance scriptid="val_18549_4552998_sb1_155">
+      <custrecord_xpaisesdominio>.as</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ASM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>12</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 684</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Samoa Americana</name>
+    </instance>
+    <instance scriptid="val_18550_4552998_sb1_657">
+      <custrecord_xpaisesdominio>.bl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BLM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>26</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>590</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>San Bartolomé</name>
+    </instance>
+    <instance scriptid="val_18551_4552998_sb1_889">
+      <custrecord_xpaisesdominio>.kn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>KNA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>120</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 869</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>KN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>San Cristóbal y Nieves</name>
+    </instance>
+    <instance scriptid="val_18552_4552998_sb1_919">
+      <custrecord_xpaisesdominio>.sm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SMR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>203</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>378</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>San Marino</name>
+    </instance>
+    <instance scriptid="val_18553_4552998_sb1_330">
+      <custrecord_xpaisesdominio>.mf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MAF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>141</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>590</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>San Martín (Parte Francesa)</name>
+    </instance>
+    <instance scriptid="val_18554_4552998_sb1_720">
+      <custrecord_xpaisesdominio>.pm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SPM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>180</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>508</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>San Pedro y Miquelón</name>
+    </instance>
+    <instance scriptid="val_18555_4552998_sb1_449">
+      <custrecord_xpaisesdominio>.vc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VCT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>234</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 784</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>San Vicente y Las Granadinas</name>
+    </instance>
+    <instance scriptid="val_18556_4552998_sb1_387">
+      <custrecord_xpaisesdominio>.sh</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SHN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>198</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>290</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Santa Helena, Ascensión y Tristán de Acuña</name>
+    </instance>
+    <instance scriptid="val_18557_4552998_sb1_878">
+      <custrecord_xpaisesdominio>.lc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LCA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>128</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 758</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Santa Lucía</name>
+    </instance>
+    <instance scriptid="val_18558_4552998_sb1_147">
+      <custrecord_xpaisesdominio>.va</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VAT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>233</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>379</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Santa Sede (Ciudad Estado Vaticano)</name>
+    </instance>
+    <instance scriptid="val_18559_4552998_sb1_169">
+      <custrecord_xpaisesdominio>.st</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>STP</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>207</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>239</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ST</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Santo Tomé y Príncipe</name>
+    </instance>
+    <instance scriptid="val_18560_4552998_sb1_687">
+      <custrecord_xpaisesdominio>.sn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SEN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>204</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>221</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Senegal</name>
+    </instance>
+    <instance scriptid="val_18561_4552998_sb1_306">
+      <custrecord_xpaisesdominio>.rs</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SRB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>50</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>381</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>RS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Serbia</name>
+    </instance>
+    <instance scriptid="val_18562_4552998_sb1_850">
+      <custrecord_xpaisesdominio>.sc</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SYC</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>194</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>248</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SC</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Seychelles</name>
+    </instance>
+    <instance scriptid="val_18563_4552998_sb1_575">
+      <custrecord_xpaisesdominio>.sl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SLE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>202</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>232</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sierra Leona</name>
+    </instance>
+    <instance scriptid="val_18564_4552998_sb1_562">
+      <custrecord_xpaisesdominio>.sg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SGP</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>197</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>65</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Singapur</name>
+    </instance>
+    <instance scriptid="val_18565_4552998_sb1_148">
+      <custrecord_xpaisesdominio>.sx</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SXM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>252</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 721</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SX</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sint Maarten (Parte Neerlandesa)</name>
+    </instance>
+    <instance scriptid="val_18566_4552998_sb1_465">
+      <custrecord_xpaisesdominio>.sy</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SYR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>209</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>963</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Siria, República árabe de</name>
+    </instance>
+    <instance scriptid="val_18567_4552998_sb1_500">
+      <custrecord_xpaisesdominio>.so</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SOM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>205</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>252</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Somalia</name>
+    </instance>
+    <instance scriptid="val_18568_4552998_sb1_876">
+      <custrecord_xpaisesdominio>.lk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LKA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>130</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>94</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sri Lanka</name>
+    </instance>
+    <instance scriptid="val_18569_4552998_sb1_603">
+      <custrecord_xpaisesdominio>.sz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SWZ</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>210</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>268</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Suazilandia</name>
+    </instance>
+    <instance scriptid="val_18570_4552998_sb1_288">
+      <custrecord_xpaisesdominio>.za</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ZAF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>244</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>27</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ZA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sudáfrica</name>
+    </instance>
+    <instance scriptid="val_18571_4552998_sb1_204">
+      <custrecord_xpaisesdominio>.sd</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SDN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>195</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>249</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SD</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sudán</name>
+    </instance>
+    <instance scriptid="val_18572_4552998_sb1_595">
+      <custrecord_xpaisesdominio>.ss</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SSD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>253</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>211</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SS</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Sudán del Sur</name>
+    </instance>
+    <instance scriptid="val_18573_4552998_sb1_204">
+      <custrecord_xpaisesdominio>.se</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SWE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>196</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>46</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Suecia</name>
+    </instance>
+    <instance scriptid="val_18574_4552998_sb1_265">
+      <custrecord_xpaisesdominio>.ch</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CHE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>42</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>41</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Suiza</name>
+    </instance>
+    <instance scriptid="val_18575_4552998_sb1_830">
+      <custrecord_xpaisesdominio>.sr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SUR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>206</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>597</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Surinam</name>
+    </instance>
+    <instance scriptid="val_18576_4552998_sb1_457">
+      <custrecord_xpaisesdominio>.sj</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SJM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>200</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>47</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SJ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Svalbard y Jan Mayen</name>
+    </instance>
+    <instance scriptid="val_18577_4552998_sb1_852">
+      <custrecord_xpaisesdominio>.th</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>THA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>215</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>66</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TH</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Tailandia</name>
+    </instance>
+    <instance scriptid="val_18578_4552998_sb1_147">
+      <custrecord_xpaisesdominio>.tw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TWN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>225</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>886</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Taiwán, Provincia de China</name>
+    </instance>
+    <instance scriptid="val_18579_4552998_sb1_471">
+      <custrecord_xpaisesdominio>.tz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TZA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>226</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>255</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Tanzania, República Unida de</name>
+    </instance>
+    <instance scriptid="val_18580_4552998_sb1_947">
+      <custrecord_xpaisesdominio>.tj</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TJK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>216</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>992</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TJ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Tayikistán</name>
+    </instance>
+    <instance scriptid="val_18581_4552998_sb1_899">
+      <custrecord_xpaisesdominio>.io</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IOT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>106</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>246</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Territorio Británico del Océano Índico</name>
+    </instance>
+    <instance scriptid="val_18582_4552998_sb1_277">
+      <custrecord_xpaisesdominio>.tf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ATF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>213</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>-</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Territorios Australes Franceses</name>
+    </instance>
+    <instance scriptid="val_18583_4552998_sb1_562">
+      <custrecord_xpaisesdominio>.tl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TLS</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>221</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>670</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Timor-Leste</name>
+    </instance>
+    <instance scriptid="val_18584_4552998_sb1_537">
+      <custrecord_xpaisesdominio>.tg</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TGO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>214</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>228</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Togo</name>
+    </instance>
+    <instance scriptid="val_18585_4552998_sb1_386">
+      <custrecord_xpaisesdominio>.tk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TKL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>217</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>690</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Tokelau</name>
+    </instance>
+    <instance scriptid="val_18586_4552998_sb1_266">
+      <custrecord_xpaisesdominio>.to</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TON</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>220</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>676</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TO</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Tonga</name>
+    </instance>
+    <instance scriptid="val_18587_4552998_sb1_112">
+      <custrecord_xpaisesdominio>.tt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TTO</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>223</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>1 868</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Trinidad y Tobago</name>
+    </instance>
+    <instance scriptid="val_18588_4552998_sb1_289">
+      <custrecord_xpaisesdominio>.tn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TUN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>219</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>216</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Túnez</name>
+    </instance>
+    <instance scriptid="val_18589_4552998_sb1_426">
+      <custrecord_xpaisesdominio>.tm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TKM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>218</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>993</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Turkmenistán</name>
+    </instance>
+    <instance scriptid="val_18590_4552998_sb1_243">
+      <custrecord_xpaisesdominio>.tr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TUR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>222</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>90</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Turquía</name>
+    </instance>
+    <instance scriptid="val_18591_4552998_sb1_459">
+      <custrecord_xpaisesdominio>.tv</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>TUV</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>224</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>688</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>TV</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Tuvalu</name>
+    </instance>
+    <instance scriptid="val_18592_4552998_sb1_281">
+      <custrecord_xpaisesdominio>.ua</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>UKR</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>227</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>380</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>UA</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Ucrania</name>
+    </instance>
+    <instance scriptid="val_18593_4552998_sb1_483">
+      <custrecord_xpaisesdominio>.ug</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>UGA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>228</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>256</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>UG</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Uganda</name>
+    </instance>
+    <instance scriptid="val_18594_4552998_sb1_179">
+      <custrecord_xpaisesdominio>.uy</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>URY</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>231</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>598</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>UY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Uruguay</name>
+    </instance>
+    <instance scriptid="val_18595_4552998_sb1_486">
+      <custrecord_xpaisesdominio>.uz</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>UZB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>232</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>998</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>UZ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Uzbekistán</name>
+    </instance>
+    <instance scriptid="val_18596_4552998_sb1_315">
+      <custrecord_xpaisesdominio>.vu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VUT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>239</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>678</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Vanuatu</name>
+    </instance>
+    <instance scriptid="val_18597_4552998_sb1_926">
+      <custrecord_xpaisesdominio>.ve</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VEN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>235</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>58</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Venezuela, República Bolivariana de</name>
+    </instance>
+    <instance scriptid="val_18598_4552998_sb1_739">
+      <custrecord_xpaisesdominio>.vn</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>VNM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>238</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>84</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>VN</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Vietnam</name>
+    </instance>
+    <instance scriptid="val_18599_4552998_sb1_849">
+      <custrecord_xpaisesdominio>.wf</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>WLF</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>240</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>681</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>WF</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Wallis y Futuna</name>
+    </instance>
+    <instance scriptid="val_18600_4552998_sb1_800">
+      <custrecord_xpaisesdominio>.ye</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>YEM</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>242</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>967</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>YE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Yemen</name>
+    </instance>
+    <instance scriptid="val_18601_4552998_sb1_761">
+      <custrecord_xpaisesdominio>.dj</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>DJI</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>58</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>253</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>DJ</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Yibuti</name>
+    </instance>
+    <instance scriptid="val_18602_4552998_sb1_936">
+      <custrecord_xpaisesdominio>.zm</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ZMB</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>245</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>260</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ZM</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Zambia</name>
+    </instance>
+    <instance scriptid="val_18603_4552998_sb1_979">
+      <custrecord_xpaisesdominio>.zw</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ZWE</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>246</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>263</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ZW</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Zimbabue</name>
+    </instance>
+    <instance scriptid="val_18604_4552998_sb1_517">
+      <custrecord_xpaisesdominio>.de</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>DEU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>57</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>49</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>DE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Alemania</name>
+    </instance>
+    <instance scriptid="val_18605_4552998_sb1_190">
+      <custrecord_xpaisesdominio>.at</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>AUT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>13</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>43</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>AT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Austria</name>
+    </instance>
+    <instance scriptid="val_18606_4552998_sb1_692">
+      <custrecord_xpaisesdominio>.be</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>BEL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>20</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>32</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>BE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Bélgica</name>
+    </instance>
+    <instance scriptid="val_18607_4552998_sb1_434">
+      <custrecord_xpaisesdominio>.cy</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>CYP</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>55</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>357</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>CY</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Chipre</name>
+    </instance>
+    <instance scriptid="val_18608_4552998_sb1_812">
+      <custrecord_xpaisesdominio>.hr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>HRV</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>98</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>385</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>HR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Croacia</name>
+    </instance>
+    <instance scriptid="val_18609_4552998_sb1_478">
+      <custrecord_xpaisesdominio>.dk</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>DNK</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>59</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>45</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>DK</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Dinamarca</name>
+    </instance>
+    <instance scriptid="val_18610_4552998_sb1_145">
+      <custrecord_xpaisesdominio>.si</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>SVN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>199</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>386</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>SI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Eslovenia</name>
+    </instance>
+    <instance scriptid="val_18611_4552998_sb1_989">
+      <custrecord_xpaisesdominio>.es</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ESP</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>68</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>34</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22089_4552998_sb1_473]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>ES</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>España</name>
+    </instance>
+    <instance scriptid="val_18612_4552998_sb1_137">
+      <custrecord_xpaisesdominio>.ee</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>EST</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>64</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>372</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>EE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Estonia</name>
+    </instance>
+    <instance scriptid="val_18613_4552998_sb1_404">
+      <custrecord_xpaisesdominio>.fi</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>FIN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>70</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>358</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>FI</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Finlandia</name>
+    </instance>
+    <instance scriptid="val_18614_4552998_sb1_798">
+      <custrecord_xpaisesdominio>.fr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>FRA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>75</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>33</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>FR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Francia</name>
+    </instance>
+    <instance scriptid="val_18615_4552998_sb1_370">
+      <custrecord_xpaisesdominio>.gr</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>GRC</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>89</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>30</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>GR</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Grecia</name>
+    </instance>
+    <instance scriptid="val_18616_4552998_sb1_836">
+      <custrecord_xpaisesdominio>.hu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>HUN</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>100</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>36</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>F</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22094_4552998_sb1_173]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>F</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>HU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Hungría</name>
+    </instance>
+    <instance scriptid="val_18617_4552998_sb1_205">
+      <custrecord_xpaisesdominio>.ie</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>IRL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>102</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>353</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IE</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Irlanda</name>
+    </instance>
+    <instance scriptid="val_18618_4552998_sb1_171">
+      <custrecord_xpaisesdominio>.it</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>ITA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>110</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>39</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>IT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Italia</name>
+    </instance>
+    <instance scriptid="val_18619_4552998_sb1_330">
+      <custrecord_xpaisesdominio>.lv</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LVA</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>135</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>371</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LV</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Letonia</name>
+    </instance>
+    <instance scriptid="val_18620_4552998_sb1_564">
+      <custrecord_xpaisesdominio>.lt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LTU</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>133</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>370</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Lituania</name>
+    </instance>
+    <instance scriptid="val_18621_4552998_sb1_603">
+      <custrecord_xpaisesdominio>.lu</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>LUX</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>134</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>352</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>LU</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Luxemburgo</name>
+    </instance>
+    <instance scriptid="val_18622_4552998_sb1_809">
+      <custrecord_xpaisesdominio>.mt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>MLT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>153</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>356</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>MT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Malta</name>
+    </instance>
+    <instance scriptid="val_18623_4552998_sb1_147">
+      <custrecord_xpaisesdominio>.nl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>NLD</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>166</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>31</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>NL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Países Bajos</name>
+    </instance>
+    <instance scriptid="val_18624_4552998_sb1_947">
+      <custrecord_xpaisesdominio>.pl</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>POL</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>179</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>48</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PL</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Polonia</name>
+    </instance>
+    <instance scriptid="val_18625_4552998_sb1_736">
+      <custrecord_xpaisesdominio>.pt</custrecord_xpaisesdominio>
+      <custrecord_xpaisesiso3>PRT</custrecord_xpaisesiso3>
+      <custrecord_xpaisespaisns>184</custrecord_xpaisespaisns>
+      <custrecord_xpaisespreftel>351</custrecord_xpaisespreftel>
+      <custrecord_xpaisessepa>T</custrecord_xpaisessepa>
+      <custrecord_xpaisestipoidentificacion>[scriptid=customrecord_x_sii_l4.val_22090_4552998_sb1_936]</custrecord_xpaisestipoidentificacion>
+      <custrecord_xpaisesue>T</custrecord_xpaisesue>
+      <custrecord_xpaisesxiso2>PT</custrecord_xpaisesxiso2>
+      <isinactive>F</isinactive>
+      <name>Portugal</name>
+    </instance>
+  </instances>
   <links>
     <link>
       <linkcategory>BASICSETUPCUSTOM</linkcategory>

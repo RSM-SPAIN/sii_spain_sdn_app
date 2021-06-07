@@ -120,4 +120,30 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20334_4552998_sb1_931">
+      <custrecord_x_l11_codigo>01</custrecord_x_l11_codigo>
+      <custrecord_x_l11_descripcion>Transferencia</custrecord_x_l11_descripcion>
+      <isinactive>F</isinactive>
+      <name>Transferencia</name>
+    </instance>
+    <instance scriptid="val_20335_4552998_sb1_427">
+      <custrecord_x_l11_codigo>02</custrecord_x_l11_codigo>
+      <custrecord_x_l11_descripcion>Cheque</custrecord_x_l11_descripcion>
+      <isinactive>F</isinactive>
+      <name>Cheque</name>
+    </instance>
+    <instance scriptid="val_20336_4552998_sb1_720">
+      <custrecord_x_l11_codigo>03</custrecord_x_l11_codigo>
+      <custrecord_x_l11_descripcion>No se cobra / paga (fecha límite de devengo / devengo forzoso en concurso de acreedores)</custrecord_x_l11_descripcion>
+      <isinactive>F</isinactive>
+      <name>No se cobra / paga</name>
+    </instance>
+    <instance scriptid="val_20337_4552998_sb1_199">
+      <custrecord_x_l11_codigo>04</custrecord_x_l11_codigo>
+      <custrecord_x_l11_descripcion>Otros medios de cobro / pago</custrecord_x_l11_descripcion>
+      <isinactive>F</isinactive>
+      <name>Otros</name>
+    </instance>
+  </instances>
 </customrecordtype>

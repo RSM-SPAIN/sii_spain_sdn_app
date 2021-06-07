@@ -237,4 +237,110 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_86232_1569182_391">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://www1.agenciatributaria.gob.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://www7.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84491_1569182_797]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>VENDORBILL</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_86233_1569182_335">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://www1.agenciatributaria.gob.es/wlpl/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://www7.aeat.es/wlpl/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84491_1569182_797]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>INVOICE</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_86438_1569182_566">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://www1.agenciatributaria.gob.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://www7.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84491_1569182_797]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>VENDORCREDIT</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_86439_1569182_676">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://www1.agenciatributaria.gob.es/wlpl/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://www7.aeat.es/wlpl/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84491_1569182_797]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>CREDITMEMO</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_89614_1569182_564">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://www1.agenciatributaria.gob.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://www7.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84491_1569182_797]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>CREDITCARDCHARGE</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_89615_1569182_956">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://www1.agenciatributaria.gob.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://www7.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84491_1569182_797]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>CREDITCARDREFUND</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_90266_1569182_353">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_90264_1569182_152]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://siihacienda.navarra.es/SII_PRUEBAS.proxy/SiiMensajesXsdHandlet.ashx</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://siihacienda.navarra.es/SII_PRUEBAS.proxy/SiiMensajesXsdHandlet.ashx</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_84493_1569182_578]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>INVOICE</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_96566_1569182_891">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://sii.araba.eus/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://pruebas-sii.araba.eus/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_86442_1569182_666]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>INVOICE</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_96574_1569182_348">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://sii.araba.eus/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://pruebas-sii.araba.eus/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_86442_1569182_666]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>VENDORBILL</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_96575_1569182_978">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://sii.bizkaia.eus/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://pruapps.bizkaia.eus/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_90429_1569182_525]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>INVOICE</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_96576_1569182_434">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://sii.bizkaia.eus/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://pruapps.bizkaia.eus/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_90429_1569182_525]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>VENDORBILL</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_96577_1569182_341">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://sii.egoitza.gipuzkoa.eus/JBS/HACI/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://prep9.gipuzkoa.eus/JBS/HACI/SSII-FACT/ws/fe/SiiFactFEV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_90430_1569182_462]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>INVOICE</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+    <instance scriptid="val_96578_1569182_448">
+      <custrecord_x_siiws_parent>[scriptid=customrecord_x_sii_settings.val_30320_1569182_441]</custrecord_x_siiws_parent>
+      <custrecord_x_siiws_prdurl>https://sii.egoitza.gipuzkoa.eus/JBS/HACI/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_prdurl>
+      <custrecord_x_siiws_sbxurl>https://prep9.gipuzkoa.eus/JBS/HACI/SSII-FACT/ws/fr/SiiFactFRV1SOAP</custrecord_x_siiws_sbxurl>
+      <custrecord_x_siiws_synctype>[scriptid=customrecord_x_sii_tipopresentacion.val_90430_1569182_462]</custrecord_x_siiws_synctype>
+      <custrecord_x_siiws_transtype>VENDORBILL</custrecord_x_siiws_transtype>
+      <isinactive>F</isinactive>
+    </instance>
+  </instances>
 </customrecordtype>

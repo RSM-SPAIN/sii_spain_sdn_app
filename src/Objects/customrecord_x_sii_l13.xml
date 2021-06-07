@@ -120,4 +120,18 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20340_4552998_sb1_938">
+      <custrecord_x_l13_codigo>D</custrecord_x_l13_codigo>
+      <custrecord_x_l13_descripcion>Declarante</custrecord_x_l13_descripcion>
+      <isinactive>F</isinactive>
+      <name>Declarante</name>
+    </instance>
+    <instance scriptid="val_20341_4552998_sb1_759">
+      <custrecord_x_l13_codigo>R</custrecord_x_l13_codigo>
+      <custrecord_x_l13_descripcion>Remitente</custrecord_x_l13_descripcion>
+      <isinactive>F</isinactive>
+      <name>Remitente</name>
+    </instance>
+  </instances>
 </customrecordtype>

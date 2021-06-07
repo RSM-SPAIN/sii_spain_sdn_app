@@ -120,4 +120,102 @@
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_20289_4552998_sb1_503">
+      <custrecord_x_l3_1_codigo>01</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operación de régimen general.</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Regimen General</name>
+    </instance>
+    <instance scriptid="val_20290_4552998_sb1_797">
+      <custrecord_x_l3_1_codigo>02</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Exportación</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Exportación</name>
+    </instance>
+    <instance scriptid="val_20291_4552998_sb1_461">
+      <custrecord_x_l3_1_codigo>03</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operaciones a las que se aplique el régimen especial de bienes usados, objetos de arte, antigüedades y objetos de colección</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Bienes Usados</name>
+    </instance>
+    <instance scriptid="val_20292_4552998_sb1_518">
+      <custrecord_x_l3_1_codigo>04</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Régimen especial del oro de inversión.</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Oro de inversión</name>
+    </instance>
+    <instance scriptid="val_20293_4552998_sb1_251">
+      <custrecord_x_l3_1_codigo>05</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Régimen especial de las agencias de viajes</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Agencias de Viajes</name>
+    </instance>
+    <instance scriptid="val_20294_4552998_sb1_642">
+      <custrecord_x_l3_1_codigo>06</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Régimen especial grupo de entidades en IVA (Nivel Avanzado)</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE grupo de entidades en IVA</name>
+    </instance>
+    <instance scriptid="val_20295_4552998_sb1_301">
+      <custrecord_x_l3_1_codigo>07</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Régimen especial del criterio de caja</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>RE Criterio de Caja</name>
+    </instance>
+    <instance scriptid="val_20296_4552998_sb1_428">
+      <custrecord_x_l3_1_codigo>08</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operaciones sujetas al IPSI / IGIC (Impuesto sobre la Producción, los Servicios y la Importación / Impuesto General Indirecto Canario).</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Operaciones sujetas IGIC/IPSI</name>
+    </instance>
+    <instance scriptid="val_20297_4552998_sb1_286">
+      <custrecord_x_l3_1_codigo>09</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Facturación de las prestaciones de servicios de agencias de viaje que actúan como mediadoras en nombre y por cuenta ajena (D.A.4ª RD1619/2012)</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Agencias de viaje que actúan como mediadoras</name>
+    </instance>
+    <instance scriptid="val_20298_4552998_sb1_931">
+      <custrecord_x_l3_1_codigo>10</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Cobros por cuenta de terceros de honorarios profesionales o de derechos derivados de la propiedad industrial, de autor u otros por cuenta de sus socios, asociados o colegiados efectuados por sociedades, asociaciones, colegios profesionales u otras entidades que realicen estas funciones de cobro.</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Cobros por cuenta de terceros</name>
+    </instance>
+    <instance scriptid="val_20299_4552998_sb1_883">
+      <custrecord_x_l3_1_codigo>11</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operaciones de arrendamiento de local de negocio sujetas a retención</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Arrendamiento de local de negocio sujetas a retención</name>
+    </instance>
+    <instance scriptid="val_20300_4552998_sb1_449">
+      <custrecord_x_l3_1_codigo>12</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operaciones de arrendamiento de local de negocio no sujetos a retención.</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Arrendamiento de local de negocio no sujetos a retención</name>
+    </instance>
+    <instance scriptid="val_20301_4552998_sb1_781">
+      <custrecord_x_l3_1_codigo>13</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operaciones de arrendamiento de local de negocio sujetas y no sujetas a retención.</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Arrendamiento de local de negocio sujetas y no sujetas a retención</name>
+    </instance>
+    <instance scriptid="val_20302_4552998_sb1_717">
+      <custrecord_x_l3_1_codigo>14</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Factura con IVA pendiente de devengo en certificaciones de obra cuyo destinatario sea una Administración Pública.</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Factura con IVA pendiente de devengo en certificaciones de obra cuyo destinatario sea una Administración Pública.</name>
+    </instance>
+    <instance scriptid="val_20303_4552998_sb1_855">
+      <custrecord_x_l3_1_codigo>15</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Factura con IVA pendiente de devengo en operaciones de tracto sucesivo</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Factura con IVA pendiente de devengo en operaciones de tracto sucesivo</name>
+    </instance>
+    <instance scriptid="val_20304_4552998_sb1_178">
+      <custrecord_x_l3_1_codigo>16</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Primer semestre 2017</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Primer semestre 2017</name>
+    </instance>
+  </instances>
 </customrecordtype>

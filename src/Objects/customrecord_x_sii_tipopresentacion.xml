@@ -83,4 +83,53 @@ xmlns:sii=&quot;https://www2.agenciatributaria.gob.es/static_files/common/intern
       <subtab></subtab>
     </customrecordcustomfield>
   </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_84491_1569182_797">
+      <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#xd;
+xmlns:siiLR=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd&quot;&#xd;
+xmlns:sii=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
+      <isinactive>F</isinactive>
+      <name>Nacional</name>
+    </instance>
+    <instance scriptid="val_84492_1569182_221">
+      <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#xd;
+xmlns:siiLR=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd&quot;&#xd;
+xmlns:sii=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
+      <isinactive>F</isinactive>
+      <name>Canarias</name>
+    </instance>
+    <instance scriptid="val_84493_1569182_578">
+      <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#xd;
+xmlns:siiLR=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroLR.xsd&quot;&#xd;
+xmlns:sii=&quot;https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/ssii/fact/ws/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
+      <isinactive>F</isinactive>
+      <name>Navarra</name>
+    </instance>
+    <instance scriptid="val_84494_1569182_847">
+      <custrecord_x_sii_tp_envelope></custrecord_x_sii_tp_envelope>
+      <isinactive>T</isinactive>
+      <name>Ceuta y Melilla</name>
+    </instance>
+    <instance scriptid="val_86442_1569182_666">
+      <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#xd;
+xmlns:siiLR=&quot;https://sii.araba.eus/documentos/SuministroLR.xsd&quot; &#xd;
+xmlns:sii=&quot;https://sii.araba.eus/documentos/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
+      <isinactive>F</isinactive>
+      <name>País Vasco : Álava</name>
+    </instance>
+    <instance scriptid="val_90429_1569182_525">
+      <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#xd;
+xmlns:siiLR=&quot;http://www.bizkaia.eus/ogasuna/sii/documentos/SuministroLR.xsd&quot;&#xd;
+xmlns:sii=&quot;http://www.bizkaia.eus/ogasuna/sii/documentos/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
+      <isinactive>F</isinactive>
+      <name>País Vasco : Vizcaya</name>
+    </instance>
+    <instance scriptid="val_90430_1569182_462">
+      <custrecord_x_sii_tp_envelope>&amp;lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; &#xd;
+xmlns:siiLR=&quot;https://egoitza.gipuzkoa.eus/ogasuna/sii/ficheros/SuministroLR.xsd&quot; &#xd;
+xmlns:sii=&quot;https://egoitza.gipuzkoa.eus/ogasuna/sii/ficheros/SuministroInformacion.xsd&quot;&amp;gt;</custrecord_x_sii_tp_envelope>
+      <isinactive>F</isinactive>
+      <name>País Vasco : Guipúzcoa</name>
+    </instance>
+  </instances>
 </customrecordtype>
