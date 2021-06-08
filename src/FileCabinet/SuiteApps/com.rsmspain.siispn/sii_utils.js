@@ -1,7 +1,7 @@
 /**
  * Utils generales del módulo SII 2.0
- * Versión: 0.0.3
- * Fecha: 21/04/2021
+ * Versión: 0.0.4
+ * Fecha: 02/06/2020
  */
 
 function getSettings(ntype, subsidiary) {
@@ -48,7 +48,7 @@ function getSettings(ntype, subsidiary) {
         var siiws_ntype = results[row].getValue('custrecord_x_siiws_transtype', 'custrecord_x_siiws_parent');
 
         map[ntype].include_pending_approval = results[row].getValue('custrecord_x_siiset_includependapproval');
-    
+
         if (siisettra_ntype == ntype) {
             map[ntype].tokens.consumer_id = results[row].getValue('custrecord_x_siiset_consumerid');
             map[ntype].tokens.consumer_key = results[row].getValue('custrecord_x_siiset_consumerkey');
@@ -92,7 +92,7 @@ function getTokens(subsidiary) {
 }
 
 function getAEATUrls(subsidiary, emitted) {
-    var trans_ids = {true: ['7', '10'], false: ['17', '20']};
+    var trans_ids = {true: ['7', '10', '5', '29'], false: ['17', '20', '21', '22']};
     var filters = [
         ['custrecord_x_siiset_subsidiaries', 'anyof', subsidiary || '1'] , 'and',
         ['custrecord_x_siiws_parent.custrecord_x_siiws_transtype', 'anyof', trans_ids[emitted]]
@@ -105,7 +105,7 @@ function getAEATUrls(subsidiary, emitted) {
 
     var results = nlapiSearchRecord('customrecord_x_sii_settings', null, filters, columns);
     for (var row in results) {
-        return results[row].getValue('custrecord_x_siiset_tosandbox') == 'T' ? 
+        return results[row].getValue('custrecord_x_siiset_tosandbox') == 'T' ?
             results[row].getValue('custrecord_x_siiws_sbxurl', 'custrecord_x_siiws_parent') :
             results[row].getValue('custrecord_x_siiws_prdurl', 'custrecord_x_siiws_parent');
     }
@@ -119,8 +119,8 @@ function getSublistSubsidiaries() {
         var filters = [];
         filters.push(new nlobjSearchFilter('isinactive', null, 'is', 'F'));
         filters.push(new nlobjSearchFilter('iselimination', null, 'is', 'F'));
-        
-        var results = nlapiSearchRecord('subsidiary', null, filters, new nlobjSearchColumn('custrecord_x_sii_certificate')); 
+
+        var results = nlapiSearchRecord('subsidiary', null, filters, new nlobjSearchColumn('custrecord_x_sii_certificate'));
         for (var row in results) map[results[row].getId()] = !!results[row].getValue('custrecord_x_sii_certificate');
     } else {
         map['1'] = !!nlapiLoadConfiguration('companyinformation').getFieldValue('custrecord_x_sii_certificate');
@@ -142,7 +142,7 @@ function useSII(subsidiaries, isClientEvent) {
             return nlapiGetSubsidiary();
             //Siempre devuelve la subsidiria del usuario
             //si es unisubsidiaria y tiene el bundle isntalado
-            //suponemos que quiere usarlo. 
+            //suponemos que quiere usarlo.
         } else {
             return !!nlapiLoadConfiguration('companyinformation').getFieldValue('custrecord_x_sii_certificate');
         }
@@ -151,14 +151,14 @@ function useSII(subsidiaries, isClientEvent) {
 
 function getTipoFactura(code, rec_type) {
     switch (rec_type) {
-        case 'invoice': case 'creditmemo':
+        case 'invoice': case 'creditmemo': case 'cashrefund': case 'cashsale':
             var table = "customrecord_x_sii_l2_emi";
             var field = "custrecord_x_l2_emi_codigo";
-        break;
+            break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
             var table = "customrecord_x_sii_l2_reci";
             var field = "custrecord_x_l2_reci_codigo";
-        break;
+            break;
         default: return null;
     }
 
@@ -169,14 +169,14 @@ function getTipoFactura(code, rec_type) {
 
 function getClaveRegimen(code, rec_type) {
     switch (rec_type) {
-        case 'invoice': case 'creditmemo':
+        case 'invoice': case 'creditmemo': case 'cashrefund': case 'cashsale':
             var table = "customrecord_x_sii_l3_1";
             var field = "custrecord_x_l3_1_codigo";
-        break;
+            break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
             var table = "customrecord_x_sii_l3_2";
             var field = "custrecord_x_l3_2_codigo";
-        break;
+            break;
         default: return null;
     }
 
@@ -199,10 +199,11 @@ function getTipoRectificativa(code) {
 function setDefaultValuesOnTransLoad(rectype, id) {
     var exempt = false;
     var sublists = ['item', 'expense', 'expcost', 'itemcost'], items = [];
-    var trantype = (rectype == 'invoice' || rectype == 'creditmemo') ? 'tipofacturaemitida' : 'tipofacturarecibida';
-    var keytype = (rectype == 'invoice' || rectype == 'creditmemo') ? 'claveregimenexpedidas' : 'claveregimenrecibidas';
+    var emit_trans = ['invoice', 'creditmemo', 'cashsale', 'cashrefund'];
+    var trantype = (emit_trans.indexOf(rectype) >= 0) ? 'tipofacturaemitida' : 'tipofacturarecibida';
+    var keytype = (emit_trans.indexOf(rectype) >= 0) ? 'claveregimenexpedidas' : 'claveregimenrecibidas';
     var taxtypes = null;
-    
+
     if (!id) return false;
 
     var record = nlapiLoadRecord(rectype, id);
@@ -217,15 +218,15 @@ function setDefaultValuesOnTransLoad(rectype, id) {
     var values = settings.getValues(location);
 
     switch (rectype) {
-        case 'invoice': case 'creditmemo':
+        case 'invoice': case 'creditmemo': case 'cashrefund': case 'cashsale':
             if (!values) {
-                var results = nlapiSearchRecord('customrecord_x_sii_l2_emi', null, new nlobjSearchFilter('custrecord_x_l2_emi_codigo', null, 'is', rectype == 'invoice' ? 'F1' : 'R1'));
+                var results = nlapiSearchRecord('customrecord_x_sii_l2_emi', null, new nlobjSearchFilter('custrecord_x_l2_emi_codigo', null, 'is', (rectype == 'invoice' || rectype == 'cashsale')  ? 'F1' : 'R1'));
                 if (!!results) record.setFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 record.setFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? values.invoice_type : trantype_v);
                 if (rectype == 'creditmemo') record.setFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
-        break;
+            break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
             if (!values) {
                 var results = nlapiSearchRecord('customrecord_x_sii_l2_reci', null, new nlobjSearchFilter('custrecord_x_l2_reci_codigo', null, 'is', rectype == 'vendorbill' || rectype == 'creditcardcharge' ? 'F1' : 'R1'));
@@ -235,7 +236,7 @@ function setDefaultValuesOnTransLoad(rectype, id) {
                 if (rectype == 'vendorcredit') record.setFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
             record.setFieldValue('custbody_x_sii_fechacontab', f_contab);
-        break;
+            break;
     }
 
     for (var i in sublists) {
@@ -254,7 +255,7 @@ function setDefaultValuesOnTransLoad(rectype, id) {
         columns.push(new nlobjSearchColumn('custrecord_x_sii_claveregimenrecibidas'));
         columns.push(new nlobjSearchColumn('isexcludetaxreports'));
         columns.push(new nlobjSearchColumn('custrecord_x_sii_tax_tipopresentacion'));
-        
+
         var results = nlapiSearchRecord('salestaxitem', null, new nlobjSearchFilter('internalid', null, 'anyof', items), columns);
         for (var row in results) {
             exempt = !exempt ? results[row].getValue('exempt') == 'T' : exempt;
@@ -266,7 +267,7 @@ function setDefaultValuesOnTransLoad(rectype, id) {
 
             if (!taxtypes) taxtypes = results[row].getValue('custrecord_x_sii_tax_tipopresentacion');
             if (results[row].getValue('isexcludetaxreports') != 'T') {
-                if (keys.indexOf(results[row].getValue('custrecord_x_sii_' + keytype) < 0)) 
+                if (keys.indexOf(results[row].getValue('custrecord_x_sii_' + keytype) < 0))
                     keys.push(results[row].getValue('custrecord_x_sii_' + keytype));
             }
         }
@@ -294,6 +295,7 @@ function setDefaultValuesOnTransLoad(rectype, id) {
  */
 function setExportLoad(rectype, id) {
     var maxlin = 900;
+    var emit_trans = ['invoice', 'creditmemo', 'cashsale', 'cashrefund'];
     var sendtype = {A: '1', B: '2', M: '3'};
     var billStatus = {
         correcto: '1',
@@ -301,14 +303,14 @@ function setExportLoad(rectype, id) {
         incorrecto: '3',
         exportado: '4'
     }
-    
+
     if (!id) return false;
 
     var record = nlapiLoadRecord(rectype, id);
     var subsidiary = record.getFieldValue('subsidiary');
     var ntype = record.getFieldValue('ntype');
     var exclude = record.getFieldValue('custbody_x_sii_excludefromexport') == 'T';
-    var emitted = (rectype == 'invoice' || rectype == 'creditmemo') ? 'T': 'F';
+    var emitted = (emit_trans.indexOf(rectype) >= 0) ? 'T': 'F';
     var location = record.getFieldValue('location');
     var type = record.getFieldValue('custbody_x_sii_tipopresentacion') || 1;
     var pending_approval = record.getFieldValue('approvalstatus') == '1';
@@ -369,10 +371,10 @@ function setExportLoad(rectype, id) {
             filters.push(new nlobjSearchFilter('custrecord_x_le_transaccion', null, 'anyof', id));
             filters.push(new nlobjSearchFilter('custrecord_x_le_exportacion', null, 'noneof', ['@NONE@']));
             filters.push(new nlobjSearchFilter('custrecord_x_le_estadofactura', null, 'noneof', ['@NONE@']));
-    
+
             columns.push(new nlobjSearchColumn('created').setSort(true));
             columns.push(new nlobjSearchColumn('custrecord_x_le_estadofactura'));
-    
+
             var results = nlapiSearchRecord('customrecord_x_sii_lineasexportaciones', null, filters, columns);
             for (var row in results) {
                 switch (results[row].getValue('custrecord_x_le_estadofactura')) {
@@ -380,10 +382,10 @@ function setExportLoad(rectype, id) {
                     case billStatus.aceptado: response.send = sendtype.M; break;
                     case billStatus.correcto: response.exportable = false; break;
                 }
-                if (!response.exportable || response.send == sendtype.M) break; 
+                if (!response.exportable || response.send == sendtype.M) break;
             }
         }
-    
+
         return response;
     }
 
@@ -423,11 +425,12 @@ function setExportLoad(rectype, id) {
  */
 function setDefaultValuesOnTransWF(rectype) {
     var exempt = false;
+    var emit_trans = ['invoice', 'creditmemo', 'cashsale', 'cashrefund'];
     var sublists = ['item', 'expense', 'expcost', 'itemcost'], items = [];
-    var trantype = (rectype == 'invoice' || rectype == 'creditmemo') ? 'tipofacturaemitida' : 'tipofacturarecibida';
-    var keytype = (rectype == 'invoice' || rectype == 'creditmemo') ? 'claveregimenexpedidas' : 'claveregimenrecibidas';
+    var trantype = (emit_trans.indexOf(rectype) >= 0) ? 'tipofacturaemitida' : 'tipofacturarecibida';
+    var keytype = (emit_trans.indexOf(rectype) >= 0) ? 'claveregimenexpedidas' : 'claveregimenrecibidas';
     var taxtypes = null;
-    
+
     var ntype = nlapiGetFieldValue('ntype');
     var subsidiary = nlapiGetFieldValue('subsidiary');
     var location = nlapiGetFieldValue('location');
@@ -440,25 +443,25 @@ function setDefaultValuesOnTransWF(rectype) {
     if (!useSII(subsidiary)) return true;
 
     switch (rectype) {
-        case 'invoice': case 'creditmemo':
+        case 'invoice': case 'creditmemo': case 'cashrefund': case 'cashsale':
             if (!values) {
-                var results = nlapiSearchRecord('customrecord_x_sii_l2_emi', null, new nlobjSearchFilter('custrecord_x_l2_emi_codigo', null, 'is', rectype == 'invoice' ? 'F1' : 'R1'));
+                var results = nlapiSearchRecord('customrecord_x_sii_l2_emi', null, new nlobjSearchFilter('custrecord_x_l2_emi_codigo', null, 'is', (rectype == 'invoice' || rectype == 'cashsale') ? 'F1' : 'R1'));
                 if (!!results) nlapiSetFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 nlapiSetFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? values.invoice_type : trantype_v);
                 if (rectype == 'creditmemo') nlapiSetFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
-        break;
+            break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
             if (!values) {
-                var results = nlapiSearchRecord('customrecord_x_sii_l2_reci', null, new nlobjSearchFilter('custrecord_x_l2_reci_codigo', null, 'is', rectype == 'vendorbill' || rectype == 'creditcardcharge' ? 'F1' : 'R1'));
+                var results = nlapiSearchRecord('customrecord_x_sii_l2_reci', null, new nlobjSearchFilter('custrecord_x_l2_reci_codigo', null, 'is', (rectype == 'vendorbill' || rectype == 'creditcardcharge') ? 'F1' : 'R1'));
                 if (!!results) nlapiSetFieldValue('custbody_x_sii_tipofacturarecibida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 nlapiSetFieldValue('custbody_x_sii_tipofacturarecibida', !trantype_v ? values.bill_type : trantype_v);
                 if (rectype == 'vendorcredit') nlapiSetFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
             nlapiSetFieldValue('custbody_x_sii_fechacontab', f_contab);
-        break;
+            break;
     }
 
     for (var i in sublists) {
@@ -477,7 +480,7 @@ function setDefaultValuesOnTransWF(rectype) {
         columns.push(new nlobjSearchColumn('custrecord_x_sii_claveregimenrecibidas'));
         columns.push(new nlobjSearchColumn('isexcludetaxreports'));
         columns.push(new nlobjSearchColumn('custrecord_x_sii_tax_tipopresentacion'));
-        
+
         var results = nlapiSearchRecord('salestaxitem', null, new nlobjSearchFilter('internalid', null, 'anyof', items), columns);
         for (var row in results) {
             exempt = !exempt ? results[row].getValue('exempt') == 'T' : exempt;
@@ -489,7 +492,7 @@ function setDefaultValuesOnTransWF(rectype) {
 
             if (!taxtypes) taxtypes = results[row].getValue('custrecord_x_sii_tax_tipopresentacion');
             if (results[row].getValue('isexcludetaxreports') != 'T') {
-                if (keys.indexOf(results[row].getValue('custrecord_x_sii_' + keytype) < 0)) 
+                if (keys.indexOf(results[row].getValue('custrecord_x_sii_' + keytype) < 0))
                     keys.push(results[row].getValue('custrecord_x_sii_' + keytype));
             }
         }
@@ -515,6 +518,7 @@ function setDefaultValuesOnTransWF(rectype) {
  */
 function setExportWF(rectype, id) {
     var maxlin = 900;
+    var emit_trans = ['invoice', 'creditmemo', 'cashsale', 'cashrefund'];
     var sendtype = {A: '1', B: '2', M: '3'};
     var billStatus = {
         correcto: '1',
@@ -522,11 +526,11 @@ function setExportWF(rectype, id) {
         incorrecto: '3',
         exportado: '4'
     }
-    
+
     var subsidiary = nlapiGetFieldValue('subsidiary');
     var ntype = nlapiGetFieldValue('ntype');
     var exclude = nlapiGetFieldValue('custbody_x_sii_excludefromexport') == 'T';
-    var emitted = (rectype == 'invoice' || rectype == 'creditmemo') ? 'T': 'F';
+    var emitted = (emit_trans.indexOf(rectype) >= 0) ? 'T': 'F';
     var location = nlapiGetFieldValue('location');
     var type = nlapiGetFieldValue('custbody_x_sii_tipopresentacion') || 1;
     var tranid = nlapiGetFieldValue('tranid');
@@ -585,10 +589,10 @@ function setExportWF(rectype, id) {
             filters.push(new nlobjSearchFilter('custrecord_x_le_transaccion', null, 'anyof', id));
             filters.push(new nlobjSearchFilter('custrecord_x_le_exportacion', null, 'noneof', ['@NONE@']));
             filters.push(new nlobjSearchFilter('custrecord_x_le_estadofactura', null, 'noneof', ['@NONE@']));
-    
+
             columns.push(new nlobjSearchColumn('created').setSort(true));
             columns.push(new nlobjSearchColumn('custrecord_x_le_estadofactura'));
-    
+
             var results = nlapiSearchRecord('customrecord_x_sii_lineasexportaciones', null, filters, columns);
             for (var row in results) {
                 switch (results[row].getValue('custrecord_x_le_estadofactura')) {
@@ -596,10 +600,10 @@ function setExportWF(rectype, id) {
                     case billStatus.aceptado: response.send = sendtype.M; break;
                     case billStatus.correcto: response.exportable = false; break;
                 }
-                if (!response.exportable || response.send == sendtype.M) break; 
+                if (!response.exportable || response.send == sendtype.M) break;
             }
         }
-    
+
         return response;
     }
 

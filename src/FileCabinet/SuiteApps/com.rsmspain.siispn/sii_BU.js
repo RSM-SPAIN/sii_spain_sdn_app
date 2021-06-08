@@ -17,11 +17,11 @@ function siiOnBeforeInstall(toversion) {
         default: throw nlapiCreateError('LOCKDOWN', 'Bundler unavailable. Call to RSM for further information.');
     }
 }
- 
+
 function siiOnAfterInstall(toversion) {
 
 }
- 
+
 function siiOnBeforeUpdate(fromversion, toversion) {
     switch (nlapiGetContext().getCompany()) {
         case '5073216': case '5073216_SB1': break;
@@ -41,21 +41,21 @@ function siiOnBeforeUpdate(fromversion, toversion) {
         default: throw nlapiCreateError('LOCKDOWN', 'Under construction. Call to RSM for further information.');
     }
 }
- 
+
 function siiOnAfterUpdate(fromversion, toversion) {
 
 }
 
 //#region FUNCIONES
-    function checkFeatureEnabled(pFeatureId) {
-        if (!nlapiGetContext().getFeature(pFeatureId)) {
-            throw new nlobjError('INSTALLATION_ERROR', 'Feature ' + pFeatureId + ' must be enabled.');
-        }
+function checkFeatureEnabled(pFeatureId) {
+    if (!nlapiGetContext().getFeature(pFeatureId)) {
+        throw new nlobjError('INSTALLATION_ERROR', 'Feature ' + pFeatureId + ' must be enabled.');
     }
+}
 
-    function checkParameterEnabled(pPrefId) {
-        if (!nlapiGetContext().getPreference(pPrefId)) {
-            throw new nlobjError('INSTALLATION_ERROR', 'Preference ' + pPrefId + ' must be enabled.');
-        }
+function checkParameterEnabled(pPrefId) {
+    if (!nlapiGetContext().getPreference(pPrefId)) {
+        throw new nlobjError('INSTALLATION_ERROR', 'Preference ' + pPrefId + ' must be enabled.');
     }
+}
 //#endregion

@@ -32,7 +32,7 @@ function siiExportReport(request, response) {
 
     var index = 0;
     report.addSearchDataSource(
-        'customrecord_x_sii_lineasexportaciones', null, filters, columns, 
+        'customrecord_x_sii_lineasexportaciones', null, filters, columns,
         {
             'subsidiary': columns[index++],
             'type': columns[index++],
@@ -43,9 +43,9 @@ function siiExportReport(request, response) {
             'error': columns[index++]
         }
     );
-    
+
     var form = nlapiCreateReportForm('Report de Exportaciones SII');
-    report.executeReport(form); 
+    report.executeReport(form);
 
     response.writePage(form);
 }
