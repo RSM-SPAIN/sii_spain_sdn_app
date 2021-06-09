@@ -24,7 +24,6 @@
       <feature required="true">ASSEMBLIES</feature>
       <feature required="true">WORKORDERS</feature>
       <feature required="true">RECEIVABLES</feature>
-      <feature required="true">CUSTOMTRANSACTIONS</feature>
       <feature required="true">EXPREPORTS</feature>
       <feature required="true">ADVRECEIVING</feature>
       <feature required="true">OPPORTUNITIES</feature>
@@ -37,12 +36,12 @@
       <feature required="true">CLASSES</feature>
       <feature required="true">DEPARTMENTS</feature>
       <feature required="true">LOCATIONS</feature>
+      <feature required="false">CUSTOMTRANSACTIONS</feature>
     </features>
-      <!-- Supplementary Tax Calculation bundle field-->
     <bundles>
       <bundle id="123426">
         <objects>
-        <object>custrecord_post_notional_tax_amount</object>
+          <object>custrecord_post_notional_tax_amount</object>
         </objects>
       </bundle>
     </bundles>

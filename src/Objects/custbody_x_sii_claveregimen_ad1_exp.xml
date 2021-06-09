@@ -4,7 +4,7 @@
   <bodyassemblybuild>F</bodyassemblybuild>
   <bodybom>F</bodybom>
   <bodycustomerpayment>F</bodycustomerpayment>
-  <bodycustomtransactions>[scriptid=customtransaction_x_testtransaction]</bodycustomtransactions>
+  <bodycustomtransactions></bodycustomtransactions>
   <bodydeposit>F</bodydeposit>
   <bodydepositapplication>F</bodydepositapplication>
   <bodyexpensereport>F</bodyexpensereport>
