@@ -17,17 +17,17 @@
       <feature required="true">MULTILANGUAGE</feature>
       <feature required="false">MATRIXITEMS</feature>
       <feature required="true">ADVANCEDJOBS</feature>
-      <feature required="true">JOBS</feature>
+      <feature required="false">JOBS</feature>
       <feature required="true">ACCOUNTING</feature>
       <feature required="true">WEBSITE</feature>
       <feature required="false">SUITESIGNON</feature>
-      <feature required="true">ASSEMBLIES</feature>
-      <feature required="true">WORKORDERS</feature>
-      <feature required="true">RECEIVABLES</feature>
-      <feature required="true">EXPREPORTS</feature>
-      <feature required="true">ADVRECEIVING</feature>
-      <feature required="true">OPPORTUNITIES</feature>
-      <feature required="true">WEBSTORE</feature>
+      <feature required="false">ASSEMBLIES</feature>
+      <feature required="false">WORKORDERS</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="false">ADVRECEIVING</feature>
+      <feature required="false">OPPORTUNITIES</feature>
+      <feature required="false">WEBSTORE</feature>
       <feature required="true">MULTILOCINVT</feature>
       <feature required="true">PAYABLES</feature>
       <feature required="true">INVENTORY</feature>
@@ -36,7 +36,7 @@
       <feature required="true">CLASSES</feature>
       <feature required="true">DEPARTMENTS</feature>
       <feature required="true">LOCATIONS</feature>
-      <feature required="false">CUSTOMTRANSACTIONS</feature>
+      <feature required="true">CUSTOMTRANSACTIONS</feature>
     </features>
     <bundles>
       <bundle id="123426">
