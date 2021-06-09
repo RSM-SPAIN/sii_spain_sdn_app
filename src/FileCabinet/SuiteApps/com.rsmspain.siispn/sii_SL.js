@@ -2,7 +2,7 @@
  * sii_SL.js
  * @NApiVersion 2.x
  * @NScriptType Suitelet
-Se  * @NModuleScope Public
+ * @NModuleScope Public
  */
 
 // this creates a Suitelet form that lets you write and send an email

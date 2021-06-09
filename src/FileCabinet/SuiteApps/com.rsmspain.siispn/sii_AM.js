@@ -55,7 +55,7 @@ function createFile(id) {
 
     filters.push(new nlobjSearchFilter('isinactive', null, 'is', 'F'));
     filters.push(new nlobjSearchFilter('internalid', null, 'anyof', id));
-    
+
     columns.push(new nlobjSearchColumn('name'));
     columns.push(new nlobjSearchColumn('legalname', 'custrecord_x_sii_subsidiary'));
     columns.push(new nlobjSearchColumn('taxidnum', 'custrecord_x_sii_subsidiary'));
@@ -63,7 +63,7 @@ function createFile(id) {
     columns.push(new nlobjSearchColumn('custrecord_x_sii_tipoenvioaeat'));
     columns.push(new nlobjSearchColumn('custrecord_x_sii_sonfacturasemitidas'));
     columns.push(new nlobjSearchColumn('custrecord_x_sii_tp_envelope', 'custrecord_x_sii_tipopresentacion'));
-    
+
     var results = nlapiSearchRecord('customrecord_x_sii_tablaexportaciones', null, filters, columns);
     for (var row in results) {
         if (!getSiiDocument(results[row], results[row].getValue('custrecord_x_sii_sonfacturasemitidas') == 'T', results[row].getValue('custrecord_x_sii_tp_envelope', 'custrecord_x_sii_tipopresentacion')))

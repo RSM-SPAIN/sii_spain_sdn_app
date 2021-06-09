@@ -1,9 +1,9 @@
 /**
  * Librería de presentación automática a la AEAT de las exportaciones SII.
- * Versión: 0.0.3
- * Fecha: 29/09/2020
+ * Versión: 0.0.4
+ * Fecha: 02/06/2021
  * @NApiVersion 2.0
- * @NModuleScope Public 
+ * @NModuleScope Public
  */
 define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', 'N/search', 'N/certificateControl', 'N/runtime', 'N/config', 'N/log', 'N/format'],
     function (n_https_cert, n_file, n_xml, n_error, n_record, n_search, n_cert_ctrl, n_runtime, n_config, n_log, n_format) {
@@ -47,29 +47,6 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                 };
 
                 externalServiceCall(parameters);
-
-                // var response = n_https_cert.post({
-                //     url: url, certId: cert, body: content,
-                //     headers: {'Content-Type': 'application/soap+xml'}
-                // });
-
-                // setLogMessage('Realizando envio a URL: '+ url ,exportId);
-
-                // if (!!isSuccessStatusCode(response.code)) {
-                //     var isWSExcepcion = checkWSExcepcion(response.body);
-                      
-                //     if (isWSExcepcion){ 
-                //         getWSExcepcionError(response.body,exportId);
-                //         errorXmlAEAT(response.code, response.body);
-                //     }else{
-                //         attachAEATResponse(exportId, record, response.body);
-                //     }
-                //     var body = xmlParse(response.body, exportId);
-                //     !!body ? updateExportLines(body, record) : errorXmlAEAT(response.code, response.body);
-                // } else {
-                //     getWSExcepcionError(response.body,exportId);
-                //     errorXmlAEAT(response.code, response.body);
-                // }
             }
 
             //#region UTILS
@@ -87,7 +64,7 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
             function getCertificateId(subsidiary) {
                 if (!isOneWorld()) {
                     var key = n_config.load({type: n_config.Type.COMPANY_INFORMATION})
-                    .getText({fieldId: 'custrecord_x_sii_certificate'});
+                        .getText({fieldId: 'custrecord_x_sii_certificate'});
                 } else {
                     var key = ((n_search.lookupFields({
                         type: 'subsidiary',id: subsidiary,
@@ -101,8 +78,8 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
             function getAEATUrls(subsidiary, emitted, syncType) {
                 var toSandbox = null, prdurl = null, sbxurl = null;
                 var trans_ids = {
-                    true: ['7', '10'],
-                    false: ['17', '20']
+                    true: ['7', '10', '5', '29'],
+                    false: ['17', '20', '21', '22']
                 };
 
                 n_search.create({
@@ -148,15 +125,15 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                         response['respuestaglobal'] = !!status ? status.textContent : '';
                         response['codigocsv'] = !!csv_code ? csv_code.textContent : '';
 
-                      var idOtroNum = 0;
+                        var idOtroNum = 0;
                         for (var row in line_node) {
-                          	var serie = (line_node[row].getElementsByTagName({tagName: 'sii:NumSerieFacturaEmisor'}) || [])[0];
+                            var serie = (line_node[row].getElementsByTagName({tagName: 'sii:NumSerieFacturaEmisor'}) || [])[0];
                             var nif = "";
                             if (rNode != null){
-                              nif = !!emitter_node ? (emitter_node[row].getElementsByTagName({tagName: 'sii:NIF'}) || [])[0] : null;
-                              if (!nif && !!idOtro_node && !!emitter_node[row].hasChildNodes()) {
-                                  nif = (idOtro_node[idOtroNum++].getElementsByTagName({tagName: 'sii:ID'}) || [])[0];
-                              }
+                                nif = !!emitter_node ? (emitter_node[row].getElementsByTagName({tagName: 'sii:NIF'}) || [])[0] : null;
+                                if (!nif && !!idOtro_node && !!emitter_node[row].hasChildNodes()) {
+                                    nif = (idOtro_node[idOtroNum++].getElementsByTagName({tagName: 'sii:ID'}) || [])[0];
+                                }
                             }
                             var status = (line_node[row].getElementsByTagName({tagName: 'siiR:EstadoRegistro'}) || [])[0];
                             var code = (line_node[row].getElementsByTagName({tagName: 'siiR:CodigoErrorRegistro'}) || [])[0]
@@ -172,12 +149,10 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
 
                         return response;
                     } else {
-                        getWSExcepcionError(xml, exportId);
-                        errorXmlAEAT('200', xml);
+                        if (!!getWSExcepcionError(xml, exportId)) errorXmlAEAT('200', xml);
                     }
                 } else {
-                    getWSExcepcionError(xml, exportId);
-                    errorXmlAEAT('200', xml);
+                    if (!!getWSExcepcionError(xml, exportId)) errorXmlAEAT('200', xml);
                 }
             }
 
@@ -203,7 +178,7 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                 record.setValue('isinactive', true);
 
                 for (var i = 0; i < record.getLineCount({sublistId: 'recmachcustrecord_x_le_exportacion'}); i++) {
-                    var transaction = record.getSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_tran_number', i) || 
+                    var transaction = record.getSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_tran_number', i) ||
                         record.getSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_transaccion_display', i).split('#')[1];
                     var recordtype = record.getSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_recordtype', i);
                     var nif = "";
@@ -246,7 +221,7 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                     fileType: n_file.Type.XMLDOC,
                     contents: xml,
                 });
-                
+
                 fileObj.folder = -15;
                 var fileId = fileObj.save();
 
@@ -255,15 +230,16 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                     to: {type: 'customrecord_x_sii_tablaexportaciones', id: exportId}
                 });
             }
-            
+
             function checkWSExcepcion(body) {
                 return body.indexOf('WSExcepcion') >= 0;
             }
 
             function getWSExcepcionError(body, exportId) {
+                var fault_string_node = '';
                 var xml = n_xml.Parser.fromString({text: body});
                 if (!!(n_xml.XPath.select({node: xml, xpath: '//faultcode'}) || [])[0]) {
-                    var fault_string_node = (n_xml.XPath.select({node: xml, xpath: '//faultstring'}) || [])[0];
+                    fault_string_node = (n_xml.XPath.select({node: xml, xpath: '//faultstring'}) || [])[0];
                     var message = !!fault_string_node ? fault_string_node.textContent : body;
                 } else {
                     var message = body;
@@ -271,15 +247,19 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
 
                 var record = n_record.create({type: 'customrecord_x_sii_exportaciones_log'});
                 record.setValue('custrecord_x_sii_exp_log_msg', message);
+                record.setValue('custrecord_x_sii_exp_log_error', !!fault_string_node);
                 record.setValue('custrecord_x_sii_exp_log_exportacion', exportId);
                 record.save();
+
+                return !!fault_string_node;
             }
 
             function setLogMessage(message ,exportId) {
 
-                log.audit('setLogMessage', message + ' / '+ exportId) 
+                log.audit('setLogMessage', message + ' / '+ exportId)
                 var record = n_record.create({type: 'customrecord_x_sii_exportaciones_log'});
                 record.setValue('custrecord_x_sii_exp_log_msg', message);
+                record.setValue('custrecord_x_sii_exp_log_error', false);
                 record.setValue('custrecord_x_sii_exp_log_exportacion',  exportId);
                 record.save();
             }
@@ -288,24 +268,25 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                 var counter = 1;
                 var exit = false;
                 var errorAfterRetry;
+
                 do {
+                    errorAfterRetry = null;
                     try {
                         setLogMessage('Realizando envio a URL: '+ url ,exportId);
                         var response = n_https_cert.post({
                             url: parameters.url, certId: parameters.certId, body: parameters.content,
                             headers: {'Content-Type': 'application/soap+xml'}
-                        });								
+                        });
 
                         if (!!isSuccessStatusCode(response.code) || response.code == 200) {
                             status = 'true';
                             exit = true;
 
                             var isWSExcepcion = checkWSExcepcion(response.body);
-                      
-                            if (isWSExcepcion){ 
-                                getWSExcepcionError(response.body,exportId);
-                                errorXmlAEAT(response.code, response.body);
-                            }else{
+
+                            if (isWSExcepcion) {
+                                if (!!getWSExcepcionError(response.body, exportId)) errorXmlAEAT(response.code, response.body);
+                            } else {
                                 attachAEATResponse(exportId, record, response.body);
                             }
                             var body = xmlParse(response.body, exportId);
@@ -314,66 +295,45 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                         } else if (response.code != 200) {
                             var responsecode = "NetSuite received a non-200 response code: " + response.code;
                             setLogMessage(responsecode,parameters.exportId);
-                            getWSExcepcionError(response.body,exportId);
-                            errorXmlAEAT(response.code, response.body);
+                            if (!!getWSExcepcionError(response.body, exportId)) errorXmlAEAT(response.code, response.body);
                         }
                     } catch (error) {
-
                         errorAfterRetry = error;
 
-                        if (error.type == "error.SuiteScriptError") {
-                            //log.audit('error.SuiteScriptError', error.name);
-                            var errordetails;
-                            var errorcode = error.name;
-                            switch (errorcode) {
-                                case "SSS_REQUEST_TIME_EXCEEDED":
-                                    errordetails = "Connection closed because it has exceed the time out period (NetSuite has not received a response after 5 seconds on initial connection or after 45 seconds on the request). Executing retry #: " + counter;
-                                    break;
-                                case "SSS_CONNECTION_TIME_OUT":
-                                    errordetails = "Connection closed because it has exceed the time out period (NetSuite has not received a response after 5 seconds on initial connection or after 45 seconds on the request). Executing retry #: " + counter;
-                                    break;
-                                case "SSS_CONNECTION_CLOSED":
-                                    errordetails = "Connection closed because it was unresponsive. Executing retry #: " + counter;
-                                    break;
-                                case "SSS_INVALID_URL":
-                                    errordetails = "Connection closed because of an invalid URL.  The URL must be a fully qualified HTTP or HTTPS URL if it is referencing a non-NetSuite resource.  The URL cannot contain white space.";
-                                    exit = true;
-                                    break;
-                                case "SSS_TIME_LIMIT_EXCEEDED":
-                                    errordetails = "NetSuite Suitescript execution time limit of 180 seconds exceeded. Exiting script.";
-                                    exit = true;
-                                    break;
-                                case "SSS_USAGE_LIMIT_EXCEEDED":
-                                    errordetails = "NetSuite User Event Suitescript usage limit of 1000 units exceeded. Exiting script.";
-                                    exit = true;
-                                    break;
-                                default:
-                                    errordetails = error.message + ".  Executing retry #: " + counter;
-                            }
-                            counter += 1;
-                            log.audit('Process Error', errorcode + ': ' + errordetails);
-                        } else {
-                            log.audit('Unexpected Error', error.message);
-                            exit = true;
-                            if(response){
-                                getWSExcepcionError(response.body,exportId);
-                                errorXmlAEAT(response.code, response.body);
-                            }else{
-                                error.toString = function () {
-                                    return error.message
-                                };
-                                throw error;
-                            }
-
-                            break;
+                        var errordetails;
+                        var errorcode = error.name;
+                        switch (errorcode) {
+                            case "SSS_REQUEST_TIME_EXCEEDED": case "SSS_CONNECTION_TIME_OUT":
+                                errordetails = "Connection closed because it has exceed the time out period (NetSuite has not received a response after 5 seconds on initial connection or after 45 seconds on the request). Executing retry #: " + counter;
+                                break;
+                            case "SSS_CONNECTION_CLOSED":
+                                errordetails = "Connection closed because it was unresponsive. Executing retry #: " + counter;
+                                break;
+                            case "SSS_INVALID_URL":
+                                errordetails = "Connection closed because of an invalid URL.  The URL must be a fully qualified HTTP or HTTPS URL if it is referencing a non-NetSuite resource.  The URL cannot contain white space.";
+                                exit = true;
+                                break;
+                            case "SSS_TIME_LIMIT_EXCEEDED":
+                                errordetails = "NetSuite Suitescript execution time limit of 180 seconds exceeded. Exiting script.";
+                                exit = true;
+                                break;
+                            case "SSS_USAGE_LIMIT_EXCEEDED":
+                                errordetails = "NetSuite User Event Suitescript usage limit of 1000 units exceeded. Exiting script.";
+                                exit = true;
+                                break;
+                            default:
+                                errordetails = error.message;
+                                exit = true;
+                                break;
                         }
+                        ++counter;
+                        log.audit('Process Error', errorcode + ': ' + errordetails);
                     }
-                } while (exit == false && counter < 6)
+                } while (!exit && counter < 6);
 
-                if(counter >= 6){
-                    throw errorAfterRetry;
+                if (!!errorAfterRetry) {
+                    errorXmlAEAT(errorAfterRetry.code, errorAfterRetry.message);
                 }
-
             }
             //#endregion
         }

@@ -5,7 +5,7 @@
  * @NApiVersion 2.0
  * @NScriptType Restlet
  * @NModuleScope Public
- * @NAmdConfig  ./sii_config.json 
+ * @NAmdConfig  ./sii_config.json
  */
 
 define(['N/log', 'N/record', 'sii'],

@@ -17,7 +17,7 @@ define(['N/ui/dialog', 'N/currentRecord', 'N/url', 'N/format'],
             if (!!record.getValue('custpage_x_entity')) url += '&entity=' + record.getValue('custpage_x_entity');
             if (!!record.getValue('custpage_x_tranid')) url += '&tranid=' + record.getValue('custpage_x_tranid');
             if (!!record.getValue('custpage_x_export')) url += '&expid=' + record.getValue('custpage_x_export');
-            
+
             window.open(n_url.resolveScript({scriptId: 'customscript_x_sii_slmanualexport', deploymentId: 'customdeploy_x_sii_slmanualexport', returnExternalUrl: false}) + url, '_self');
         }
         //#endregion
