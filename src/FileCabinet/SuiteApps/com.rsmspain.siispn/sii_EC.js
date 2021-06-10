@@ -195,9 +195,10 @@ function checkSIILines(type) {
                     }
                     break;
                 case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
-                    if (results[row].getValue('exempt') == 'T' && !nlapiGetFieldValue('custbody_x_sii_causaexencion')) {
-                        message.push('custbody_x_sii_causaexencion'); break;
-                    }
+                    //NO HAY CAMPO CAUSA DE EXENTA EN EL XML DE FACTURAS RECIBIDAS
+                    // if (results[row].getValue('exempt') == 'T' && !nlapiGetFieldValue('custbody_x_sii_causaexencion')) {
+                    //     message.push('custbody_x_sii_causaexencion'); break;
+                    // }
                     if (results[row].getValue('custrecord_x_sii_iva_aduanas') == 'T') {
                         if (!nlapiGetFieldValue('custbody_x_sii_dua')) message.push('custbody_x_sii_dua');
                         if (!nlapiGetFieldValue('custbody_x_sii_fechadua')) message.push('custbody_x_sii_fechadua');
