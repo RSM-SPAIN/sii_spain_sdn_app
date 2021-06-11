@@ -224,7 +224,7 @@ function setDefaultValuesOnTransLoad(rectype, id) {
                 if (!!results) record.setFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 record.setFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? values.invoice_type : trantype_v);
-                if (rectype == 'creditmemo') record.setFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
+                if (rectype == 'creditmemo' || rectype == 'cashrefund') record.setFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
             break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
@@ -233,7 +233,7 @@ function setDefaultValuesOnTransLoad(rectype, id) {
                 if (!!results) record.setFieldValue('custbody_x_sii_tipofacturarecibida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 record.setFieldValue('custbody_x_sii_tipofacturarecibida', !trantype_v ? values.bill_type : trantype_v);
-                if (rectype == 'vendorcredit') record.setFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
+                if (rectype == 'vendorcredit' || rectype == 'creditcardrefund') record.setFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
             record.setFieldValue('custbody_x_sii_fechacontab', f_contab);
             break;
@@ -449,7 +449,7 @@ function setDefaultValuesOnTransWF(rectype) {
                 if (!!results) nlapiSetFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 nlapiSetFieldValue('custbody_x_sii_tipofacturaemitida', !trantype_v ? values.invoice_type : trantype_v);
-                if (rectype == 'creditmemo') nlapiSetFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
+                if (rectype == 'creditmemo' || rectype == 'cashrefund') nlapiSetFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
             break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
@@ -458,7 +458,7 @@ function setDefaultValuesOnTransWF(rectype) {
                 if (!!results) nlapiSetFieldValue('custbody_x_sii_tipofacturarecibida', !trantype_v ? results[0].getId() : trantype_v);
             } else {
                 nlapiSetFieldValue('custbody_x_sii_tipofacturarecibida', !trantype_v ? values.bill_type : trantype_v);
-                if (rectype == 'vendorcredit') nlapiSetFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
+                if (rectype == 'vendorcredit' || rectype == 'creditcardrefund') nlapiSetFieldValue('custbody_x_sii_tiporectificativa', !credtype ? values.credit_type : credtype);
             }
             nlapiSetFieldValue('custbody_x_sii_fechacontab', f_contab);
             break;
@@ -639,10 +639,10 @@ function setExportWF(rectype, id) {
         /*
         pendiente de revisar la función getSiiDocument(), no la encuentra.
         var filters = [], columns = [];
-    
+
         filters.push(new nlobjSearchFilter('isinactive', null, 'is', 'F'));
         filters.push(new nlobjSearchFilter('internalid', null, 'anyof', id));
-        
+
         columns.push(new nlobjSearchColumn('name'));
         columns.push(new nlobjSearchColumn('legalname', 'custrecord_x_sii_subsidiary'));
         columns.push(new nlobjSearchColumn('taxidnum', 'custrecord_x_sii_subsidiary'));
@@ -650,7 +650,7 @@ function setExportWF(rectype, id) {
         columns.push(new nlobjSearchColumn('custrecord_x_sii_tipoenvioaeat'));
         columns.push(new nlobjSearchColumn('custrecord_x_sii_sonfacturasemitidas'));
         columns.push(new nlobjSearchColumn('custrecord_x_sii_tp_envelope', 'custrecord_x_sii_tipopresentacion'));
-        
+
         var results = nlapiSearchRecord('customrecord_x_sii_tablaexportaciones', null, filters, columns);
         for (var row in results) {
             if (!getSiiDocument(results[row], results[row].getValue('custrecord_x_sii_sonfacturasemitidas') == 'T', results[row].getValue('custrecord_x_sii_tp_envelope', 'custrecord_x_sii_tipopresentacion')))

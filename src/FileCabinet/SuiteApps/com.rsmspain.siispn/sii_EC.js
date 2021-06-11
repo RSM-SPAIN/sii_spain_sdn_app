@@ -145,13 +145,13 @@ function checkSIIMandatoryFields(type, onEdit) {
         case 'invoice': case 'creditmemo': case 'cashrefund': case 'cashsale':
             if (!!onEdit) {
                 var fields = ['custbody_x_sii_tipofacturaemitida', 'custbody_x_sii_claveregimenexpedidas'];
-                if (type == 'creditmemo') fields.push('custbody_x_sii_tiporectificativa');
+                if (type == 'creditmemo' || type == 'cashrefund') fields.push('custbody_x_sii_tiporectificativa');
             }
             break;
         case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
             if (!!onEdit) {
                 var fields = ['custbody_x_sii_tipofacturarecibida', 'custbody_x_sii_claveregimenrecibidas', 'custbody_x_sii_fechaemision', 'custbody_x_sii_fechacontab'];
-                if (type == 'vendorcredit') fields.push('custbody_x_sii_tiporectificativa');
+                if (type == 'vendorcredit' || type == 'creditcardrefund') fields.push('custbody_x_sii_tiporectificativa');
             } else {
                 var fields = ['custbody_x_sii_fechaemision'];
             }
@@ -195,9 +195,10 @@ function checkSIILines(type) {
                     }
                     break;
                 case 'vendorbill': case 'vendorcredit': case 'creditcardcharge': case 'creditcardrefund':
-                    if (results[row].getValue('exempt') == 'T' && !nlapiGetFieldValue('custbody_x_sii_causaexencion')) {
-                        message.push('custbody_x_sii_causaexencion'); break;
-                    }
+                    //NO HAY CAMPO CAUSA DE EXENTA EN EL XML DE FACTURAS RECIBIDAS
+                    // if (results[row].getValue('exempt') == 'T' && !nlapiGetFieldValue('custbody_x_sii_causaexencion')) {
+                    //     message.push('custbody_x_sii_causaexencion'); break;
+                    // }
                     if (results[row].getValue('custrecord_x_sii_iva_aduanas') == 'T') {
                         if (!nlapiGetFieldValue('custbody_x_sii_dua')) message.push('custbody_x_sii_dua');
                         if (!nlapiGetFieldValue('custbody_x_sii_fechadua')) message.push('custbody_x_sii_fechadua');
