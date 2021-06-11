@@ -12,7 +12,7 @@
   <postsourcingfunction>siiOnPostSourcing</postsourcingfunction>
   <recalcfunction>siiOnRecalc</recalcfunction>
   <saverecordfunction>siiOnSaveRecord</saverecordfunction>
-  <scriptfile>[/SuiteScripts/SII/sii_EC.js]</scriptfile>
+  <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_EC.js]</scriptfile>
   <validatedeletefunction>siiOnValidateDelete</validatedeletefunction>
   <validatefieldfunction>siiOnValidateField</validatefieldfunction>
   <validateinsertfunction>siiOnValidateInsert</validateinsertfunction>
@@ -151,10 +151,10 @@
   </scriptdeployments>
   <libraries>
     <library>
-      <scriptfile>[/SuiteScripts/Librerias/lib_Main.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/lib_Main.js]</scriptfile>
     </library>
     <library>
-      <scriptfile>[/SuiteScripts/SII/sii_utils.js]</scriptfile>
+      <scriptfile>[/SuiteApps/com.rsmspain.siispn/sii_utils.js]</scriptfile>
     </library>
   </libraries>
 </clientscript>
