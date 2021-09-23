@@ -30,13 +30,13 @@
   <numberingmindigits></numberingmindigits>
   <numberingprefix></numberingprefix>
   <numberingsuffix></numberingsuffix>
-  <recordname>Lineas de Exportaciones SII</recordname>
+  <recordname>Lineas Exportaciones SII</recordname>
   <showcreationdate>F</showcreationdate>
   <showcreationdateonlist>F</showcreationdateonlist>
   <showid>T</showid>
   <showlastmodified>F</showlastmodified>
   <showlastmodifiedonlist>F</showlastmodifiedonlist>
-  <shownotes>T</shownotes>
+  <shownotes>F</shownotes>
   <showowner>F</showowner>
   <showownerallowchange>F</showownerallowchange>
   <showowneronlist>F</showowneronlist>
@@ -59,9 +59,9 @@
       <globalsearch>F</globalsearch>
       <help></help>
       <isformula>F</isformula>
-      <ismandatory>F</ismandatory>
+      <ismandatory>T</ismandatory>
       <isparent>T</isparent>
-      <label>Exportacion</label>
+      <label>Exportación</label>
       <linktext></linktext>
       <maxlength></maxlength>
       <maxvalue></maxvalue>
@@ -82,7 +82,7 @@
     </customrecordcustomfield>
     <customrecordcustomfield scriptid="custrecord_x_le_transaccion">
       <accesslevel>2</accesslevel>
-      <allowquickadd>T</allowquickadd>
+      <allowquickadd>F</allowquickadd>
       <applyformatting>F</applyformatting>
       <checkspelling>F</checkspelling>
       <defaultchecked>F</defaultchecked>
@@ -100,13 +100,13 @@
       <isformula>F</isformula>
       <ismandatory>F</ismandatory>
       <isparent>T</isparent>
-      <label>Transaccion</label>
+      <label>Transacción</label>
       <linktext></linktext>
       <maxlength></maxlength>
       <maxvalue></maxvalue>
       <minvalue></minvalue>
       <onparentdelete>SET_NULL</onparentdelete>
-      <parentsubtab>TRANSACTIONRELATEDRECORDS</parentsubtab>
+      <parentsubtab></parentsubtab>
       <rolerestrict>F</rolerestrict>
       <searchcomparefield></searchcomparefield>
       <searchdefault></searchdefault>
@@ -126,7 +126,7 @@
           <fldfiltercomparetype>EQ</fldfiltercomparetype>
           <fldfilternotnull>F</fldfilternotnull>
           <fldfilternull>F</fldfilternull>
-          <fldfiltersel>VENDORBILL|VENDORCREDIT|CREDITMEMO|INVOICE|CREDITCARDREFUND|CREDITCARDCHARGE</fldfiltersel>
+          <fldfiltersel>VENDORBILL|VENDORCREDIT|CREDITMEMO|INVOICE|CASHREFUND|CASHSALE|CREDITCARDREFUND|CREDITCARDCHARGE</fldfiltersel>
           <fldfilterval></fldfilterval>
         </customfieldfilter>
       </customfieldfilters>
@@ -151,7 +151,7 @@
       <isformula>F</isformula>
       <ismandatory>F</ismandatory>
       <isparent>F</isparent>
-      <label>Transaction number</label>
+      <label>Número transacción</label>
       <linktext></linktext>
       <maxlength></maxlength>
       <maxvalue></maxvalue>
@@ -424,7 +424,7 @@
       <isformula>F</isformula>
       <ismandatory>F</ismandatory>
       <isparent>F</isparent>
-      <label>Descripcion Error Registro</label>
+      <label>Descripción Error Registro</label>
       <linktext></linktext>
       <maxlength></maxlength>
       <maxvalue></maxvalue>
@@ -475,7 +475,7 @@
       <searchdefault></searchdefault>
       <searchlevel>2</searchlevel>
       <selectrecordtype></selectrecordtype>
-      <showinlist>T</showinlist>
+      <showinlist>F</showinlist>
       <sourcefilterby></sourcefilterby>
       <sourcefrom></sourcefrom>
       <sourcelist></sourcelist>
