@@ -18,7 +18,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
 
         //#region FORMS
         function siiForm(context) {
-            //Pendiente no exiete en listado real, sirve par filtrar las facturas
+            //Pendiente no existe en listado real, sirve par filtrar las facturas
             //no incluidas aun en una exportación.
             var billStatus = {correcto: '1', aceptado: '2', incorrecto: '3', exportado: '4', pendiente: '0'};
             var form = n_serverwidget.createForm({title: 'SII Export', hideNavBar: false});
@@ -28,7 +28,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
             form.addTab({id: 'delete', label : 'Borrar'});
             form.addFieldGroup({id : 'filters', label : 'Filtros', tab: 'add'});
 
-            var transtoexport_emi_type = n_runtime.isFeatureInEffect({feature: "JOBS"}) ? 'customsearch_x_sii_transtoexport_emi_job' : 'customsearch_x_sii_transtoexport_emi';
+            var transtoexport_emi_type = n_runtime.isFeatureInEffect({feature: 'JOBS'}) ? 'customsearch_x_sii_transtoexport_emi_job' : 'customsearch_x_sii_transtoexport_emi';
             var views = {emi: transtoexport_emi_type, rec: 'customsearch_x_sii_transtoexport_rec'};
             var status_p = context.request.parameters.status;
             var fromdate_p = context.request.parameters.fromdate;
@@ -53,7 +53,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
             var toopeDate_f = form.addField({id: 'custpage_x_toopedate', type: n_serverwidget.FieldType.DATE, label: 'F. OPER. HASTA', container: 'filters'});
             var fromcontab_f = form.addField({id: 'custpage_x_fromcontabdate', type: n_serverwidget.FieldType.DATE, label: 'F.CONTA. DESDE', container: 'filters'});
             var tocontab_f = form.addField({id: 'custpage_x_tocontabdate', type: n_serverwidget.FieldType.DATE, label: 'F.CONTA. HASTA', container: 'filters'});
-            var type_f = form.addField({id: 'custpage_x_sii_tipopresentacion', type: n_serverwidget.FieldType.SELECT, source: 'customlist_x_sii_tipopresentacion', label: 'TIPO PRESENTACIÓN', container: 'filters'});
+            var type_f = form.addField({id: 'custpage_x_sii_tipoenvio', type: n_serverwidget.FieldType.SELECT, source: 'customlist_x_siiup_tipoenvio', label: 'TIPO ENVIO', container: 'filters'});
             var tranid_f = form.addField({id: 'custpage_x_tranid', type: n_serverwidget.FieldType.TEXT, label: 'Transacción', container: 'filters'});
             var entity_f = form.addField({id: 'custpage_x_entity', type: n_serverwidget.FieldType.SELECT, source: '-9', label: 'Entidad', container: 'filters'});
 
@@ -62,12 +62,21 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
             status_f.addSelectOption({value: billStatus.incorrecto, text: 'Incorrecto'});
 
             var settings = getSettings(subsidiary_p);
-            var tipoEnvioAeat = "";
+            var tipoEnvioAeat = '';
             if (!!expid_p ) {
                 var valuesExp = n_search.lookupFields({type: 'customrecord_x_sii_tablaexportaciones', id: expid_p, columns: ['custrecord_x_sii_tipoenvioaeat', 'custrecord_x_sii_subsidiary']});
                 //Establecemos la subsidiaria de la exportación
-                subsidiary_f.defaultValue = valuesExp.custrecord_x_sii_subsidiary[0].value;
-                tipoEnvioAeat = valuesExp.custrecord_x_sii_tipoenvioaeat[0].value;
+                if(valuesExp && Object.keys(valuesExp).length !== 0 && valuesExp.constructor === Object){
+                    subsidiary_f.defaultValue = valuesExp.custrecord_x_sii_subsidiary[0].value ? valuesExp.custrecord_x_sii_subsidiary[0].value : '';
+                    tipoEnvioAeat = valuesExp.custrecord_x_sii_tipoenvioaeat[0].value ? valuesExp.custrecord_x_sii_tipoenvioaeat[0].value : '1';
+                    type_f.defaultValue = tipoEnvioAeat
+                }else{
+                    subsidiary_f.defaultValue = '';
+                    tipoEnvioAeat = '1'
+                    type_f.defaultValue = tipoEnvioAeat
+                }
+
+
                 //SI MODIFICACIÓN, ESTABLECE LAS CORRECTAS COMO BUSCABLES
                 if (valuesExp.custrecord_x_sii_tipoenvioaeat[0].value == '3') {
                     status_f.addSelectOption({value: billStatus.correcto, text: 'Correcto'});
@@ -102,6 +111,8 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
 
             type_f.updateLayoutType({layoutType : n_serverwidget.FieldLayoutType.STARTROW});
             type_f.updateBreakType({breakType : n_serverwidget.FieldBreakType.STARTCOL});
+            type_f.updateDisplayType({displayType: n_serverwidget.FieldDisplayType.INLINE});
+
             tranid_f.updateLayoutType({layoutType : n_serverwidget.FieldLayoutType.MIDROW});
             entity_f.updateLayoutType({layoutType : n_serverwidget.FieldLayoutType.STARTROW});
 
@@ -163,7 +174,9 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
 
                 var search = n_search.load({id: !!values.custrecord_x_sii_sonfacturasemitidas ? views.emi : views.rec});
                 search.filters.push(n_search.createFilter({name: /*!!values.custrecord_x_sii_sonfacturasemitidas ? 'trandate' : 'custbody_x_sii_fechaemision'*/ 'trandate', operator: n_search.Operator.WITHIN, values: [fromdate_f.defaultValue, todate_f.defaultValue]}));
-                if (!!settings.include_pending_approval) search.filters.push(n_search.createFilter({name: 'approvalstatus', operator: 'anyof', values: ['1', '2']}));
+                if (!settings.include_pending_approval) {
+                    search.filters.push(n_search.createFilter({name: 'approvalstatus', operator: 'noneof', values: ['1']}));
+                }
                 //Para EXP diferentes a modificación, prefiltrar las correctas y mostrar las no exportadas
                 if (!!tipoEnvioAeat && tipoEnvioAeat != 3){
                     search.filters.push(n_search.createFilter({name: 'custrecord_x_le_estadofactura', join: 'CUSTRECORD_X_LE_TRANSACCION', operator: n_search.Operator.NONEOF, values:  billStatus.correcto}));
@@ -177,11 +190,11 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
                     if (!!status_p) search.filters.push(n_search.createFilter({name: 'custrecord_x_le_estadofactura', join: 'CUSTRECORD_X_LE_TRANSACCION', operator: n_search.Operator.ANYOF, values: '@NONE@'}));
                 }
                 if (!!subsidiary_p){
-                    if(n_runtime.isFeatureInEffect({feature: "SUBSIDIARIES"})){
+                    if(n_runtime.isFeatureInEffect({feature: 'SUBSIDIARIES'})){
                         search.filters.push(n_search.createFilter({name: 'subsidiary', operator: n_search.Operator.ANYOF, values: subsidiary_p}));
                     }
                 }
-                if (!!type_p) n_search.createFilter({name: 'custbody_x_sii_tipopresentacion', operator: n_search.Operator.ANYOF, values: type_p});
+                if (!!type_p) n_search.createFilter({name: 'customlist_x_siiup_tipoenvio', operator: n_search.Operator.ANYOF, values: type_p});
                 if (!!entity_p) search.filters.push(n_search.createFilter({name: 'entity', operator: n_search.Operator.ANYOF, values: entity_p}));
                 if (!!tranid_p) search.filters.push(n_search.createFilter({name: 'tranid', operator: n_search.Operator.CONTAINS, values: tranid_p}));
                 if (!!fromcontab_p && !tocontab_p) search.filters.push(n_search.createFilter({name: 'custbody_x_sii_fechacontab', operator: n_search.Operator.ONORAFTER, values: fromcontab_p}));
@@ -194,6 +207,48 @@ define(['N/ui/serverWidget', 'N/search', 'N/format', 'N/redirect', 'N/record', '
 
                 if (!!expid_p) search.filters.push(n_search.createFilter({name: 'custrecord_x_le_exportacion', join: 'CUSTRECORD_X_LE_TRANSACCION', operator: n_search.Operator.NONEOF, values: expid_p}));
                 if (!!ids && ids.length > 0) search.filters.push(n_search.createFilter({name: 'internalid', operator: n_search.Operator.NONEOF, values: ids}));
+
+                //Cambio para SDN, los campos custrecord_x_le_exportacion, custrecord_x_le_estadofactura,custrecord_x_le_descripcionerrorregistr, se sacan de las 3 busquedas usadas en la variable views
+                //ya que no permite exportarlas a otre entorno, porque usan Column.setWhenOrderedBy(options)
+
+                var custrecord_x_le_exportacion = n_search.createColumn({
+                    name: 'custrecord_x_le_exportacion',
+                    join: 'CUSTRECORD_X_LE_TRANSACCION',
+                    summary: 'MAX',
+                    label: 'Exportación'
+                }).setWhenOrderedBy({
+                    name: 'internalid',
+                    join: 'CUSTRECORD_X_LE_TRANSACCION'
+                });
+
+                var custrecord_x_le_estadofactura = n_search.createColumn({
+                    name: 'custrecord_x_le_estadofactura',
+                    join: 'CUSTRECORD_X_LE_TRANSACCION',
+                    summary: 'MAX',
+                    label: 'Estado'
+                }).setWhenOrderedBy({
+                    name: 'internalid',
+                    join: 'CUSTRECORD_X_LE_TRANSACCION'
+                });
+                var custrecord_x_le_descripcionerrorregistr = n_search.createColumn({
+                    name: 'custrecord_x_le_descripcionerrorregistr',
+                    join: 'CUSTRECORD_X_LE_TRANSACCION',
+                    summary: 'MAX',
+                    label: 'Descripción Error Registro'
+                }).setWhenOrderedBy({
+                    name: 'internalid',
+                    join: 'CUSTRECORD_X_LE_TRANSACCION'
+                });
+
+                //To add extra columns, filters or filterExpressions in a search object, firsrt you need to fetch the object from search-object and then update it.
+
+                var searchAditionalColumns = search.columns;
+
+                searchAditionalColumns.push(custrecord_x_le_exportacion);
+                searchAditionalColumns.push(custrecord_x_le_estadofactura);
+                searchAditionalColumns.push(custrecord_x_le_descripcionerrorregistr);
+
+                search.columns = searchAditionalColumns;
 
                 for (var col in search.columns) {
                     sl_exp.addField({

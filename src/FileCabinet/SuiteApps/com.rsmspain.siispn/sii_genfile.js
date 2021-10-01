@@ -1,15 +1,21 @@
 /**
  * Libreria de generación del documento XML de presentación a la AEAT (SII 2.0)
- * Versión: 0.0.1
- * Fecha: 31/05/2020
+ * Versión: 0.0.4
+ * Fecha: 14/09/2021
  * sii_genfile
  *
  * MODIFCACIONES:
  * - 0.0.1: Se ha modificado las posiciones de los importes de credit y debit en el detalle de las líneas de las facturas emitidas, ya que no existe las columnas de subsidiaria en no-oneworld.
+ * - 0.0.2: Error en línea 480, existía una variable llamada base no definida.
+ * - 0.0.3: Error en línea 233, se había puesto tipoFactura en vez de TipoFactura en la comparación de si era F4, generando mal el fichero.
+ * - 0.0.4: Añadido legalname de las entidades proveedor/cliente y se quita el ES del NIF/CIF de la subsidiaria.
  */
 
 var customer = getCustomerType();
-var logs = {header: null, lines: {}};
+var logs = {
+    header: null,
+    lines: {}
+};
 
 //#region MAIN
 function getSiiDocument(values, emitted, envelope, download) {
@@ -17,7 +23,9 @@ function getSiiDocument(values, emitted, envelope, download) {
         if (!values || values.getValue('custrecord_x_sii_tipoenvioaeat') == 2) return true; //2 es baja
         envelope = envelope.replace(/&lt;?/g, '<').replace(/&gt;?/g, '>');
 
-        var ids = [], filters = [], columns = [];
+        var ids = [],
+            filters = [],
+            columns = [];
         filters.push(new nlobjSearchFilter('isinactive', null, 'is', 'F'));
         filters.push(new nlobjSearchFilter('custrecord_x_le_exportacion', null, 'anyof', values.getId()));
         columns.push(new nlobjSearchColumn('custrecord_x_le_transaccion'));
@@ -27,7 +35,7 @@ function getSiiDocument(values, emitted, envelope, download) {
         for (var row in results) ids.push(results[row].getValue('custrecord_x_le_transaccion'));
 
         var slrf = !!emitted ? new SuministroLRFacturasEmitidas(envelope) : new SuministroLRFacturasRecibidas(envelope);
-        var exportfacemiType = customer == 'customermain' ? 'customsearch_x_sii_exportfacemi_job':'customsearch_x_sii_exportfacemi';
+        var exportfacemiType = customer == 'customermain' ? 'customsearch_x_sii_exportfacemi_job' : 'customsearch_x_sii_exportfacemi';
         var view = !!emitted ? exportfacemiType : 'customsearch_x_sii_exportfacreci';
         var results = ultraSearch('transaction', view, [new nlobjSearchFilter('internalid', null, 'anyof', ids)]);
         var record = nlapiLoadRecord('customrecord_x_sii_tablaexportaciones', values.getId());
@@ -75,15 +83,19 @@ function getSiiDocument(values, emitted, envelope, download) {
 function getHeader(values) {
     var header = new Cabecera();
     header.IDVersionSii = '1.1';
-    header.Titular.NombreRazon = !!values.getValue('legalname', 'custrecord_x_sii_subsidiary') ?
-        values.getValue('legalname', 'custrecord_x_sii_subsidiary') : values.getValue('name', 'custrecord_x_sii_subsidiary');
-    header.Titular.NombreRazon = limpiarCharXML(header.Titular.NombreRazon);
-    header.Titular.NIF = values.getValue('taxidnum', 'custrecord_x_sii_subsidiary');
+    header.Titular.NombreRazon = limpiarCharXML(!!values.getValue('legalname', 'custrecord_x_sii_subsidiary') ?
+        values.getValue('legalname', 'custrecord_x_sii_subsidiary') : values.getValue('name', 'custrecord_x_sii_subsidiary'));
+    header.Titular.NIF = (values.getValue('taxidnum', 'custrecord_x_sii_subsidiary') || '').replace(/^ES/g, '');
 
     switch (values.getValue('custrecord_x_sii_tipoenvioaeat')) {
-        case '1': header.TipoComunicacion = 'A0'; break; //Alta
-        case '2': break; //Baja
-        case '3': header.TipoComunicacion = 'A1'; break; //Modificación
+        case '1':
+            header.TipoComunicacion = 'A0';
+            break; //Alta
+        case '2':
+            break; //Baja
+        case '3':
+            header.TipoComunicacion = 'A1';
+            break; //Modificación
     }
 
     return header;
@@ -94,18 +106,24 @@ function getContraparte(name, id, typeid, country, emitter) {
     cp.NombreRazon = limpiarCharXML(name);
 
     switch (typeid || '01') {
-        case '01': cp.NIF = (id || '').replace(/^ES/g, ''); return cp;
+        case '01':
+            cp.NIF = (id || '').replace(/^ES/g, '');
+            return cp;
         case '02':
-            if((id || '').substring(0, 2).toUpperCase() != country.toUpperCase() && !!emitter && country.toUpperCase() != 'GR'){
+            if ((id || '').substring(0, 2).toUpperCase() != country.toUpperCase() && !!emitter && country.toUpperCase() != 'GR') {
                 cp.IDOtro.ID = (country + id)
-            }else if((id || '').substring(0, 2).toUpperCase() != 'EL' && !!emitter && country.toUpperCase() == 'GR'){//EXCEPCION VIES GRECIA
+            } else if ((id || '').substring(0, 2).toUpperCase() != 'EL' && !!emitter && country.toUpperCase() == 'GR') { //EXCEPCION VIES GRECIA
                 cp.IDOtro.ID = ('EL' + id)
-            }else{
+            } else {
                 cp.IDOtro.ID = id;
             }
             break;
-        case '07': !!emitter ? cp.NIF = id : cp.IDOtro.ID = id; break;
-        default: cp.IDOtro.ID = limpiarCharXML(id); break;
+        case '07':
+            !!emitter ? cp.NIF = id : cp.IDOtro.ID = id;
+            break;
+        default:
+            cp.IDOtro.ID = limpiarCharXML(id);
+            break;
     }
 
     cp.IDOtro.CodigoPais = country;
@@ -122,7 +140,9 @@ function dateFormat(d) {
         day: (aux.getDate() + '').length > 1 ? aux.getDate() : ('0' + aux.getDate()),
         month: (month + '').length > 1 ? month : ('0' + month),
         year: aux.getFullYear(),
-        date: function() {return this.day + '-' + this.month + '-' + this.year}
+        date: function () {
+            return this.day + '-' + this.month + '-' + this.year
+        }
     }
 }
 
@@ -141,7 +161,9 @@ function download(filename, text) {
         var event = document.createEvent('MouseEvents');
         event.initEvent('click', true, true);
         pom.dispatchEvent(event);
-    } else { pom.click(); }
+    } else {
+        pom.click();
+    }
 }
 
 function ultraSearch(recordType, searchId, filters, columns) {
@@ -150,7 +172,8 @@ function ultraSearch(recordType, searchId, filters, columns) {
     if (!!columns) savedSearch.addColumns(columns);
 
     var resultset = savedSearch.runSearch();
-    var returnSearchResults = [], searchid = 0;
+    var returnSearchResults = [],
+        searchid = 0;
     do {
         var resultslice = resultset.getResults(searchid, searchid + 1000);
         if (!resultslice) return null;
@@ -170,30 +193,44 @@ function getEmitidas(slrf, results) {
     for (var row in results) {
         if (!!mapIds.hasOwnProperty(results[row].getValue('internalid', null, 'GROUP')) || hasErrors(results[row])) continue;
 
-        logs.lines[results[row].getValue('internalid', null, 'GROUP')] = {code: 'OK', details: ''};
+        logs.lines[results[row].getValue('internalid', null, 'GROUP')] = {
+            code: 'OK',
+            details: ''
+        };
         mapIds[results[row].getValue('internalid', null, 'GROUP')] = results[row];
 
         var rlrf = new RegistroLRFacturasEmitidas();
         var tranDateValue = results[row].getValue('trandate', null, 'MAX');
         var trandate = dateFormat(tranDateValue);
         var fechaOperacionValue = results[row].getValue('custbody_x_sii_fecha_operacion', null, 'MAX');
-        var fechaOperacion = fechaOperacionValue? dateFormat(fechaOperacionValue) : '';
+        var fechaOperacion = fechaOperacionValue ? dateFormat(fechaOperacionValue) : '';
         var fechaLiquidacion = dateFormat(fechaOperacionValue || tranDateValue);
+        var emitidaPorTerceros = results[row].getValue('custbody_x_sii_emitidaporterceros', null, 'MAX');
+        var emitidaPorTercerosNumFactura = results[row].getValue('custbody_x_sii_emitidaporterceros_numf', null, 'MAX');
 
         rlrf.PeriodoLiquidacion.Ejercicio = fechaLiquidacion.year;
         rlrf.PeriodoLiquidacion.Periodo = fechaLiquidacion.month;
         rlrf.IDFactura.IDEmisorFactura.NIF = slrf.Cabecera.Titular.NIF;
-        rlrf.IDFactura.NumSerieFacturaEmisor = results[row].getValue('tranid', null, 'MAX').replace(/\\/g, '');
+        if (emitidaPorTerceros && emitidaPorTerceros == 'T') {
+            if (emitidaPorTercerosNumFactura) {
+                rlrf.IDFactura.NumSerieFacturaEmisor = emitidaPorTercerosNumFactura.replace(/\\/g, '');
+            } else {
+                rlrf.IDFactura.NumSerieFacturaEmisor = results[row].getValue('tranid', null, 'MAX').replace(/\\/g, '');
+            }
+        } else {
+            rlrf.IDFactura.NumSerieFacturaEmisor = results[row].getValue('tranid', null, 'MAX').replace(/\\/g, '');
+        }
+
         rlrf.IDFactura.FechaExpedicionFacturaEmisor = trandate.date();
 
         var fe = rlrf.FacturaExpedida;
 
-        if((fechaOperacionValue !== tranDateValue) &&  fechaOperacion){
+        if ((fechaOperacionValue !== tranDateValue) && fechaOperacion) {
             fe.FechaOperacion = fechaOperacion.date();
         }
 
         fe.TipoFactura = results[row].getValue('custrecord_x_l2_emi_codigo', 'custbody_x_sii_tipofacturaemitida', 'MAX');
-        if (fe.tipoFactura == 'F4') {
+        if (fe.TipoFactura == 'F4') {
             rlrf.IDFactura.NumSerieFacturaEmisor = results[row].getValue('custbody_xnumfacini', null, 'MAX').replace(/\\/g, '');
             rlrf.IDFactura.NumSerieFacturaEmisorResumenFin = results[row].getValue('custbody_xnumfacfin', null, 'MAX');
         }
@@ -204,7 +241,7 @@ function getEmitidas(slrf, results) {
         if (!!results[row].getValue('custbody_x_sii_claveregimen_ad1_exp', null, 'MAX')) fe.ClaveRegimenEspecialOTrascendenciaAdicional1 = results[row].getValue('custbody_x_sii_claveregimen_ad1_exp', null, 'MAX');
         if (!!results[row].getValue('custbody_x_sii_claveregimen_ad2_exp', null, 'MAX')) fe.ClaveRegimenEspecialOTrascendenciaAdicional1 = results[row].getValue('custbody_x_sii_claveregimen_ad2_exp', null, 'MAX');
         fe.DescripcionOperacion = limpiarCharXML(results[row].getValue('memomain', null, 'MAX'));
-        if (results[row].getValue('custbody_x_sii_emitidaporterceros', null, 'MAX') == 'T') fe.EmitidaPorTercerosODestinatario = 'S';
+        if (emitidaPorTerceros && emitidaPorTerceros == 'T') fe.EmitidaPorTercerosODestinatario = 'S';
         if (!!results[row].getValue('custrecord_x_l5_codigo', 'custbody_x_sii_tiporectificativa', 'MAX')) {
             fe.TipoRectificativa = results[row].getValue('custrecord_x_l5_codigo', 'custbody_x_sii_tiporectificativa', 'MAX');
             if (fe.TipoRectificativa == 'S') {
@@ -215,7 +252,7 @@ function getEmitidas(slrf, results) {
 
         if (fe.TipoFactura != 'F2' && fe.TipoFactura != 'F4' && fe.TipoFactura != 'R5') {
             if (results[row].getValue('isperson', customer, 'MAX') == 'F') {
-                var nombre = results[row].getValue('companyname', customer, 'MAX');
+                var nombre = results[row].getValue('custentity_x_sii_legalname', customer, 'MAX') || results[row].getValue('companyname', customer, 'MAX');
             } else {
                 var nombre = [results[row].getValue('lastname', customer, 'MAX'), results[row].getValue('firstname', customer, 'MAX')];
                 if (!!results[row].getValue('middlename', customer, 'MAX')) nombre.push(results[row].getValue('middlename', customer, 'MAX'));
@@ -268,12 +305,13 @@ function getEmitidas(slrf, results) {
                 dfe = getLineDetails(dfe, results[row]);
             }
 
-            if (!!dfe.Sujeta.NoExenta.DesgloseIVA.DetalleIVAEmi && dfe.Sujeta.NoExenta.DesgloseIVA.DetalleIVAEmi.length > 0){
-                var TipoNoExenta = values.getValue('custrecord_x_l7_codigo', 'custbody_x_sii_tipooperacion', 'MAX');
-                if (!TipoNoExenta){
+            if (!!dfe.Sujeta.NoExenta.DesgloseIVA.DetalleIVAEmi && dfe.Sujeta.NoExenta.DesgloseIVA.DetalleIVAEmi.length > 0) {
+                var TipoNoExenta = values.getValue('custrecord_x_l7_codigo', 'custbody_x_sii_tipooperacion', 'MAX'); //NUESTRO TIPO DE OPERACION = TIPO NO EXENTA
+                var CausaExencion = values.getValue('custrecord_x_l9_codigo', 'custbody_x_sii_causaexencion', 'MAX')
+                if (!TipoNoExenta && !CausaExencion) {
                     dfe.Sujeta.NoExenta.TipoNoExenta = 'RellenarEnFactura'; //No existe este código pero nos es util para indicar que no hay Tipo de Operación indicado en la factura
                     //El sistema arrojara un error a la linea y no volvera a aparecer la etiqueta <sii:TipoDesglose></sii:TipoDesglose> vacía.
-                }else{
+                } else {
                     dfe.Sujeta.NoExenta.TipoNoExenta = values.getValue('custrecord_x_l7_codigo', 'custbody_x_sii_tipooperacion', 'MAX');
                 }
             }
@@ -309,9 +347,9 @@ function getEmitidas(slrf, results) {
         function getLineDetails(o, values) {
 
             var recargoEquivalenciaMap = {
-                "26.20" : [21, 5.20],
-                "11.40" : [10, 1.40],
-                "4.50" : [4, 0.50]
+                "26.20": [21, 5.20],
+                "11.40": [10, 1.40],
+                "4.50": [4, 0.50]
             };
 
             if (!!o && !!values) {
@@ -321,9 +359,9 @@ function getEmitidas(slrf, results) {
 
                 var tiposImpositivosRecargo = recargoEquivalenciaMap[parseFloat(values.getValue('rate', 'taxitem', 'GROUP')).toFixed(2)];
 
-                if (values.getValue('exempt', 'taxitem', 'GROUP') == 'T' && !tiposImpositivosRecargo) {//Para tax agrupados como el de recargo de equivalencia, en la busqueda, Netsuite indica erroneamente que es exento.
+                if (values.getValue('exempt', 'taxitem', 'GROUP') == 'T' && !tiposImpositivosRecargo) { //Para tax agrupados como el de recargo de equivalencia, en la busqueda, Netsuite indica erroneamente que es exento.
                     //Detalle exenta solo 1 por factura (Si admite 1 a 7)
-                    var detalleE =  new DetalleExenta();
+                    var detalleE = new DetalleExenta();
                     detalleE.CausaExencion = values.getValue('custrecord_x_l9_codigo', 'custbody_x_sii_causaexencion', 'MAX') || 'E6';
                     detalleE.BaseImponible = +(parseFloat(o.Sujeta.Exenta.DetalleExenta.BaseImponible || 0) + (values.getValue(importe_credit) - values.getValue(importe_debit))).toFixed(2);
                     o.Sujeta.Exenta.DetalleExenta.push(detalleE);
@@ -331,18 +369,18 @@ function getEmitidas(slrf, results) {
                     o.NoSujeta.ImportePorArticulos7_14_Otros = +(parseFloat(o.NoSujeta.ImportePorArticulos7_14_Otros || 0) + (values.getValue(importe_credit) - values.getValue(importe_debit))).toFixed(2);
                 } else if (values.getValue('custrecord_x_sii_tiponosujeta', 'taxitem', 'GROUP') == 2) {
                     o.NoSujeta.ImporteTAIReglasLocalizacion = +(parseFloat(o.NoSujeta.ImporteTAIReglasLocalizacion || 0) + (values.getValue(importe_credit) - values.getValue(importe_debit))).toFixed(2);
-                } else {//SUJETA NO EXENTA
+                } else { //SUJETA NO EXENTA
                     var die = new DetalleIVAEmi();
 
 
-                    if(tiposImpositivosRecargo){//Recargo de equivalencia solo aplica a transacciones nacionales  21%, 10% y 4%
+                    if (tiposImpositivosRecargo) { //Recargo de equivalencia solo aplica a transacciones nacionales  21%, 10% y 4%
                         die.TipoImpositivo = parseInt(tiposImpositivosRecargo[0], 10) || 0;
                         die.BaseImponible = (values.getValue(importe_credit) - values.getValue(importe_debit)).toFixed(2)
                         //Sin Multibook
                         die.CuotaRepercutida = (die.BaseImponible * die.TipoImpositivo / 100).toFixed(2);
                         die.TipoRecargoEquivalencia = parseFloat(tiposImpositivosRecargo[1]).toFixed(2) || 0;
                         die.CuotaRecargoEquivalencia = (die.BaseImponible * die.TipoRecargoEquivalencia / 100).toFixed(2);
-                    }else{
+                    } else {
                         die.TipoImpositivo = parseInt(values.getValue('rate', 'taxitem', 'GROUP'), 10) || 0;
                         die.BaseImponible = (values.getValue(importe_credit) - values.getValue(importe_debit)).toFixed(2);
                         die.CuotaRepercutida = !!multibook ? (die.BaseImponible * die.TipoImpositivo / 100).toFixed(2) : (values.getValue('taxamount', null, 'SUM') * 1).toFixed(2);
@@ -368,7 +406,10 @@ function getEmitidas(slrf, results) {
         } catch (e) {
             nlapiLogExecution('ERROR', row.getValue('internalid', null, 'GROUP'), e.code)
             logs.header = 'Error en la generación del fichero de exportación';
-            logs.lines[row.getValue('internalid', null, 'GROUP')] = {code: e.code, details: e.details};
+            logs.lines[row.getValue('internalid', null, 'GROUP')] = {
+                code: e.code,
+                details: e.details
+            };
             return true;
         }
     }
@@ -378,7 +419,7 @@ function getRecibidas(slrf, results) {
     var mapIds = {};
 
     for (var row in results) {
-        if ((!!mapIds.hasOwnProperty(results[row].getValue('internalid', null, 'GROUP')) || hasErrors(results[row])) && results[row].getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') != 'T' ) continue;
+        if ((!!mapIds.hasOwnProperty(results[row].getValue('internalid', null, 'GROUP')) || hasErrors(results[row])) && results[row].getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') != 'T') continue;
 
         logs.lines[results[row].getValue('internalid', null, 'GROUP')] = {
             code: 'OK',
@@ -429,14 +470,14 @@ function getRecibidas(slrf, results) {
             fr.TipoRectificativa = results[row].getValue('custrecord_x_l5_codigo', 'custbody_x_sii_tiporectificativa', 'MAX');
 
         if (results[row].getValue('isperson', 'vendor', 'MAX') == 'F') {
-            var nombre = results[row].getValue('companyname', 'vendor', 'MAX');
+            var nombre = results[row].getValue('custentity_x_sii_legalname', 'vendor', 'MAX') || results[row].getValue('companyname', 'vendor', 'MAX');
         } else {
             var nombre = [results[row].getValue('lastname', 'vendor', 'MAX'), results[row].getValue('firstname', 'vendor', 'MAX')];
             if (!!results[row].getValue('middlename', 'vendor', 'MAX')) nombre.push(results[row].getValue('middlename', 'vendor', 'MAX'));
             nombre = nombre.join(', ');
         }
 
-        if (results[row].getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') == 'T') {//DUA CABECERA EL EMISOR SERA A LA VEZ EL TITULAR
+        if (results[row].getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') == 'T') { //DUA CABECERA EL EMISOR SERA A LA VEZ EL TITULAR
             rlrf.IDFactura.FechaExpedicionFacturaEmisor = dateFormat(results[row].getValue('custbody_x_sii_fechadua', null, 'MAX')).date();
             rlrf.IDFactura.NumSerieFacturaEmisor = results[row].getValue('custbody_x_sii_dua', null, 'MAX').replace(/\\/g, '');
 
@@ -465,7 +506,7 @@ function getRecibidas(slrf, results) {
             fr.ImporteTotal = results[row].getValue('total', null, 'MAX');
             fr.CuotaDeducible = 0;
             fr.DesgloseFactura.InversionSujetoPasivo.DetalleIVA = [];
-            fr.DesgloseFactura.DesgloseIVA.DetalleIVAReci.push(base);
+            fr.DesgloseFactura.DesgloseIVA.DetalleIVAReci.push(dir);
         }
 
         slrf.RegistroLRFacturasRecibidas.push(rlrf);
@@ -477,9 +518,9 @@ function getRecibidas(slrf, results) {
         var multibook = false;
         fr.CuotaDeducible = 0;
 
-        if (values.getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') == 'T'){//DUA, Procesamos sola la linea de aduanas
+        if (values.getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') == 'T') { //DUA, Procesamos sola la linea de aduanas
             fr.DesgloseFactura.DesgloseIVA.DetalleIVAReci.push(getLineDetails(values));
-        }else{
+        } else {
             for (var row in results) {
                 if (!values || results[row].getValue('internalid', null, 'GROUP') != values.getValue('internalid', null, 'GROUP')) continue;
                 if (values.getValue("custrecord_post_notional_tax_amount", "taxitem", "GROUP") == "T" && values.getValue('custrecord_x_l3_2_codigo', 'custbody_x_sii_claveregimenrecibidas', 'MAX') != "09") { //ISP
@@ -495,9 +536,9 @@ function getRecibidas(slrf, results) {
             var dir = new DetalleIVAReci();
 
             var recargoEquivalenciaMap = {
-                "26.20" : [21, 5.20],
-                "11.40" : [10, 1.40],
-                "4.50" : [4, 0.50]
+                "26.20": [21, 5.20],
+                "11.40": [10, 1.40],
+                "4.50": [4, 0.50]
             };
 
             var tiposImpositivosRecargo = recargoEquivalenciaMap[parseFloat(values.getValue('rate', 'taxitem', 'GROUP')).toFixed(2)];
@@ -509,19 +550,19 @@ function getRecibidas(slrf, results) {
                 dir.CuotaRecargoEquivalencia = '';
 
 
-                if(tiposImpositivosRecargo){ //Si es algun tipo impositivo de los listados en recargo de equivalencia, solo aplica a transacciones nacionales 21%, 10% y 4%
+                if (tiposImpositivosRecargo) { //Si es algun tipo impositivo de los listados en recargo de equivalencia, solo aplica a transacciones nacionales 21%, 10% y 4%
                     dir.TipoRecargoEquivalencia = parseFloat(tiposImpositivosRecargo[1]).toFixed(2) || 0;
                     dir.CuotaRecargoEquivalencia = (dir.BaseImponible * dir.TipoRecargoEquivalencia / 100).toFixed(2);
                 }
                 //END COMUN
 
 
-                if (values.getValue('custrecord_post_notional_tax_amount', 'taxitem', 'GROUP') != 'T' && fr.claveRegimen != '09') {//No ISP, No Adq Intracomunitaria
-                    if(tiposImpositivosRecargo){
+                if (values.getValue('custrecord_post_notional_tax_amount', 'taxitem', 'GROUP') != 'T' && fr.claveRegimen != '09') { //No ISP, No Adq Intracomunitaria
+                    if (tiposImpositivosRecargo) {
                         dir.TipoImpositivo = parseInt(tiposImpositivosRecargo[0], 10) || 0;
                         //Sin Multibook
-                        dir.CuotaSoportada = (dir.TipoImpositivo * dir.BaseImponible  / 100).toFixed(2);
-                    }else{
+                        dir.CuotaSoportada = (dir.TipoImpositivo * dir.BaseImponible / 100).toFixed(2);
+                    } else {
                         dir.TipoImpositivo = parseInt(values.getValue('rate', 'taxitem', 'GROUP'), 10) || 0;
                         dir.CuotaSoportada = !!multibook ? (dir.TipoImpositivo * dir.BaseImponible / 100).toFixed(2) : (values.getValue('taxamount', null, 'SUM') || 0) * -1;
                     }
@@ -536,9 +577,9 @@ function getRecibidas(slrf, results) {
                 }
 
                 if (values.getValue('custrecord_x_sii_nodeducible', 'taxitem', 'GROUP') != 'T') {
-                    if(tiposImpositivosRecargo){//Cuando la CuotaRecargoEquivalencia este cumplimentada, la CuotaDeducible tiene que ser cero
+                    if (tiposImpositivosRecargo) { //Cuando la CuotaRecargoEquivalencia este cumplimentada, la CuotaDeducible tiene que ser cero
                         fr.CuotaDeducible = 0;
-                    }else{
+                    } else {
                         fr.CuotaDeducible = +(parseFloat(fr.CuotaDeducible) + parseFloat(dir.CuotaSoportada)).toFixed(2);
                     }
                 } else {
@@ -551,7 +592,7 @@ function getRecibidas(slrf, results) {
                 if (values.getValue('custrecord_x_sii_iva_bienes_inversion', 'taxitem', 'GROUP') == 'T') {
                     dir.BienInversion = 'S';
                 }
-            }else if (!!values && values.getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') == 'T' && fr.TipoFactura == 'F5'){ //DUA
+            } else if (!!values && values.getValue('custrecord_x_sii_iva_aduanas', 'taxitem', 'GROUP') == 'T' && fr.TipoFactura == 'F5') { //DUA
                 //DUA, SE RELLENARA EL IMPORTE CON LA INFORMACION DE LA LINEA DE IMPORTACION
                 //SI ES LA FACTURA "HERMANA" DEL TRANSITARIO IGNORARA LA LINEA YA QUE SU TIPO DE FACTURA SERA F1
                 //AL TRATARSE DE UNA OPERACION SUJETA NO EXENTA AL 21%, QUE CORRESPONDEN A LOS SERVICIOS DE AGENTE DE ADUANAS
@@ -598,12 +639,12 @@ function getCustomerType() {
     return !!nlapiGetContext().getFeature('jobs') ? 'customermain' : 'customer';
 }
 
-String.prototype.replaceAll = function(search, replacement) {
+String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
 }
 
-function limpiarCharXML(original){
+function limpiarCharXML(original) {
     var result = original;
 
     result = result.replaceAll("º", "o");
