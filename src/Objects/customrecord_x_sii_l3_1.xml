@@ -217,5 +217,17 @@
       <isinactive>F</isinactive>
       <name>Primer semestre 2017</name>
     </instance>
+    <instance scriptid="val_130855_1569182_884">
+      <custrecord_x_l3_1_codigo>17</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operación acogida a alguno de los regímenes previstos en el Capítulo XI del Título IX (OSS e IOSS)</custrecord_x_l3_1_descripcion>
+      <isinactive>F</isinactive>
+      <name>Operación acogida a alguno de los regímenes previstos en el Capítulo XI del Título IX (OSS e IOSS)</name>
+    </instance>
+    <instance scriptid="val_130492_1569182_841">
+      <custrecord_x_l3_1_codigo>17</custrecord_x_l3_1_codigo>
+      <custrecord_x_l3_1_descripcion>Operación acogida a alguno de los regímenes previstos en el Capítulo XI del Título IX (OSS e IOSS)</custrecord_x_l3_1_descripcion>
+      <isinactive>T</isinactive>
+      <name>Operación acogida a alguno de los regímenes previstos en el Capítulo XI del Título IX (OSS e IOSS)</name>
+    </instance>
   </instances>
 </customrecordtype>
