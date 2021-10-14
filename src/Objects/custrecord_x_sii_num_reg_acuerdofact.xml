@@ -1,0 +1,41 @@
+<othercustomfield scriptid="custrecord_x_sii_num_reg_acuerdofact">
+  <accesslevel>2</accesslevel>
+  <applyformatting>F</applyformatting>
+  <checkspelling>F</checkspelling>
+  <defaultchecked>F</defaultchecked>
+  <defaultselection></defaultselection>
+  <defaultvalue></defaultvalue>
+  <description>En estos casos en los que:&#xd;
+&#xd;
+Una factura se expide en base a una autorización de simplificación en materia de facturación deberá identificarse que se trata de una factura expedida al amparo de este tipo de autorizaciones.&#xd;
+El sujeto pasivo hubiese obtenido una autorización concedida conforme a lo dispuesto en el artículo 62.5 del Reglamento del Impuesto sobre el Valor Añadido, deberán identificar los registros que se suministran al amparo de este tipo de autorizaciones</description>
+  <displayheight></displayheight>
+  <displaytype>NORMAL</displaytype>
+  <displaywidth></displaywidth>
+  <dynamicdefault></dynamicdefault>
+  <encryptatrest>F</encryptatrest>
+  <fieldtype>TEXT</fieldtype>
+  <help>En estos casos en los que:&#xd;
+&#xd;
+Una factura se expide en base a una autorización de simplificación en materia de facturación deberá identificarse que se trata de una factura expedida al amparo de este tipo de autorizaciones.&#xd;
+El sujeto pasivo hubiese obtenido una autorización concedida conforme a lo dispuesto en el artículo 62.5 del Reglamento del Impuesto sobre el Valor Añadido, deberán identificar los registros que se suministran al amparo de este tipo de autorizaciones</help>
+  <isformula>F</isformula>
+  <ismandatory>F</ismandatory>
+  <label>SII Num. Registro Acuerdo Facturación</label>
+  <linktext></linktext>
+  <maxlength></maxlength>
+  <maxvalue></maxvalue>
+  <minvalue></minvalue>
+  <onparentdelete></onparentdelete>
+  <rectype>-117</rectype>
+  <searchcomparefield></searchcomparefield>
+  <searchdefault></searchdefault>
+  <searchlevel>2</searchlevel>
+  <selectrecordtype></selectrecordtype>
+  <showhierarchy>F</showhierarchy>
+  <showinlist>F</showinlist>
+  <sourcefilterby></sourcefilterby>
+  <sourcefrom></sourcefrom>
+  <sourcelist></sourcelist>
+  <storevalue>T</storevalue>
+</othercustomfield>

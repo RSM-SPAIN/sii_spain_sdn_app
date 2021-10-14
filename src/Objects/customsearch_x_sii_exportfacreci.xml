@@ -32,7 +32,7 @@
     <dependency>[scriptid=customrecord_x_sii_l7]</dependency>
     <dependency>[scriptid=customrecord_x_sii_l9.custrecord_x_l9_codigo]</dependency>
     <dependency>[scriptid=customrecord_x_sii_l9]</dependency>
-    <dependency>[scriptid=custrecord_post_notional_tax_amount]</dependency>
+    <dependency>[bundleid=123426, scriptid=custrecord_post_notional_tax_amount]</dependency>
     <dependency>[scriptid=custrecord_x_sii_iva_aduanas]</dependency>
     <dependency>[scriptid=custrecord_x_sii_iva_bienes_inversion]</dependency>
     <dependency>[scriptid=custrecord_x_sii_nodeducible]</dependency>
