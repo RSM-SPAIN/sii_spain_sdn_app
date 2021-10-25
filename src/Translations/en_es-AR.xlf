@@ -2,7 +2,7 @@
 <xliff xmlns:ns="netsuite" xmlns:ns3="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
     <file original="netsuite-database" source-language="en" datatype="database" target-language="es-AR">
         <body>
-            <group ns:collection="custcollectionx_sii_translation_collection">
+            <group ns:collection="custcollection_x_sii_translation_collection">
                 <trans-unit id="SII_AEAT_REALIZANDO_ENVIO">
                     <source>Sending to URL: </source>
                     <target>Realizando envio a URL: </target>

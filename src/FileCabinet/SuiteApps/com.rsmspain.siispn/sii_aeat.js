@@ -5,8 +5,8 @@
  * @NApiVersion 2.0
  * @NModuleScope Public
  */
-define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', 'N/search', 'N/certificateControl', 'N/runtime', 'N/config', 'N/log', 'N/format'],
-    function (n_https_cert, n_file, n_xml, n_error, n_record, n_search, n_cert_ctrl, n_runtime, n_config, n_log, n_format) {
+define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', 'N/search', 'N/certificateControl', 'N/runtime', 'N/config', 'N/log', 'N/translation'],
+    function (n_https_cert, n_file, n_xml, n_error, n_record, n_search, n_cert_ctrl, n_runtime, n_config, n_log, n_translation) {
         return {
             sendRequest: sendExports,
         }
@@ -46,7 +46,7 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                     'exportId': exportId
                 };
 
-                externalServiceCall(parameters);
+                externalServiceCall(parameters, record);
             }
 
             //#region UTILS
@@ -187,19 +187,24 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                         nif = record.getSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_tran_nif', i);
                         nifSinES = nif.lastIndexOf('ES', 0) === 0 ? nif.slice(2) : '';
                     }
+                    n_log.audit('transaction', transaction);
+                    n_log.audit('recordtype', recordtype);
+                    // n_log.audit('respuestaGlobal', response.respuestaglobal.toLowerCase());
+                    n_log.audit('identificacionDelRegistro', (transaction + nif) || (transaction + nifSinES));
 
                     for (var serie in response) {
-
                         if ((transaction + nif) == serie || (transaction + nifSinES) == serie ) {
+                            n_log.audit('MATCH!', serie)
                             var line = record.selectLine('recmachcustrecord_x_le_exportacion', i);
                             line.setCurrentSublistValue('recmachcustrecord_x_le_exportacion','custrecord_x_le_estadofactura', transaction_status[response[serie].estadoRegistro.toLowerCase()]);
                             line.setCurrentSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_codigoerrorregistro', response[serie].codigoErrorRegistro);
                             line.setCurrentSublistValue('recmachcustrecord_x_le_exportacion', 'custrecord_x_le_descripcionerrorregistr', response[serie].descripcionErrorRegistro);
                             line.commitLine('recmachcustrecord_x_le_exportacion');
-
+                            //n_log.audit('estadoReg', response[serie].estadoRegistro.toLowerCase());
                             break;
                         }
                     }
+                    n_log.audit('salgo del bucle de dentro (Response)')
                 }
 
                 record.save({enableSourcing: true, ignoreMandatoryFields: true});
@@ -264,7 +269,7 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                 record.save();
             }
 
-            function externalServiceCall(parameters) {
+            function externalServiceCall(parameters, record) {
                 var counter = 1;
                 var exit = false;
                 var errorAfterRetry;
@@ -272,14 +277,15 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                 do {
                     errorAfterRetry = null;
                     try {
-                        setLogMessage('Realizando envio a URL: '+ url ,exportId);
+                        var translateStrings = getSIITranslationsStrings();
+                        setLogMessage(translateStrings.siiCollection.SII_AEAT_REALIZANDO_ENVIO() + url ,exportId);
                         var response = n_https_cert.post({
                             url: parameters.url, certId: parameters.certId, body: parameters.content,
                             headers: {'Content-Type': 'application/soap+xml'}
                         });
 
                         if (!!isSuccessStatusCode(response.code) || response.code == 200) {
-                            status = 'true';
+                            //status = 'true';
                             exit = true;
 
                             var isWSExcepcion = checkWSExcepcion(response.body);
@@ -290,6 +296,7 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                                 attachAEATResponse(exportId, record, response.body);
                             }
                             var body = xmlParse(response.body, exportId);
+                            log.audit('xmlParse body', body);
                             !!body ? updateExportLines(body, record) : errorXmlAEAT(response.code, response.body);
 
                         } else if (response.code != 200) {
@@ -334,6 +341,35 @@ define(['N/https/clientCertificate', 'N/file', 'N/xml', 'N/error', 'N/record', '
                 if (!!errorAfterRetry) {
                     errorXmlAEAT(errorAfterRetry.code, errorAfterRetry.message);
                 }
+            }
+
+            function getSIITranslationsStrings() {
+                var lang = n_runtime.getCurrentUser().getPreference('LANGUAGE');
+
+                var collectionStrings = n_translation.load({
+                    collections: [{
+                        alias: 'siiCollection',
+                        collection: 'custcollection_x_sii_translation_collection',
+                        keys: ['SII_AEAT_REALIZANDO_ENVIO']
+                    }],
+                    locales: [n_translation.Locale.es_ES, n_translation.Locale.en]
+                });
+
+                var translateStrings = null;
+
+                if (lang.indexOf('es') > -1) {
+                    translateStrings = n_translation.selectLocale({
+                        handle: collectionStrings,
+                        locale: n_translation.Locale.es_ES
+                    });
+                } else {
+                    translateStrings = n_translation.selectLocale({
+                        handle: collectionStrings,
+                        locale: n_translation.Locale.en
+                    });
+                }
+
+                return translateStrings;
             }
             //#endregion
         }
