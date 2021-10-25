@@ -55,7 +55,7 @@
     </instance>
     <instance scriptid="val_20501_4552998_sb1_326">
       <isinactive>F</isinactive>
-      <name translate="T">[scriptid=custcollection_x_sii_translation_collection.sii_l15_exported]</name>
+      <name>Exported</name>
     </instance>
   </instances>
 </customrecordtype>
