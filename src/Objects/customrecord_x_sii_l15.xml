@@ -43,18 +43,22 @@
   <instances>
     <instance scriptid="val_20351_4552998_sb1_442">
       <isinactive>F</isinactive>
+      <name translate="T">[scriptid=custcollection_x_sii_translation_collection'.sii_l15_correct]</name>
       <name>Correcto</name>
     </instance>
     <instance scriptid="val_20352_4552998_sb1_368">
       <isinactive>F</isinactive>
+      <name translate="T">[scriptid=custcollection_x_sii_translation_collection'.sii_l15_accepted]</name>
       <name>Aceptado Con Errores</name>
     </instance>
     <instance scriptid="val_20353_4552998_sb1_664">
       <isinactive>F</isinactive>
+      <name translate="T">[scriptid=custcollection_x_sii_translation_collection'.sii_l15_incorrect]</name>
       <name>Incorrecto</name>
     </instance>
     <instance scriptid="val_20501_4552998_sb1_326">
       <isinactive>F</isinactive>
+      <name translate="T">[scriptid=custcollection_x_sii_translation_collection'.sii_l15_exported]</name>
       <name>Exportado</name>
     </instance>
   </instances>

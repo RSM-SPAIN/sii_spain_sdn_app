@@ -19,5 +19,21 @@
       <defaulttranslation>Information</defaulttranslation>
       <description></description>
     </string>
+    <string scriptid="val_20351_4552998_sb1_442">
+      <defaulttranslation>Correct</defaulttranslation>
+      <description></description>
+    </string>
+    <string scriptid="val_20352_4552998_sb1_368">
+      <defaulttranslation>Accepted with errors</defaulttranslation>
+      <description></description>
+    </string>
+    <string scriptid="val_20353_4552998_sb1_664">
+      <defaulttranslation>Incorrect</defaulttranslation>
+      <description></description>
+    </string>
+    <string scriptid="val_20501_4552998_sb1_326">
+      <defaulttranslation>Exported</defaulttranslation>
+      <description></description>
+    </string>
   </strings>
 </translationcollection>

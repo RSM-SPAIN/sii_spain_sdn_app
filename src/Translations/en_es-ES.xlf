@@ -23,6 +23,26 @@
                     <target>Información</target>
                     <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
                 </trans-unit>
+              <trans-unit id="SII_L15_CORRECT">
+                    <source>Correct</source>
+                    <target>Correcto</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+              <trans-unit id="SII_L15_ACCEPTED">
+                    <source>Accepted with errors</source>
+                    <target>Aceptado con errores</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+              <trans-unit id="SII_L15_INCORRECT">
+                    <source>Incorrect</source>
+                    <target>Incorrecto</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+              <trans-unit id="SII_L15_EXPORTED">
+                    <source>Exported</source>
+                    <target>Exportado</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
             </group>
         </body>
     </file>
