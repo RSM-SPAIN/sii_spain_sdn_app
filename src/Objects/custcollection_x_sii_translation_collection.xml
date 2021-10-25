@@ -19,19 +19,19 @@
       <defaulttranslation>Information</defaulttranslation>
       <description></description>
     </string>
-    <string scriptid="val_20351_4552998_sb1_442">
+    <string scriptid="sii_l15_correct">
       <defaulttranslation>Correct</defaulttranslation>
       <description></description>
     </string>
-    <string scriptid="val_20352_4552998_sb1_368">
+    <string scriptid="sii_l15_accepted">
       <defaulttranslation>Accepted with errors</defaulttranslation>
       <description></description>
     </string>
-    <string scriptid="val_20353_4552998_sb1_664">
+    <string scriptid="sii_l15_incorrect">
       <defaulttranslation>Incorrect</defaulttranslation>
       <description></description>
     </string>
-    <string scriptid="val_20501_4552998_sb1_326">
+    <string scriptid="sii_l15_exported">
       <defaulttranslation>Exported</defaulttranslation>
       <description></description>
     </string>
