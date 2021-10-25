@@ -1,0 +1,23 @@
+<translationcollection scriptid="custcollectionx_sii_translation_collection">
+  <defaultlanguage>en</defaultlanguage>
+  <description>Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </description>
+  <name>SII Translation</name>
+  <strings>
+    <string scriptid="sii_aeat_realizando_envio">
+      <defaulttranslation>Sending to URL: </defaulttranslation>
+      <description></description>
+    </string>
+    <string scriptid="sii_title_attention">
+      <defaulttranslation>Attention</defaulttranslation>
+      <description></description>
+    </string>
+    <string scriptid="sii_title_confirmation">
+      <defaulttranslation>Confirmation</defaulttranslation>
+      <description></description>
+    </string>
+    <string scriptid="sii_title_information">
+      <defaulttranslation>Information</defaulttranslation>
+      <description></description>
+    </string>
+  </strings>
+</translationcollection>

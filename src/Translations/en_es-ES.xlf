@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff xmlns:ns="netsuite" xmlns:ns3="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="netsuite-database" source-language="en" datatype="database" target-language="es-ES">
+        <body>
+            <group ns:collection="custcollectionx_sii_translation_collection">
+                <trans-unit id="SII_AEAT_REALIZANDO_ENVIO">
+                    <source>Sending to URL: </source>
+                    <target>Realizando envio a URL: </target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+                <trans-unit id="SII_TITLE_ATTENTION">
+                    <source>Attention</source>
+                    <target>Atención</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+                <trans-unit id="SII_TITLE_CONFIRMATION">
+                    <source>Confirmation</source>
+                    <target>Confirmación</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+                <trans-unit id="SII_TITLE_INFORMATION">
+                    <source>Information</source>
+                    <target>Información</target>
+                    <note from="collection description">Traducción de literales de varios archivos entre ellos siiEC, siiUE y sii_aeat </note>
+                </trans-unit>
+            </group>
+        </body>
+    </file>
+</xliff>
