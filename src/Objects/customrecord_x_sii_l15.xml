@@ -2,7 +2,7 @@
   <accesstype>NONENEEDED</accesstype>
   <allowattachments>F</allowattachments>
   <allowinlinedeleting>F</allowinlinedeleting>
-  <allowinlinedetaching>F</allowinlinedetaching>
+  <allowinlinedetaching>T</allowinlinedetaching>
   <allowinlineediting>F</allowinlineediting>
   <allowmobileaccess>F</allowmobileaccess>
   <allownumberingoverride>F</allownumberingoverride>
@@ -43,19 +43,19 @@
   <instances>
     <instance scriptid="val_20351_4552998_sb1_442">
       <isinactive>F</isinactive>
-      <name>Correct</name>
+      <name>Correcto</name>
     </instance>
     <instance scriptid="val_20352_4552998_sb1_368">
       <isinactive>F</isinactive>
-      <name>Accepted With Errors</name>
+      <name>Aceptada con Errores</name>
     </instance>
     <instance scriptid="val_20353_4552998_sb1_664">
       <isinactive>F</isinactive>
-      <name>Incorrect</name>
+      <name>Incorrecto</name>
     </instance>
     <instance scriptid="val_20501_4552998_sb1_326">
       <isinactive>F</isinactive>
-      <name>Exported</name>
+      <name>Exportado</name>
     </instance>
   </instances>
 </customrecordtype>
