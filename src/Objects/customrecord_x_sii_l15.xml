@@ -14,7 +14,7 @@
   <enabledle>T</enabledle>
   <enablekeywords>F</enablekeywords>
   <enablemailmerge>F</enablemailmerge>
-  <enablenametranslation>F</enablenametranslation>
+  <enablenametranslation>T</enablenametranslation>
   <enablenumbering>F</enablenumbering>
   <enableoptimisticlocking>T</enableoptimisticlocking>
   <enablesystemnotes>F</enablesystemnotes>
